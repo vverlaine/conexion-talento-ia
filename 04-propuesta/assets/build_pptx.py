@@ -354,8 +354,8 @@ para(tf, [("Ejemplo — lo llenamos con tus números:  ", True, NAVY, 13.5),
 # honesto + caveat
 tf = tb(s, ML, Inches(5.0), CW, Inches(1.5))
 para(tf, [("Lo honesto: ", True, NAVY, 13.5),
-          ("todavía no tengo tu fee promedio ni cuántos mandatos manejas al mes. Esos dos datos arman tu "
-           "ROI real, y son la primera conversación del arranque.", False, INK, 13.5)],
+          ("todavía no tengo tu fee promedio ni cuántos mandatos manejas al mes. Mándamelos HOY por "
+           "WhatsApp y traigo tu ROI con tu número real al viernes —no un ejemplo—.", False, INK, 13.5)],
      bullet=True, space_after=8, first=True, leading=1.2)
 para(tf, [("Caveat: ", True, NAVY, 13.5),
           ("la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. "
@@ -375,8 +375,13 @@ para(tf, "Tu seguro: los activos tangibles son tuyos aunque la Puerta 0 salga ro
      size=12, color=TEAL, bold=True)
 tf = tb(s, Inches(9.2), y, Inches(3.3), Inches(1.4), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, "US$2.500", size=34, color=TEAL, bold=True, align=PP_ALIGN.RIGHT, first=True)
+# ancla de la cuenta real (temp + F0 vs 5o reclutador)
+tf = tb(s, ML, Inches(3.16), CW, Inches(0.3))
+para(tf, [("La cuenta real:  ", True, GOLD, 12),
+          ("temporal (~$2.000) + Fase 0 ($2.500) = $4.500  ·  vs. el 5º reclutador que pediste (~$15k/año). Esa es la vara.", False, MUTED, 12)],
+     first=True, leading=1.1)
 # horizonte (de-enfatizado)
-tf = tb(s, ML, Inches(3.5), CW, Inches(0.35))
+tf = tb(s, ML, Inches(3.56), CW, Inches(0.35))
 para(tf, "El horizonte completo (referencia — no es lo que decides hoy; cada fase se cotiza y firma por separado):",
      size=12.5, color=MUTED, first=True)
 hz = [("Sistema","Fases 0 + 1","~US$12.000"),
@@ -522,7 +527,7 @@ rx = Inches(7.1)
 tf = tb(s, rx, y, Inches(5.5), Inches(0.4))
 para(tf, "Próximos pasos", size=14, color=TEAL, bold=True, first=True)
 for i,t in enumerate(["Aprobar la Fase 0 (US$2.500) — tu decisión de hoy.",
-                      "Hoy: un CV anonimizado por correo → teaser con tu branding esta semana (entorno con DPA).",
+                      "Hoy: CV anonimizado + tu fee por WhatsApp → teaser branded + registro anti-duplicado en vivo esta semana.",
                       "Lunes: acceso a Team Tailor + abogado/a. Demo completa + semáforo en 2–3 semanas."]):
     yy = Emu(int(y)+int(Inches(0.55)) + i*int(Inches(1.0)))
     rect(s, rx, yy, Inches(0.55), Inches(0.55), fill=TEAL)

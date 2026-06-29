@@ -34,8 +34,19 @@ el cumplimiento legal, o la probabilidad de éxito del primer proyecto. Lo cosm�
 - Reflejado en deck (riesgos+GT, próximos pasos legal-safe, seguro del comprador, demo con nota DPA) y propuesta interna §12.
 - Verificado: §8 riesgos (glyph SV–GT corregido), §9 secuencia legal. **Estado: HECHO.**
 
-### Iteración 3 — 🔄 consejo en curso
-### Iteración 4 — ⏳ pendiente
+### Iteración 3 — consejo ✅ + aplicación ✅
+- Foco: afinar el **cierre comercial** del viernes. **7 mejoras** (4 altas, 3 medias).
+  1. *(alta)* **ROI con el fee real:** pedir el *fee* HOY por WhatsApp; §9 "Cuándo"→HOY; §5 deja de ser marcador. (PDF §5/§9, deck ROI)
+  2. *(alta)* **Reconciliar la cuenta:** temp (~$2.000) + F0 ($2.500) = $4.500 vs. el **5º reclutador (~$15k/año)** = el puente económico. (PDF §5, deck inversión)
+  3. *(alta)* **2º tangible legal el viernes:** registro anti-duplicado en vivo (datos de ejemplo), además del CV. (PDF §10, deck pasos)
+  4. *(alta)* **Ruta si la F0 sale roja + economía del primer cliente** (referencia+IP > margen, concentración, BATNA, bus factor). (interna §11.6 nueva)
+  5. *(media)* **Autocanibalización de F1** (~$233/jornada): flag como **decisión comercial de Víctor** — subir F1 o acreditar 50% — sin tocar el 100% del doc cliente. (interna §11.4)
+  6. *(media)* **Puerta 2 honesta con el *n*:** concordancia cualitativa caso-por-caso, no umbral estadístico. (PDF §3 F2)
+  7. *(media)* **Licencia DPA visible:** nombrar herramienta/costo/pagador (~$30–60/usuario/mes). (PDF §3 F0)
+- Punto ciego unánime de los revisores: **este es el primer cliente** → la referencia+IP vale más que el fee (capturado en §11.6).
+- Verificado: §5 inversión (ambos callouts). **Estado: HECHO.**
+
+### Iteración 4 — 🔄 consejo en curso
 ### Iteración 5 — ⏳ pendiente
 ### Iteración 4 — ⏳ pendiente
 ### Iteración 5 — ⏳ pendiente

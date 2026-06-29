@@ -110,7 +110,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Spike de factibilidad técnica y legal:** verificar la API/export de Team Tailor contra la cuenta real; muestreo de vigencia de la base; confirmación del marco legal salvadoreño y del consentimiento.
 - **Registro anti-duplicado** candidato × cliente × fecha (cierra el riesgo reputacional ya materializado).
 - **Plantilla/SOP de CV con branding v1**: formalizar tu *prompt* como activo versionado de la firma.
-- **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con DPA / no-entrenamiento.
+- **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con DPA / no-entrenamiento (p. ej. Claude for Work o API con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
 - **Tablero de línea base retrospectiva** minado del historial del ATS — *si el ATS lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
 **Puerta 0 → Fase 1:** factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. *Si no se cumple, paramos y reescopeamos antes de invertir.*
@@ -147,7 +147,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Medición contra la línea base** + auditoría de sesgo.
 - *Opcional por evidencia:* Entrevistador de pre-screening (ASR comprado, con consentimiento de grabación).
 
-**Puerta 2 → Fase 3:** concordancia IA-vs-ojo clínico ≥ umbral acordado en búsquedas reales; auditoría de sesgo sin disparidad relevante; mejora medible de time-to-terna.
+**Puerta 2 → Fase 3:** concordancia IA-vs-ojo clínico evaluada **caso por caso en 1–2 búsquedas reales** (reportando el *n* — no un umbral estadístico que el volumen boutique no permite); auditoría de sesgo sin disparidad relevante; mejora medible de time-to-terna.
 :::
 
 ::: phase
@@ -196,6 +196,8 @@ Es lo **único** que decides hoy. No hay compromiso con el resto del programa.
 
 > **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/SOP de CV con tu *branding*, registro anti-duplicado y la línea base que se haya podido medir— **son tuyos pase lo que pase**, incluso si la Puerta 0 sale roja y decides no continuar. No pagas por una factibilidad que podría no llevar a nada.
 
+> **Para que las cuentas te cuadren.** Si tomas la asistente temporal (~US$2.000 por 3 meses) **y** la Fase 0 (US$2.500), son ~**US$4.500** — y tienen sentido juntos: la temporal **descarga la operación** del equipo hoy; la Fase 0 **ataca la causa raíz**. La vara real no es eso, es lo que cuesta el **5º reclutador** que pediste: ~**US$15.000/año** cargado. Ahí está el puente hacia la Fase 1.
+
 ## El horizonte completo (referencia — no es lo que decides hoy)
 
 Para que veas el cuadro entero. **Cada fase se cotiza y se firma por separado**, con datos reales en mano:
@@ -224,7 +226,7 @@ Pasar tu terna de ~5 días a 48–72h no es solo comodidad: es **ganar mandatos 
 
 **Ejemplo — lo llenamos con tus números:** salario anual US$18.000 × *fee* 15% = **US$2.700 por colocación**. Si esto te ayuda a cerrar **1 colocación que hoy perderías**, ya recuperaste los US$2.500 de la Fase 0. *(Números de marcador, no promesa.)*
 
-- **Lo honesto:** todavía no tenemos tu *fee* promedio ni tu volumen de mandatos/mes. Esos dos datos arman tu ROI real, y son la primera conversación del arranque.
+- **Lo honesto:** todavía no tenemos tu *fee* promedio ni tu volumen de mandatos/mes. **Mándanoslos hoy por WhatsApp** y traemos tu ROI con **tu número real** al viernes —no un ejemplo—.
 - **Caveat:** la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. Buscamos **ponerte primera en la fila** —no prometemos colocaciones—.
 
 # 6. Cómo mediremos el éxito
@@ -275,7 +277,7 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 | **Un CV real anonimizado** (por correo) | **Teaser del viernes**: lo reformateamos con tu *branding* en un entorno con DPA — sin tocar el ATS ni exponer datos | **Esta semana** |
 | Accesos a Team Tailor (lectura/export) | Verificar la API y minar la línea base — ya dentro de la Fase 0 | **Lunes** (tiene lead time propio) |
 | Contacto de tu abogado/a + una vacante abierta | Validar el marco de datos y nutrir la **demo viva completa** (20–30 CVs) en entorno con DPA | Arranque de Fase 0 |
-| *Fee* por colocación + volumen de mandatos/mes | Construir el caso de ROI | Arranque |
+| *Fee* por colocación + volumen de mandatos/mes | Convertir el ROI de ejemplo en **tu ROI real** | **HOY (un mensaje)** |
 | Horas protegidas de Virginia (golden set) | Codificar el "ojo clínico" | Fase 1 |
 | Confirmación de consentimiento de la base | Habilitar usos lícitos | Semana 1 |
 | Un dueño interno del estándar | Que la capacidad se quede | Fase 1 |
@@ -283,7 +285,7 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 # 10. Próximos pasos
 
 1. **Aprobar la Fase 0** (US$2.500) — tu decisión de hoy. Sin compromiso con el resto del programa.
-2. **Hoy:** mándanos **un CV real anonimizado** por correo → te llevamos el **teaser con tu *branding* esta semana**, en un entorno con DPA (sin tocar el ATS). En paralelo, el **lunes** encargas el acceso de lectura a Team Tailor y el contacto de tu abogado/a (ambos tienen lead time propio).
+2. **Hoy:** mándanos **un CV real anonimizado** por correo y **tu *fee* por colocación** por WhatsApp → te llevamos **dos cosas que tocas el viernes**: el **teaser con tu *branding*** y el **registro anti-duplicado en vivo** (con datos de ejemplo), ambos en entorno con DPA y sin tocar el ATS. En paralelo, el **lunes** encargas el acceso de lectura a Team Tailor y el contacto de tu abogado/a (ambos tienen lead time propio).
 3. **Demo viva completa + semáforo en 2–3 semanas** (ya dentro de la Fase 0, en entorno con DPA) — de ahí cotizamos, con tus datos reales, lo que decidas que siga.
 
 ::: small

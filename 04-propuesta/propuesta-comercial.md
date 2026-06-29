@@ -278,15 +278,25 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 - Es **una persona** que vende, administra y ejecuta. 53–77 jornadas ≈ **5–6 meses** ajustados: riesgo real de subcotizar y desbordarse.
 - **Cobrar Fase 0 por adelantado.** **No firmar F1–F2** hasta verificar la API/export de Team Tailor.
 - Dimensionar dedicación real y **subcontratar lo legal/ASR** en vez de absorberlo.
+- **⚠️ Autocanibalización de la Fase 1 (decisión comercial de Víctor antes del viernes):** $9.500 − $2.500 (crédito 100% de F0) = ~$7.000 por hasta 30 jornadas ≈ **~$233/jornada** — tarifa de junior para un estándar "McKinsey". El crédito que de-riesga a Virginia te canibaliza. **Opciones:** (a) subir F1 al rango **~$12–14k**; o (b) acreditar F0 **parcial (50%)** en vez de 100%. *Recomendación: como es el primer cliente y la referencia vale más que el margen, mantén el gesto generoso del 100% pero **sube F1** — no regales ambos.* No se cambió el "100% acreditable" del doc cliente sin tu visto bueno.
 
 ### 11.5 Build vs. buy (declaración de conflicto de interés)
 - Primero **exprimir las funciones de IA que Team Tailor ya cobra** y herramientas baratas existentes.
 - Construir custom **solo** cuando volumen y economía lo justifiquen con datos reales.
 - En el primer proyecto, la **integridad pesa más que el tamaño del encargo**: recomendar lo barato cuando alcanza construye la relación que paga las fases siguientes.
 
----
+### 11.6 Si la Fase 0 sale roja + economía del primer cliente (punto ciego del Consejo #03)
 
-## 12. Próximos pasos
+**El activo real de este engagement no es el fee: es el caso referenciable + la IP.** Una F0 tibia o fallida no cuesta $2.500; mata el testimonio, la prueba social y la primera referencia de la firma. Reencuadrar toda la economía del cierre alrededor de **asegurar referencia + IP**, no de maximizar margen.
+
+**Guion si la Puerta 0 sale roja** (la base está demasiado sucia / la API no exporta / la tesis de proceso no se valida):
+- **Qué se entrega igual:** el semáforo honesto, la plantilla/SOP de CV, el registro anti-duplicado y la línea base posible — son de Virginia pase lo que pase (ya prometido en el doc cliente).
+- **Cómo se protege la referencia:** un *post-mortem* franco con recomendación de camino "BUY suficientemente bueno" (activar la IA que Team Tailor ya cobra + SOPs livianos). Honestidad = la mejor publicidad para el segundo cliente.
+- **Qué se lleva Víctor:** la metodología/plantillas anonimizadas (IP reutilizable, §11.2) y el aprendizaje para el siguiente prospecto.
+
+**Riesgo de concentración + BATNA:** la firma apuesta su primer proyecto **y** su IP **y** su canal de distribución a una sola clienta. El BATNA real de Virginia es **renovar solo la temporal y decir no**. Mitigación: tener un **segundo prospecto** en el radar antes del viernes para no negociar desde la necesidad, y no atar decisiones estratégicas (precio, alcance) a que Virginia diga sí.
+
+**Bus factor:** Víctor entregando "McKinsey" solo, con ruta crítica dependiente de terceros (legal/ASR) sin colchón. Nombrar un plan de respaldo mínimo.
 
 | # | Acción | Responsable | Fecha |
 |---|---|---|---|
