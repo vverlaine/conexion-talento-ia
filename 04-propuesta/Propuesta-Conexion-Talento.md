@@ -4,9 +4,11 @@ Conexión Talento es una consultora boutique de headhunting cuyo motor —Reclut
 
 El síntoma más visible (un equipo saturado pidiendo "una persona más") no es un problema de manos; es de **proceso**. Cuatro reclutadores trabajan de cuatro formas distintas, no hay métricas para demostrar el valor, y la base de candidatos —el verdadero "oro"— no es buscable.
 
-> **Nuestra tesis:** el diferenciador de Conexión Talento **no será la IA ni el "mismo día"**. Será la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. La IA llega *después*, para acelerar un proceso ya ordenado —nunca para escalar el desorden a velocidad de máquina.
+> **Nuestra tesis:** el diferenciador de Conexión Talento no es *solo* la IA — es la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. **Sí a la IA y a la velocidad que pediste**; y para que rindan de verdad, primero el orden. La IA no es el final del camino: es la consecuencia de hacerlo bien.
 
 Proponemos un programa **por fases, flexible y con puertas de decisión (go/no-go)**: cada fase entrega un resultado medible que habilita —o detiene— la siguiente. Empezamos pequeño y de bajo riesgo, demostramos valor con datos, y solo escalamos lo que probó funcionar.
+
+**Tu decisión de hoy es una sola: la Fase 0** — una victoria visible en 3 semanas por **US$2.500** (que se acredita 100% a la siguiente fase). Lo demás se cotiza después, con tus datos reales en mano. No te pedimos comprometerte con todo a ciegas.
 
 ::::: kpis
 ::: kpi
@@ -61,15 +63,17 @@ Antes de meter IA hay que **transformar, estandarizar, digitalizar y documentar*
 - **SÍ a la IA, con criterio:** pilotos donde el ROI es claro y el riesgo bajo, con tu ojo clínico como el criterio que *entrena* la IA.
 - **SÍ a monetizar la base** — por un camino legal y bien construido, no rápido y expuesto.
 
-## Lo que te retamos a reconsiderar
+## Sí, y — tu visión, afinada
 
-| Idea inicial | Nuestro reto | Por qué |
-|---|---|---|
-| "Una persona más" | El cuello de botella es de **proceso**, no de manos | Un 5º reclutador sin estándar = una 5ª forma de hacer las cosas |
-| "6 agentes de IA" | Hoy son **6 procedimientos aún no escritos**; 5 de 6 son herramientas, no agentes | Automatizar sin estándar escala la inconsistencia |
-| "La base es oro (~60% del valor)" | Es **oro sin refinar**: sin identidad única, sin etiquetas, ~30–50% caduco ⚠️ | El valor llega *tras* estructurarla; la medimos antes de invertir |
-| "Vender el benchmark salarial" | **Bandera legal.** Solo lícito anonimizado e irreversible (k-anonimato) | El Salvador ya regula datos (Decreto 144/2024); requiere dictamen legal local |
-| "Salir del ATS" | **No migrar aún.** Se exprime y se extrae por API primero | Migrar sin estructura replica el desorden en un sistema más caro |
+Coincidimos en el *qué*. Aquí va el *cómo*, contigo como socia — honramos lo que pediste, con un matiz honesto:
+
+- **"Quiero una persona más"** → Sí, y primero una herramienta que multiplique las manos del equipo que ya tienes; si aun así hace falta gente, la sumas sabiendo exactamente para qué.
+- **"Seis agentes de IA"** → Sí, y arrancamos por el que más te quita el sueño y más valor te da. Uno bien hecho abre la puerta a los demás.
+- **"La base es oro, vale ~60%"** → Sí, y la puliremos para que valga lo que sabes: hoy es oro en bruto, sin clasificar y con una parte ya envejecida.
+- **"Vendamos el benchmark salarial"** → Sí, y por la puerta de adelante: datos anonimizados con dictamen legal (El Salvador ya regula — Decreto 144/2024), o de la mano de un proveedor licenciado.
+- **"Salir del ATS / mismo día"** → Sí, y primero exprimimos lo que ya pagas y lo medimos. Migrar después, con números. El "mismo día" es nuestro norte.
+
+> **Blindar tu legado.** No venimos a "extraerte el cerebro", sino a poner tu ojo clínico de 20 años en un sistema que lo protege y lo multiplica —aunque tú no estés en la sala—.
 
 > **Nota de integridad.** Somos una consultora de Data e IA: nos conviene construir cosas a la medida. Por eso lo decimos explícito: **primero exprimimos las funciones de IA que Team Tailor ya cobra y no usan**, y solo recomendamos construir lo propio cuando el volumen y la economía lo justifiquen. En un primer proyecto, tu confianza vale más que el tamaño del encargo.
 
@@ -77,11 +81,13 @@ Antes de meter IA hay que **transformar, estandarizar, digitalizar y documentar*
 
 Diseñamos el programa como **fases con puertas de decisión**. Tú decides el ritmo y el orden; si una fase "te quita el oxígeno", se reordena. **Nada se automatiza sin pasar la "Puerta Listo para IA"** (§7).
 
+> **Hoy solo decides la Fase 0.** Las demás están aquí como **mapa, no como compromiso** — cada una se cotiza y se firma por separado, con datos reales en mano.
+
 ## Vista general
 
 | Fase | Nombre | Duración | Esfuerzo | Inversión (US$) | Resultado / Puerta |
 |---|---|---|---|---|---|
-| **0** | Factibilidad + Quick Wins | 2–3 sem | 8–12 jornadas | **2.500** ⃰ | Semáforo de viabilidad + 2 quick wins visibles |
+| **0 ◀ hoy** | Factibilidad + Quick Wins | 2–3 sem | 8–12 jornadas | **2.500** ⃰ | **Empezamos aquí:** semáforo + 2 quick wins visibles |
 | **1** | Estandarizar, Documentar y Medir | 4–6 sem | 20–30 jornadas | **9.500** | La "columna vertebral": SOPs, rúbrica, líneas base |
 | **2** | IA asistida (modular) | 6–8 sem | 25–35 jornadas | **12.000** | Screener/Ranker + Generador de CV, con humano-en-el-bucle |
 | **3** | Activo de datos y escala | horizonte | a dimensionar | **desde 15.000** o retainer **3.500/mes** | Base buscable, mercado interno, benchmark (si la ley lo permite) |
@@ -116,7 +122,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 **Entregables:**
 
 - **Mapa de proceso "deber ser"** de los 8 pasos con responsable (RACI), SLA por etapa y dueño nombrado.
-- **SOP de cribado con rúbrica ponderada** (tu ojo clínico hecho criterios y pesos) + **golden set** de decisiones de referencia. *Entregable estrella: estandariza el dolor más caro y de-riesga la futura IA.*
+- **SOP de cribado con rúbrica ponderada** (tu ojo clínico hecho criterios y pesos) + **golden set** de decisiones de referencia. *Entregable estrella: estandariza el dolor más caro, de-riesga la futura IA y **blinda tu legado** —tu criterio deja de vivir solo en tu cabeza—.*
 - **Scorecard de intake de 1 página por vacante** (must-have / nice-to-have / pesos / éxito a 90 días).
 - **Estandarización de etapas en Team Tailor** + campos obligatorios al abrir mandato.
 - **Árbol de métricas (1 página):** 1 North Star + ~10 KPIs con dueño, definición y fuente.
@@ -169,7 +175,7 @@ FASE 3                                    ------------->       Activo de datos y
 
 - Las fases **se solapan parcialmente**: la extracción/parseo de datos puede correr en paralelo a la documentación.
 - Cada **puerta** es una decisión explícita de continuar, reordenar o detener — sin compromisos ciegos.
-- **Arranque recomendado:** Fases 0 + 1 (~7–9 semanas) para instalar la base y demostrar valor antes de invertir en IA.
+- **Hoy decides la Fase 0** (semanas 1–3). Lo demás se cotiza al pasar cada puerta, con tus datos reales en mano.
 
 # 5. Modelo de inversión
 
@@ -177,13 +183,24 @@ FASE 3                                    ------------->       Activo de datos y
 
 > **Reencuadre del valor.** Una asistente temporal añade capacidad lineal por 3 meses y luego desaparece dejando el mismo desorden. Nosotros instalamos **estándar + documentación + métricas + activos que se quedan y se componen**. No vendemos manos; instalamos el sistema operativo de la firma.
 
-## Resumen de inversión
+## Tu decisión de hoy: la Fase 0
 
-| Paquete | Qué incluye | Inversión (US$) |
+| Empezamos aquí | |
+|---|---|
+| **Fase 0 — Factibilidad pagada + 2 quick wins** · 2–3 semanas | **US$2.500** |
+| 100% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
+
+Es lo **único** que decides hoy. No hay compromiso con el resto del programa.
+
+## El horizonte completo (referencia — no es lo que decides hoy)
+
+Para que veas el cuadro entero. **Cada fase se cotiza y se firma por separado**, con datos reales en mano:
+
+| Paquete (referencia) | Qué incluye | Inversión (US$) |
 |---|---|---|
-| **Arranque (recomendado)** | Fase 0 + Fase 1 | **~12.000** |
-| **Sistema + piloto IA** | Fases 0 + 1 + 2 | **~24.000** |
-| **Programa completo** | Fases 0 + 1 + 2 + 3 | **desde ~39.000** o transición a retainer |
+| Sistema | Fase 0 + Fase 1 | ~12.000 |
+| Sistema + piloto IA | Fases 0 + 1 + 2 | ~24.000 |
+| Programa completo | Fases 0 + 1 + 2 + 3 | desde ~39.000 o transición a retainer |
 
 ## Los tres modelos de cobro (tú eliges)
 
@@ -195,9 +212,16 @@ FASE 3                                    ------------->       Activo de datos y
 
 **Recomendación:** Fixed-fee (A) para arrancar; en Fase 3, evaluar retainer (B) e introducir un componente de éxito (C) sobre una métrica ya medible. Cobrar por "éxito" sin línea base sería venderte humo con otra etiqueta.
 
-## Chequeo de honestidad (ROI)
+## Lo que vale en tus dólares (ROI)
 
-El programa completo es un esfuerzo de varios meses y **excede el costo de "3 meses de temporal"**. Por eso el diseño es **modular y autofinanciado**: no te pedimos comprometerte con todo. Cada fase se justifica con su propio KPI de ROI antes de avanzar. Falta un único dato para volver el ROI concreto: **tu *fee* promedio por colocación** — primera conversación del arranque.
+Pasar tu terna de ~5 días a 48–72h no es solo comodidad: es **ganar mandatos que hoy se enfrían** o se lleva otro.
+
+**Fórmula:** (colocaciones extra que cierras por presentar primero) × (tu *fee* por colocación) = **retorno**. *Una sola colocación adicional ya cubre la Fase 0.*
+
+**Ejemplo — lo llenamos con tus números:** salario anual US$18.000 × *fee* 15% = **US$2.700 por colocación**. Si esto te ayuda a cerrar **1 colocación que hoy perderías**, ya recuperaste los US$2.500 de la Fase 0. *(Números de marcador, no promesa.)*
+
+- **Lo honesto:** todavía no tenemos tu *fee* promedio ni tu volumen de mandatos/mes. Esos dos datos arman tu ROI real, y son la primera conversación del arranque.
+- **Caveat:** la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. Buscamos **ponerte primera en la fila** —no prometemos colocaciones—.
 
 # 6. Cómo mediremos el éxito
 
@@ -244,6 +268,7 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 | Necesitamos | Para qué | Cuándo |
 |---|---|---|
 | Accesos a Team Tailor (lectura/export) | Verificar API y minar la línea base | Semana 1 |
+| **Una vacante abierta** | Materia prima de la **demo viva** (20–30 CVs reales) | Semana 1 |
 | *Fee* por colocación + volumen de mandatos/mes | Construir el caso de ROI | Arranque |
 | Horas protegidas de Virginia (golden set) | Codificar el "ojo clínico" | Semana 1 |
 | Confirmación de consentimiento de la base | Habilitar usos lícitos | Semana 1 |
@@ -251,9 +276,9 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 
 # 10. Próximos pasos
 
-1. **Validar esta propuesta** y elegir el paquete de arranque (Fase 0+1 recomendado).
-2. **Habilitar accesos** a Team Tailor y compartir el *fee* por colocación.
-3. **Arrancar la Fase 0** la semana siguiente — primer valor visible en 2–3 semanas.
+1. **Aprobar la Fase 0** (US$2.500) — tu decisión de hoy. Sin compromiso con el resto del programa.
+2. **Darnos acceso a Team Tailor** (lectura/export) y **una vacante abierta** para la demo viva, esta semana; compartir el *fee* por colocación.
+3. **Demo viva + semáforo en 2–3 semanas** — de ahí cotizamos, con tus datos reales, lo que decidas que siga.
 
 ::: small
 Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *fee* por colocación. Reemplazar ‹TU CONSULTORA› por el nombre y logo de la firma. Preparado con estándar de calidad McKinsey/BCG. © 2026.

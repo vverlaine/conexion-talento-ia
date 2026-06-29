@@ -54,3 +54,33 @@ Registro vivo de sesiones, decisiones y pendientes. La entrada más reciente va 
 - Marca pendiente: el placeholder **‹TU CONSULTORA›** debe reemplazarse por el nombre/logo real (la firma aún no tiene nombre definido).
 
 ---
+
+## Sesión 01c — 2026-06-29 — Estrés-test con Consejo LLM + reajuste de la propuesta
+
+**Qué se hizo:** sometí el proyecto completo (propuesta, deck, pricing, roadmap) a un **Consejo LLM** de 5
+asesores independientes + revisión entre pares + síntesis del presidente. Veredicto completo en
+[`consejo-llm-01.md`](./consejo-llm-01.md).
+
+**Hallazgos clave del consejo (los que dispararon cambios):**
+- **Abismo del ancla sin cerrar:** Virginia ancla en ~US$2.000; se le presentaba $12k–$39k sin ROI en *sus* dólares.
+- **"No" a casi todo lo que pidió** + IA en la semana 12+ → riesgo de rechazo o decepción. Falta una victoria visible YA.
+- **API de Team Tailor sin verificar** = el riesgo que mata en silencio (toda la Fase 2 lo asume).
+- **Tiempos irreales para 1 persona** (≈5–6 meses, no "F0–F2 seguidas").
+- **Tono:** confianza ≠ humillación; reformular "retos" en clave **"sí, y"**.
+- Punto ciego del Expansionista (IP/plataforma de $500k): visión correcta, *timing* equivocado para el viernes → va al **contrato, no al pitch**.
+
+**Reajuste aplicado (cambios concretos):**
+- **Deck + PDF reescritos** con arco "una victoria primero": la **Fase 0 ($2.500) es la decisión del viernes**; el roadmap completo pasa a **horizonte/anexo**, ya no es el pedido.
+- Nuevo **slide + sección de ROI en dólares de Virginia** (fórmula + ejemplo marcador + dato que falta: su *fee*).
+- **"SÍ/retamos" → "Sí, y"** (mismo fondo, tono de socio).
+- Nuevos slides **"Empecemos por una victoria" (F0)** y **"Lo que te llevas en 3 semanas" (demo viva** con sus datos).
+- "Documentar el ojo clínico" → **"blindar tu legado"**.
+- Inversión **reanclada en F0**; paquetes $12k/$24k/$39k de-enfatizados.
+- Propuesta interna: **contrato por hitos, cláusula de IP/reutilización de metodología, flujo de caja de Víctor, caveat legal de consentimiento, build-vs-buy.**
+
+**Pendiente que sigue vivo:**
+- [ ] **Lo primero (acción real):** pedir a Virginia acceso de lectura/export de Team Tailor y hacer un **export de prueba** (20–30 CVs de una vacante abierta) → confirma la Fase 2 y arma la **demo viva** del viernes.
+- [ ] Ponerle **nombre a la firma** (reemplazar ‹TU CONSULTORA›).
+- [ ] Calibrar el ROI con el *fee* por colocación real de Virginia.
+
+---

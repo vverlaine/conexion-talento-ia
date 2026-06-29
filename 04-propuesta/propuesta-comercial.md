@@ -255,7 +255,38 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 
 ---
 
-## 11. Próximos pasos
+## 11. Blindajes del consultor (uso interno — no va al cliente)
+
+> Añadido tras el **Consejo LLM #01** ([`../00-memoria/consejo-llm-01.md`](../00-memoria/consejo-llm-01.md)). Cierra los riesgos que el consejo detectó del lado de Víctor, no del cliente.
+
+### 11.1 Contrato por hitos (pago atado a puertas)
+- **Fase 0 pagada por adelantado** (US$2.500). Sin anticipo, no arranca.
+- Cada fase siguiente se **firma y factura por separado**, contra entregables aprobados en la puerta anterior. No hay compromiso de US$39k el viernes.
+- **Protege a ambos:** Virginia solo paga lo que ya vio funcionar; Víctor no ejecuta meses sin cobrar ni se ata a un alcance aún no verificable.
+
+### 11.2 Propiedad intelectual / reutilización de metodología
+- Víctor **conserva** su metodología, plantillas, rúbricas y marco — anonimizados, **sin** la base de candidatos ni datos del cliente — para usarlos con clientes **no competidores**.
+- Línea clara: la **metodología es de Víctor**; los **datos y el contenido específico son del cliente**.
+- Esto convierte al cliente cero en **palanca de la firma**, no en un callejón sin salida. Dejarlo por escrito desde ya evita discusión futura. *(Esta es la jugada del "Expansionista": va al contrato, no al pitch.)*
+
+### 11.3 Caveat legal de datos (congelar monetización)
+- Los 4.000 candidatos consintieron para **R&S**, NO para entrenar un activo revendible.
+- Cualquier monetización (benchmark, marketplace) exige **nueva base de licitud + dictamen de abogado salvadoreño** (Decreto 144/2024) y cuidado con la **transferencia SV–GT**.
+- **Congelar** toda venta de la base hasta ese dictamen. No prometérselo a Virginia como ingreso.
+
+### 11.4 Flujo de caja y capacidad de Víctor
+- Es **una persona** que vende, administra y ejecuta. 53–77 jornadas ≈ **5–6 meses** ajustados: riesgo real de subcotizar y desbordarse.
+- **Cobrar Fase 0 por adelantado.** **No firmar F1–F2** hasta verificar la API/export de Team Tailor.
+- Dimensionar dedicación real y **subcontratar lo legal/ASR** en vez de absorberlo.
+
+### 11.5 Build vs. buy (declaración de conflicto de interés)
+- Primero **exprimir las funciones de IA que Team Tailor ya cobra** y herramientas baratas existentes.
+- Construir custom **solo** cuando volumen y economía lo justifiquen con datos reales.
+- En el primer proyecto, la **integridad pesa más que el tamaño del encargo**: recomendar lo barato cuando alcanza construye la relación que paga las fases siguientes.
+
+---
+
+## 12. Próximos pasos
 
 | # | Acción | Responsable | Fecha |
 |---|---|---|---|
