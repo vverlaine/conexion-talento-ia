@@ -113,7 +113,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con DPA / no-entrenamiento (p. ej. Claude for Work o API con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
 - **Tablero de línea base retrospectiva** minado del historial del ATS — *si el ATS lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
-**Puerta 0 → Fase 1:** factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. *Si no se cumple, paramos y reescopeamos antes de invertir.*
+**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
 :::
 
 ::: phase
@@ -175,7 +175,7 @@ FASE 3                                    ------------->       Activo de datos y
           ^Puerta0    ^Puerta1          ^Puerta2        ^Puerta3
 ```
 
-- Las fases **se solapan parcialmente**: la extracción/parseo de datos puede correr en paralelo a la documentación.
+- Las fases se solapan **poco y de forma controlada**; sumamos **apoyo puntual** (legal, datos) donde una etapa lo exige, para no comprometer la calidad ni que todo dependa de una sola persona.
 - Cada **puerta** es una decisión explícita de continuar, reordenar o detener — sin compromisos ciegos.
 - **Hoy decides la Fase 0** (semanas 1–3). Lo demás se cotiza al pasar cada puerta, con tus datos reales en mano.
 
@@ -194,7 +194,7 @@ FASE 3                                    ------------->       Activo de datos y
 
 Es lo **único** que decides hoy. No hay compromiso con el resto del programa.
 
-> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/SOP de CV con tu *branding*, registro anti-duplicado y la línea base que se haya podido medir— **son tuyos pase lo que pase**, incluso si la Puerta 0 sale roja y decides no continuar. No pagas por una factibilidad que podría no llevar a nada.
+> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/SOP de CV con tu *branding*, registro anti-duplicado y la línea base que se haya podido medir— **son tuyos pase lo que pase**, incluso si la Puerta 0 sale roja. **Y nuestra garantía:** si al cerrar la Fase 0 no ves valor claro, **te devolvemos el anticipo**. El riesgo de probar es nuestro, no tuyo.
 
 > **Para que las cuentas te cuadren.** Si tomas la asistente temporal (~US$2.000 por 3 meses) **y** la Fase 0 (US$2.500), son ~**US$4.500** — y tienen sentido juntos: la temporal **descarga la operación** del equipo hoy; la Fase 0 **ataca la causa raíz**. La vara real no es eso, es lo que cuesta el **5º reclutador** que pediste: ~**US$15.000/año** cargado. Ahí está el puente hacia la Fase 1.
 
@@ -226,7 +226,7 @@ Pasar tu terna de ~5 días a 48–72h no es solo comodidad: es **ganar mandatos 
 
 **Ejemplo — lo llenamos con tus números:** salario anual US$18.000 × *fee* 15% = **US$2.700 por colocación**. Si esto te ayuda a cerrar **1 colocación que hoy perderías**, ya recuperaste los US$2.500 de la Fase 0. *(Números de marcador, no promesa.)*
 
-- **Lo honesto:** todavía no tenemos tu *fee* promedio ni tu volumen de mandatos/mes. **Mándanoslos hoy por WhatsApp** y traemos tu ROI con **tu número real** al viernes —no un ejemplo—.
+- **Lo honesto:** el ejemplo usa un *fee* **conservador supuesto** —prudente, no inflado—. El caso ya se sostiene con esos números; si nos pasas tu *fee* real cuando puedas, lo afinamos. **No es tarea para hoy.**
 - **Caveat:** la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. Buscamos **ponerte primera en la fila** —no prometemos colocaciones—.
 
 # 6. Cómo mediremos el éxito
@@ -274,10 +274,10 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 
 | Necesitamos | Para qué | Cuándo |
 |---|---|---|
-| **Un CV real anonimizado** (por correo) | **Teaser del viernes**: lo reformateamos con tu *branding* en un entorno con DPA — sin tocar el ATS ni exponer datos | **Esta semana** |
+| **Un CV real anonimizado** (por correo) *— opcional* | **Teaser del viernes** con tu *branding*, en entorno con DPA. *Si no llega, usamos uno sintético realista (sin datos reales).* | **Esta semana** |
 | Accesos a Team Tailor (lectura/export) | Verificar la API y minar la línea base — ya dentro de la Fase 0 | **Lunes** (tiene lead time propio) |
-| Contacto de tu abogado/a + una vacante abierta | Validar el marco de datos y nutrir la **demo viva completa** (20–30 CVs) en entorno con DPA | Arranque de Fase 0 |
-| *Fee* por colocación + volumen de mandatos/mes | Convertir el ROI de ejemplo en **tu ROI real** | **HOY (un mensaje)** |
+| Contacto de tu abogado/a + una vacante abierta | Validar el marco de datos y nutrir la **demo viva** (tantos CVs como permita el export) en entorno con DPA | Arranque de Fase 0 |
+| *Fee* por colocación + volumen de mandatos/mes | Afinar el ROI (el ejemplo ya usa un supuesto conservador) | Cuando puedas — no bloquea |
 | Horas protegidas de Virginia (golden set) | Codificar el "ojo clínico" | Fase 1 |
 | Confirmación de consentimiento de la base | Habilitar usos lícitos | Semana 1 |
 | Un dueño interno del estándar | Que la capacidad se quede | Fase 1 |
@@ -285,9 +285,31 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 # 10. Próximos pasos
 
 1. **Aprobar la Fase 0** (US$2.500) — tu decisión de hoy. Sin compromiso con el resto del programa.
-2. **Hoy:** mándanos **un CV real anonimizado** por correo y **tu *fee* por colocación** por WhatsApp → te llevamos **dos cosas que tocas el viernes**: el **teaser con tu *branding*** y el **registro anti-duplicado en vivo** (con datos de ejemplo), ambos en entorno con DPA y sin tocar el ATS. En paralelo, el **lunes** encargas el acceso de lectura a Team Tailor y el contacto de tu abogado/a (ambos tienen lead time propio).
-3. **Demo viva completa + semáforo en 2–3 semanas** (ya dentro de la Fase 0, en entorno con DPA) — de ahí cotizamos, con tus datos reales, lo que decidas que siga.
+2. **Esta semana:** si puedes, mándanos **un CV real anonimizado** por correo (si no llega, usamos uno **sintético realista**, sin datos reales) → te llevamos **dos cosas que tocas el viernes**: el **teaser con tu *branding*** y el **registro anti-duplicado en vivo** (datos de ejemplo), ambos en entorno con DPA y sin tocar el ATS. En paralelo, el **lunes** encargamos el acceso de lectura a Team Tailor y el contacto de tu abogado/a (lead time propio).
+3. **Demo viva + semáforo en 2–3 semanas** —tantos CVs como permita el export, ya dentro de la Fase 0 y en entorno con DPA— de ahí cotizamos, con tus datos reales, lo que decidas que siga.
+
+> El *fee* por colocación **no es tarea para hoy**: el ROI ya se sostiene con un supuesto conservador. Si nos lo pasas cuando puedas, lo afinamos con tu número.
+
+# 11. Orden de servicio — Fase 0 (para firmar)
+
+Esta página convierte el "sí" en un arranque. Es solo la **Fase 0**; el resto se cotiza después, sin compromiso.
+
+| | |
+|---|---|
+| **Servicio** | Fase 0 — Factibilidad + Quick Wins (entregables de §3) |
+| **Duración** | 2–3 semanas desde el anticipo |
+| **Inversión** | **US$2.500** (acredita 100% a la Fase 1 si avanzas) |
+| **Forma de pago** | 50% de anticipo para arrancar · 50% al entregar |
+| **Tus activos** | Plantilla/SOP de CV, registro anti-duplicado y línea base **son tuyos** pase lo que pase |
+| **Garantía** | Si al cerrar la Fase 0 no ves valor claro, te devolvemos el anticipo |
+| **Validez de esta oferta** | Hasta el **‹fecha›** (10 días hábiles) |
+
+**Continuidad (no dependes de una sola persona):** todo se entrega **documentado y en tu poder**, tu equipo queda como dueño del estándar, y trabajamos con respaldo para que el proyecto siga aunque cambien las manos.
+
+Aceptado por **Conexión Talento**: ______________________  ·  Fecha: __________
+
+Por **‹TU CONSULTORA›**: ______________________  ·  Fecha: __________
 
 ::: small
-Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *fee* por colocación. Reemplazar ‹TU CONSULTORA› por el nombre y logo de la firma. Preparado con estándar de calidad McKinsey/BCG. © 2026.
+Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *fee* por colocación. Reemplazar ‹TU CONSULTORA› y ‹fecha› por los datos reales. Preparado con estándar de calidad McKinsey/BCG. © 2026.
 :::

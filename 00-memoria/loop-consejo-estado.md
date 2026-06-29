@@ -46,8 +46,19 @@ el cumplimiento legal, o la probabilidad de éxito del primer proyecto. Lo cosm�
 - Punto ciego unánime de los revisores: **este es el primer cliente** → la referencia+IP vale más que el fee (capturado en §11.6).
 - Verificado: §5 inversión (ambos callouts). **Estado: HECHO.**
 
-### Iteración 4 — 🔄 consejo en curso
-### Iteración 5 — ⏳ pendiente
+### Iteración 4 — consejo ✅ + aplicación ✅
+- Foco: **mecánica del cierre** + auto-corrección de la iteración 3. **7 mejoras** (3 altas, 4 medias).
+  1. *(alta)* **Instrumento de cierre:** nueva **§11 Orden de servicio (1 página, para firmar)** dentro del PDF — alcance, $2.500, 50% anticipo, garantía, validez. (PDF §11, deck pasos)
+  2. *(alta)* **Placeholder + credibilidad/continuidad:** añadida nota de continuidad (no dependes de 1 persona) al doc cliente; **nombre de la firma → pendiente: Víctor elige entre 3 sugerencias** (decisión suya).
+  3. *(alta)* **Reversión de riesgo:** garantía de devolución del anticipo si no ve valor. (PDF §5, deck inversión)
+  4. *(media)* **Puerta 0 con vara de negocio** (candidato olvidado encontrado / terna en mitad de tiempo). (PDF §3)
+  5. *(media)* **ROI sin tarea:** pre-llenado con supuesto conservador en vez de "manda el fee HOY" — **revierte un exceso de la iter. 3** (el consejo se auto-corrigió). (PDF §5/§9/§10, deck ROI)
+  6. *(media)* **Plan B del tangible:** CV sintético si no llega el real; "tantos CVs como permita el export". (PDF §9/§10)
+  7. *(media)* **Gantt honesto:** solape mínimo + apoyo puntual (no superhéroe en solitario). (PDF §4, deck gantt)
+- **Auto-corrección sana:** el Forastero señaló que apilar callouts de precio "huele a defensa"; suavizado el de "manda el fee HOY".
+- Verificado: §11 orden de servicio + §10. PDF 18 pp. **Estado: HECHO** (salvo el nombre de la firma).
+
+### Iteración 5 — 🔄 consejo en curso (última requerida)
 ### Iteración 4 — ⏳ pendiente
 ### Iteración 5 — ⏳ pendiente
 

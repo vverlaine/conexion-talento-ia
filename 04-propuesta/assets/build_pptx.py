@@ -354,8 +354,8 @@ para(tf, [("Ejemplo — lo llenamos con tus números:  ", True, NAVY, 13.5),
 # honesto + caveat
 tf = tb(s, ML, Inches(5.0), CW, Inches(1.5))
 para(tf, [("Lo honesto: ", True, NAVY, 13.5),
-          ("todavía no tengo tu fee promedio ni cuántos mandatos manejas al mes. Mándamelos HOY por "
-           "WhatsApp y traigo tu ROI con tu número real al viernes —no un ejemplo—.", False, INK, 13.5)],
+          ("el ejemplo usa un fee conservador supuesto —prudente, no inflado—. El caso ya se sostiene; "
+           "si me pasas tu fee real cuando puedas, lo afino. No es tarea para hoy.", False, INK, 13.5)],
      bullet=True, space_after=8, first=True, leading=1.2)
 para(tf, [("Caveat: ", True, NAVY, 13.5),
           ("la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. "
@@ -371,7 +371,7 @@ tf = tb(s, Inches(1.05), Emu(int(y)+int(Inches(0.18))), Inches(7.8), Inches(1.1)
 para(tf, [("Empezamos aquí — Fase 0", True, NAVY, 17)], first=True, space_after=3)
 para(tf, "Factibilidad pagada + 2 quick wins · 2–3 semanas · 100% acreditable a la siguiente fase",
      size=12.5, color=MUTED, space_after=3)
-para(tf, "Tu seguro: los activos tangibles son tuyos aunque la Puerta 0 salga roja y no continúes.",
+para(tf, "Tu seguro: te quedas los activos y, si no ves valor, te devolvemos el anticipo. El riesgo es nuestro.",
      size=12, color=TEAL, bold=True)
 tf = tb(s, Inches(9.2), y, Inches(3.3), Inches(1.4), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, "US$2.500", size=34, color=TEAL, bold=True, align=PP_ALIGN.RIGHT, first=True)
@@ -457,7 +457,7 @@ for i,(name, a, b, col) in enumerate(bars):
     rect(s, bx, ry, bw, Inches(0.5), fill=col, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
 tf = tb(s, ML, Inches(5.7), CW, Inches(1.1))
 for t,fr in [("Hoy decides la Fase 0 (semanas 1–3). Lo demás se cotiza al pasar cada puerta.", True),
-             ("Las fases se solapan: la extracción de datos corre en paralelo a la documentación.", False),
+             ("Las fases se solapan poco y con apoyo puntual donde se requiere — no depende de una sola persona.", False),
              ("Cada puerta go/no-go es una decisión explícita de continuar, reordenar o detener.", False)]:
     para(tf, t, size=13, color=INK, bullet=True, space_after=6, first=fr, leading=1.15)
 
@@ -526,9 +526,9 @@ for t in ["Un CV real anonimizado (por correo) — para el teaser del viernes.",
 rx = Inches(7.1)
 tf = tb(s, rx, y, Inches(5.5), Inches(0.4))
 para(tf, "Próximos pasos", size=14, color=TEAL, bold=True, first=True)
-for i,t in enumerate(["Aprobar la Fase 0 (US$2.500) — tu decisión de hoy.",
-                      "Hoy: CV anonimizado + tu fee por WhatsApp → teaser branded + registro anti-duplicado en vivo esta semana.",
-                      "Lunes: acceso a Team Tailor + abogado/a. Demo completa + semáforo en 2–3 semanas."]):
+for i,t in enumerate(["Firmar la orden de la Fase 0 (1 página): US$2.500, 50% de anticipo — tu decisión de hoy.",
+                      "Esta semana: CV anonimizado (o sintético) → teaser branded + registro anti-duplicado en vivo, con DPA.",
+                      "Lunes: acceso a Team Tailor + abogado/a. Demo + semáforo en 2–3 semanas."]):
     yy = Emu(int(y)+int(Inches(0.55)) + i*int(Inches(1.0)))
     rect(s, rx, yy, Inches(0.55), Inches(0.55), fill=TEAL)
     tf = tb(s, rx, yy, Inches(0.55), Inches(0.55), anchor=MSO_ANCHOR.MIDDLE)
