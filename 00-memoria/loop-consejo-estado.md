@@ -21,8 +21,22 @@ el cumplimiento legal, o la probabilidad de éxito del primer proyecto. Lo cosm�
   propuesta interna §11 blindajes. Red-team del workflow corrigió 1 defecto reintroducido (tono "una persona más").
 - Verificado visualmente: portada PDF, §5 inversión, §2 "Sí, y", portada deck. **Estado: HECHO.**
 
-### Iteración 2 — 🔄 consejo en curso (revisa el estado ya mejorado)
-### Iteración 3 — ⏳ pendiente
+### Iteración 2 — consejo ✅ + aplicación ✅
+- Veredicto: el andamiaje estratégico es sólido; quedaban **6 defectos reales** de cierre/cumplimiento/alcance.
+- **Mejoras aplicadas (6):**
+  1. *(alta)* **Tangible del viernes sin violar el Decreto 144:** un CV real anonimizado por correo → teaser
+     branded esta semana en entorno con DPA; ATS + abogado al lunes; demo completa (20–30 CVs) dentro de F0. (§9, §10)
+  2. *(alta)* **Guatemala** en la tabla de riesgos + transferencia SV–GT; taxonomía "se construye una vez, se despliega en SV y GT". (§8, §3)
+  3. *(media)* **Tablero de línea base condicional** ("si el ATS lo permite") en el doc cliente. (§3 F0)
+  4. *(media)* **Jerga de la Fase 1 → resultados de negocio** (RoPA-lite, golden set, ESCO, North Star, RACI traducidos). (§3 F1)
+  5. *(media)* **Seguro del comprador:** los activos tangibles son tuyos aunque la Puerta 0 salga roja. (§5)
+  6. *(media)* **Alivio operativo en 3 semanas** (temp redirigida a descargar operación) en el doc cliente. (§2)
+- Reflejado en deck (riesgos+GT, próximos pasos legal-safe, seguro del comprador, demo con nota DPA) y propuesta interna §12.
+- Verificado: §8 riesgos (glyph SV–GT corregido), §9 secuencia legal. **Estado: HECHO.**
+
+### Iteración 3 — 🔄 consejo en curso
+### Iteración 4 — ⏳ pendiente
+### Iteración 5 — ⏳ pendiente
 ### Iteración 4 — ⏳ pendiente
 ### Iteración 5 — ⏳ pendiente
 

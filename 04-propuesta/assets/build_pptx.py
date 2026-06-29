@@ -300,7 +300,7 @@ tf = tb(s, ML, y, CW, Inches(0.45))
 para(tf, [("Con TUS datos, no en abstracto: lo ves, lo tocas, y desde ahí decides el siguiente paso.", True, TEAL, 14.5)],
      first=True, leading=1.15)
 items = [
- ("La IA trabajando con tus datos","20–30 CVs reales de una vacante tuya abierta, ordenados con tu criterio replicado — tu ojo clínico hecho herramienta."),
+ ("La IA trabajando con tus datos","20–30 CVs reales de una vacante tuya abierta, ordenados con tu criterio replicado — en un entorno con DPA, cumpliendo desde el día 1."),
  ("Tu CV con el sello de la firma","plantilla única, ya montada sobre un candidato real."),
  ("Registro anti-duplicado funcionando","se acaba el bochorno de presentar dos veces al mismo candidato."),
  ("El semáforo honesto","te decimos si tu base realmente se puede exportar y cuánto de los 4.000 sigue vigente."),
@@ -370,7 +370,9 @@ rect(s, ML, y, Inches(0.14), Inches(1.4), fill=TEAL)
 tf = tb(s, Inches(1.05), Emu(int(y)+int(Inches(0.18))), Inches(7.8), Inches(1.1), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, [("Empezamos aquí — Fase 0", True, NAVY, 17)], first=True, space_after=3)
 para(tf, "Factibilidad pagada + 2 quick wins · 2–3 semanas · 100% acreditable a la siguiente fase",
-     size=12.5, color=MUTED)
+     size=12.5, color=MUTED, space_after=3)
+para(tf, "Tu seguro: los activos tangibles son tuyos aunque la Puerta 0 salga roja y no continúes.",
+     size=12, color=TEAL, bold=True)
 tf = tb(s, Inches(9.2), y, Inches(3.3), Inches(1.4), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, "US$2.500", size=34, color=TEAL, bold=True, align=PP_ALIGN.RIGHT, first=True)
 # horizonte (de-enfatizado)
@@ -405,9 +407,10 @@ data = [["Riesgo","Mitigación"],
         ["Vender el benchmark salarial = bandera roja","Congelado hasta dictamen de abogado salvadoreño + anonimización irreversible (k-anonimato)"],
         ["Sesgo en cribado automático","Humano-en-el-bucle obligatorio; la IA nunca rechaza sola; auditoría de sesgo y trazabilidad"],
         ["API de Team Tailor no verificada","Spike de factibilidad en la Fase 0 (semana 1); plan B de captura acotada"],
+        ["Datos en Guatemala (transferencia SV–GT)","R&S opera en SV+GT. GT aún sin ley general; transferencia con DPA y minimización. El estándar se construye una vez y se despliega en ambos países"],
         ["Adopción del equipo","Co-diseño con los reclutadores; el rol extra como embajador de marca, no operativo"]]
 add_table(s, data, ML, y, CW, col_w=[Inches(4.6),Inches(7.33)],
-          body_size=11.5, header_size=12, row_h=Inches(0.8))
+          body_size=10.5, header_size=12, row_h=Inches(0.66))
 
 # ============================================================== SLIDE 13 — HORIZONTE (FASES OVERVIEW)
 s = slide(); y = title_bar(s, "06 · El camino completo", "Las cuatro fases — el mapa, no el pedido de hoy", 13)
@@ -509,18 +512,18 @@ s = slide(); y = title_bar(s, "06 · Para arrancar", "Qué necesitamos de ti y p
 tf = tb(s, ML, y, Inches(6.0), Inches(0.4))
 para(tf, "Qué necesitamos de Conexión Talento", size=14, color=TEAL, bold=True, first=True)
 tf = tb(s, ML, Emu(int(y)+int(Inches(0.5))), Inches(6.0), Inches(3.8))
-for t in ["Accesos a Team Tailor (lectura/export) — esta semana.",
+for t in ["Un CV real anonimizado (por correo) — para el teaser del viernes.",
+          "Acceso de lectura a Team Tailor — el lunes (lead time).",
+          "Contacto de tu abogado/a — el lunes.",
           "Fee por colocación + volumen de mandatos/mes.",
-          "Una vacante abierta para la demo viva.",
-          "Horas protegidas de Virginia (golden set).",
           "Confirmación del consentimiento de la base."]:
-    para(tf, t, size=13, color=INK, bullet=True, space_after=8, first=(t.startswith("Accesos")), leading=1.15)
+    para(tf, t, size=13, color=INK, bullet=True, space_after=8, first=(t.startswith("Un CV")), leading=1.15)
 rx = Inches(7.1)
 tf = tb(s, rx, y, Inches(5.5), Inches(0.4))
 para(tf, "Próximos pasos", size=14, color=TEAL, bold=True, first=True)
 for i,t in enumerate(["Aprobar la Fase 0 (US$2.500) — tu decisión de hoy.",
-                      "Darnos acceso a Team Tailor y una vacante real esta semana.",
-                      "Demo viva + semáforo en 2–3 semanas → de ahí cotizamos lo que siga."]):
+                      "Hoy: un CV anonimizado por correo → teaser con tu branding esta semana (entorno con DPA).",
+                      "Lunes: acceso a Team Tailor + abogado/a. Demo completa + semáforo en 2–3 semanas."]):
     yy = Emu(int(y)+int(Inches(0.55)) + i*int(Inches(1.0)))
     rect(s, rx, yy, Inches(0.55), Inches(0.55), fill=TEAL)
     tf = tb(s, rx, yy, Inches(0.55), Inches(0.55), anchor=MSO_ANCHOR.MIDDLE)

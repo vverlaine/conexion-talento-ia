@@ -293,7 +293,7 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 | 1 | Confirmar país + fee/colocación + accesos Team Tailor | Virginia | Esta semana |
 | 2 | Preparar los 4 artefactos para la reunión con Lili | Nosotros | **Lunes** |
 | 3 | **Reunión Virginia ↔ Lili** (alinear rol y temporal) | Virginia + Lili | **Martes** |
-| 4 | Entregar **propuesta pulida + teaser** (CV con branding + concepto de dedup) | Nosotros | **Viernes** |
+| 4 | Entregar **propuesta pulida + teaser** (**CV real anonimizado** reformateado con branding, en entorno con DPA + concepto de dedup) | Nosotros | **Viernes** |
 | 5 | Decisión de alcance (Opción A/B/C) y arranque de Fase 0 | Virginia | Semana siguiente |
 
 ---

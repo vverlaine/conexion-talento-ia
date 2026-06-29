@@ -73,6 +73,8 @@ Coincidimos en el *qué*. Aquí va el *cómo*, contigo como socia — honramos l
 - **"Vendamos el benchmark salarial"** → Sí, y por la puerta de adelante: datos anonimizados con dictamen legal (El Salvador ya regula — Decreto 144/2024), o de la mano de un proveedor licenciado.
 - **"Salir del ATS / mismo día"** → Sí, y primero exprimimos lo que ya pagas y lo medimos. Migrar después, con números. El "mismo día" es nuestro norte.
 
+> **Y para el agobio de hoy (el equipo a tope):** la asistente temporal puede seguir teniendo sentido —pero para **descargar la operación** y devolver horas al equipo mientras el sistema ataca la causa raíz, no como un 5º criterio suelto—. En las primeras 3 semanas verás **dos cosas a la vez**: alivio operativo inmediato y el arranque del arreglo de fondo.
+
 > **Blindar tu legado.** No venimos a "extraerte el cerebro", sino a poner tu ojo clínico de 20 años en un sistema que lo protege y lo multiplica —aunque tú no estés en la sala—.
 
 > **Nota de integridad.** Somos una consultora de Data e IA: nos conviene construir cosas a la medida. Por eso lo decimos explícito: **primero exprimimos las funciones de IA que Team Tailor ya cobra y no usan**, y solo recomendamos construir lo propio cuando el volumen y la economía lo justifiquen. En un primer proyecto, tu confianza vale más que el tamaño del encargo.
@@ -109,7 +111,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Registro anti-duplicado** candidato × cliente × fecha (cierra el riesgo reputacional ya materializado).
 - **Plantilla/SOP de CV con branding v1**: formalizar tu *prompt* como activo versionado de la firma.
 - **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con DPA / no-entrenamiento.
-- **Tablero de línea base retrospectiva** minado del historial del ATS (con caveats honestos).
+- **Tablero de línea base retrospectiva** minado del historial del ATS — *si el ATS lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
 **Puerta 0 → Fase 1:** factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. *Si no se cumple, paramos y reescopeamos antes de invertir.*
 :::
@@ -121,14 +123,14 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Entregables:**
 
-- **Mapa de proceso "deber ser"** de los 8 pasos con responsable (RACI), SLA por etapa y dueño nombrado.
-- **SOP de cribado con rúbrica ponderada** (tu ojo clínico hecho criterios y pesos) + **golden set** de decisiones de referencia. *Entregable estrella: estandariza el dolor más caro, de-riesga la futura IA y **blinda tu legado** —tu criterio deja de vivir solo en tu cabeza—.*
-- **Scorecard de intake de 1 página por vacante** (must-have / nice-to-have / pesos / éxito a 90 días).
-- **Estandarización de etapas en Team Tailor** + campos obligatorios al abrir mandato.
-- **Árbol de métricas (1 página):** 1 North Star + ~10 KPIs con dueño, definición y fuente.
-- **Kit de candidate experience:** SLA de comunicación + plantillas.
-- **Gobernanza de datos (RoPA-lite):** inventario, base legal por finalidad, retención y consentimiento.
-- **Diccionario de datos y taxonomía v1** (skills/sectores), base ESCO + overlay local.
+- **Cómo trabajamos cada búsqueda, por escrito** *(mapa de proceso "deber ser" + RACI):* quién hace qué en los 8 pasos, con tiempos y un único responsable por etapa.
+- **Tu criterio, vuelto una regla que la herramienta puede aprender** *(SOP de cribado + rúbrica + golden set):* un set de decisiones tuyas de referencia para que la IA aprenda a elegir como tú. *Entregable estrella: estandariza el dolor más caro, de-riesga la futura IA y **blinda tu legado** —tu criterio deja de vivir solo en tu cabeza—.*
+- **Una hoja por vacante que cualquiera llena igual** *(scorecard de intake):* qué es imprescindible, qué suma, los pesos y cómo se ve el éxito a 90 días.
+- **Tu Team Tailor ordenado:** etapas estándar y campos obligatorios al abrir cada mandato.
+- **Un tablero con tu métrica guía y ~10 indicadores** *(árbol de métricas):* cada uno con dueño, definición y de dónde sale el dato.
+- **Kit de cercanía al candidato:** acuerdos de tiempo de respuesta (SLA) + plantillas de comunicación.
+- **El registro de datos que te pide la ley** *(gobernanza / RoPA-lite):* qué datos usas, para qué finalidad, con qué permiso y por cuánto tiempo.
+- **Un vocabulario común de skills y sectores** *(diccionario + taxonomía v1, base ESCO + lo local):* se construye una vez y **se despliega en SV y GT**.
 
 **Puerta 1 → Fase 2:** etapas estandarizadas; SOP + rúbrica firmados por el equipo; golden set armado; time-to-terna baseline medido. *La IA no arranca sin esto.*
 :::
@@ -191,6 +193,8 @@ FASE 3                                    ------------->       Activo de datos y
 | 100% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
 
 Es lo **único** que decides hoy. No hay compromiso con el resto del programa.
+
+> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/SOP de CV con tu *branding*, registro anti-duplicado y la línea base que se haya podido medir— **son tuyos pase lo que pase**, incluso si la Puerta 0 sale roja y decides no continuar. No pagas por una factibilidad que podría no llevar a nada.
 
 ## El horizonte completo (referencia — no es lo que decides hoy)
 
@@ -261,24 +265,26 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 | **Benchmark salarial = bandera roja** | Congelado hasta validación de abogado salvadoreño + anonimización irreversible (k-anonimato). Alternativa: proveedor licenciado |
 | **Sesgo en cribado automático** | Humano-en-el-bucle obligatorio; la IA nunca rechaza sola; auditoría de sesgo y trazabilidad |
 | **API de Team Tailor no verificada** | Spike de factibilidad en semana 1; plan B de captura acotada |
+| **Datos en Guatemala (transferencia transfronteriza SV–GT)** | R&S opera en ambos países. Guatemala aún sin ley general de datos; la transferencia se trata con DPA y minimización. **Ventaja:** el estándar se construye una vez y se despliega en SV y GT |
 | **Adopción del equipo** | Co-diseño con los reclutadores; el rol extra se reposiciona como embajador de marca, no operativo |
 
 # 9. Qué necesitamos de Conexión Talento
 
 | Necesitamos | Para qué | Cuándo |
 |---|---|---|
-| Accesos a Team Tailor (lectura/export) | Verificar API y minar la línea base | Semana 1 |
-| **Una vacante abierta** | Materia prima de la **demo viva** (20–30 CVs reales) | Semana 1 |
+| **Un CV real anonimizado** (por correo) | **Teaser del viernes**: lo reformateamos con tu *branding* en un entorno con DPA — sin tocar el ATS ni exponer datos | **Esta semana** |
+| Accesos a Team Tailor (lectura/export) | Verificar la API y minar la línea base — ya dentro de la Fase 0 | **Lunes** (tiene lead time propio) |
+| Contacto de tu abogado/a + una vacante abierta | Validar el marco de datos y nutrir la **demo viva completa** (20–30 CVs) en entorno con DPA | Arranque de Fase 0 |
 | *Fee* por colocación + volumen de mandatos/mes | Construir el caso de ROI | Arranque |
-| Horas protegidas de Virginia (golden set) | Codificar el "ojo clínico" | Semana 1 |
+| Horas protegidas de Virginia (golden set) | Codificar el "ojo clínico" | Fase 1 |
 | Confirmación de consentimiento de la base | Habilitar usos lícitos | Semana 1 |
 | Un dueño interno del estándar | Que la capacidad se quede | Fase 1 |
 
 # 10. Próximos pasos
 
 1. **Aprobar la Fase 0** (US$2.500) — tu decisión de hoy. Sin compromiso con el resto del programa.
-2. **Darnos acceso a Team Tailor** (lectura/export) y **una vacante abierta** para la demo viva, esta semana; compartir el *fee* por colocación.
-3. **Demo viva + semáforo en 2–3 semanas** — de ahí cotizamos, con tus datos reales, lo que decidas que siga.
+2. **Hoy:** mándanos **un CV real anonimizado** por correo → te llevamos el **teaser con tu *branding* esta semana**, en un entorno con DPA (sin tocar el ATS). En paralelo, el **lunes** encargas el acceso de lectura a Team Tailor y el contacto de tu abogado/a (ambos tienen lead time propio).
+3. **Demo viva completa + semáforo en 2–3 semanas** (ya dentro de la Fase 0, en entorno con DPA) — de ahí cotizamos, con tus datos reales, lo que decidas que siga.
 
 ::: small
 Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *fee* por colocación. Reemplazar ‹TU CONSULTORA› por el nombre y logo de la firma. Preparado con estándar de calidad McKinsey/BCG. © 2026.
