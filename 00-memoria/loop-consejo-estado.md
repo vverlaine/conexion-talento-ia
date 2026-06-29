@@ -58,7 +58,25 @@ el cumplimiento legal, o la probabilidad de éxito del primer proyecto. Lo cosm�
 - **Auto-corrección sana:** el Forastero señaló que apilar callouts de precio "huele a defensa"; suavizado el de "manda el fee HOY".
 - Verificado: §11 orden de servicio + §10. PDF 18 pp. **Estado: HECHO** (salvo el nombre de la firma).
 
-### Iteración 5 — 🔄 consejo en curso (última requerida)
+### Iteración 5 — consejo ✅ + aplicación ✅ — **LOOP COMPLETO (5/5)**
+- Foco: integridad económica y legal final. **8 mejoras** (5 altas, 3 medias).
+  1. *(alta)* **Des-apilar el "put gratis":** quitada la devolución del anticipo; garantía atada a la **vara objetiva de Puerta 0**, no a "valor claro". (PDF §5/§11, interna §11.4) — *auto-corrige la iter. 4.*
+  2. *(alta)* **Demanda-vs-oferta:** caveat honesto al ROI ("aplica solo si pierdes mandatos por velocidad") + la pregunta como **1ª del martes**. (PDF §5/§9)
+  3. *(alta)* **Entorno DPA asignado a Víctor el lunes** (bloqueante del teaser legal). (interna §12)
+  4. *(alta)* **Placeholders de la orden:** validez → "10 días hábiles"; **nombre de la firma sigue pendiente de tu elección.**
+  5. *(alta)* **Consentimiento prospectivo de uso secundario desde la Fase 1** (irretroactable). (PDF §3 F1)
+  6. *(media)* **Vara (a) de Puerta 0 condicionada al export**; (b) como criterio principal. (PDF §3)
+  7. *(media)* **Renombrar Fase 0** → "Quick Wins + prueba de valor con tus datos" (valor del cliente, no "spike"). (PDF §3/§5/§11, deck)
+  8. *(media)* **Encuadre de la demo:** las discrepancias IA-vs-tripa son el insumo que la Fase 1 codifica, no una ruptura. (PDF §10)
+- Verificado: §5 garantía objetiva, §11 orden final. PDF 19 pp., deck 19 slides.
+
+---
+
+## ✅ LOOP COMPLETO — 5/5 iteraciones (no relanzar)
+
+**Convergencia observada:** estructural (1) → cumplimiento/alcance (2) → cierre comercial (3) → mecánica de cierre (4) → integridad fina + auto-correcciones (5). Las rondas 4–5 empezaron a **corregir adiciones propias** (señal de rendimientos decrecientes). Recomendación: **parar el ciclo sintético aquí** y pasar a prueba con humano real (Virginia/un colega senior). Si la heartbeat programada se dispara, leer esto y **detenerse**.
+
+**Único pendiente abierto:** el **nombre de la firma** (Víctor elige entre Cifra / Vértice / Praxis u otro) → reemplazar ‹TU CONSULTORA› en `Propuesta-Conexion-Talento.md`, `assets/render_pdf.py` (FIRM) y `assets/build_pptx.py` (FIRM), re-render.
 ### Iteración 4 — ⏳ pendiente
 ### Iteración 5 — ⏳ pendiente
 

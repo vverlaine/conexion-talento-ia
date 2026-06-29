@@ -55,6 +55,30 @@ Registro vivo de sesiones, decisiones y pendientes. La entrada más reciente va 
 
 ---
 
+## Sesión 01d — 2026-06-29 — Loop del Consejo LLM (5 iteraciones) + reajustes
+
+**Qué se hizo:** se corrió el Consejo LLM **5 veces** sobre el proyecto; cada ronda emitió un veredicto
+estructurado y, cuando hubo mejoras significativas, se aplicaron al repo y se relanzó el consejo. Detalle
+ronda por ronda en [`loop-consejo-estado.md`](./loop-consejo-estado.md).
+
+**Resultado:** **34 mejoras aplicadas** en 5 rondas (commits `fe8542e`, `58a1d76`, `1574317`, `958ea73`, +iter5).
+Arco de convergencia: estructural → cumplimiento → cierre comercial → mecánica de cierre → integridad fina.
+Las rondas 4–5 empezaron a auto-corregir adiciones propias (rendimientos decrecientes) → **se paró en 5**.
+
+**Cambios netos más importantes (acumulados):**
+- El viernes vende **solo la Fase 0** ("Quick Wins + prueba de valor", US$2.500), con **orden de servicio
+  firmable** (§11) y **garantía objetiva** atada a la vara de la Puerta 0 (no a "valor claro").
+- **Tangible legal del viernes:** un CV anonimizado/sintético + registro anti-duplicado en vivo, en entorno
+  con DPA — sin tocar el ATS ni violar el Decreto 144 (la demo completa va dentro de la Fase 0).
+- **ROI honesto:** ejemplo con supuesto conservador + caveat **demanda-vs-oferta** (la 1ª pregunta del martes).
+- Ancla económica: temp + F0 = $4.500 **vs. el 5º reclutador (~$15k/año)**.
+- Guatemala en riesgos; consentimiento prospectivo desde F1; jerga traducida a resultados de negocio.
+- Blindajes internos: contrato por hitos, IP/metodología, ruta si la F0 sale roja, autocanibalización de F1.
+
+**Pendiente único:** **nombre de la firma** (Cifra / Vértice / Praxis u otro) para reemplazar ‹TU CONSULTORA›.
+
+---
+
 ## Sesión 01c — 2026-06-29 — Estrés-test con Consejo LLM + reajuste de la propuesta
 
 **Qué se hizo:** sometí el proyecto completo (propuesta, deck, pricing, roadmap) a un **Consejo LLM** de 5

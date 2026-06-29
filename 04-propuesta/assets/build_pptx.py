@@ -276,7 +276,7 @@ para(tf, "FASE 0 · ARRANQUE", size=12, color=TEALL, bold=True, first=True)
 tf = tb(s, Emu(int(ML)+int(Inches(0.3))), Emu(int(y)+int(Inches(0.9))), Inches(3.5), Inches(1.2))
 para(tf, "US$2.500", size=44, color=WHITE, bold=True, first=True, leading=1.0)
 tf = tb(s, Emu(int(ML)+int(Inches(0.3))), Emu(int(y)+int(Inches(2.0))), Inches(3.5), Inches(2.3))
-for t in ["2–3 semanas","Factibilidad + 2 quick wins visibles","100% acreditable a la siguiente fase","Cerca de tu presupuesto"]:
+for t in ["2–3 semanas","Quick wins + prueba de valor con tus datos","100% acreditable a la siguiente fase","Cerca de tu presupuesto"]:
     para(tf, t, size=13.5, color=RGBColor(0xC2,0xD4,0xE2), bullet=True, space_after=9,
          first=(t.startswith("2–3")), leading=1.15)
 # bullets a la derecha
@@ -358,8 +358,8 @@ para(tf, [("Lo honesto: ", True, NAVY, 13.5),
            "si me pasas tu fee real cuando puedas, lo afino. No es tarea para hoy.", False, INK, 13.5)],
      bullet=True, space_after=8, first=True, leading=1.2)
 para(tf, [("Caveat: ", True, NAVY, 13.5),
-          ("la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. "
-           "Buscamos ponerte primera en la fila — no prometemos colocaciones.", False, INK, 13.5)],
+          ("aplica solo si hoy pierdes mandatos por velocidad —no si tienes capacidad ociosa—; esa es la "
+           "primera pregunta del martes. La velocidad te pone primera en la fila; no prometemos colocaciones.", False, INK, 13.5)],
      bullet=True, space_after=8, leading=1.2)
 
 # ============================================================== SLIDE 11 — INVERSIÓN
@@ -369,9 +369,9 @@ rect(s, ML, y, CW, Inches(1.4), fill=RGBColor(0xEE,0xF5,0xF6), line=TEAL, line_w
 rect(s, ML, y, Inches(0.14), Inches(1.4), fill=TEAL)
 tf = tb(s, Inches(1.05), Emu(int(y)+int(Inches(0.18))), Inches(7.8), Inches(1.1), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, [("Empezamos aquí — Fase 0", True, NAVY, 17)], first=True, space_after=3)
-para(tf, "Factibilidad pagada + 2 quick wins · 2–3 semanas · 100% acreditable a la siguiente fase",
+para(tf, "Quick wins + prueba de valor con tus datos · 2–3 semanas · 100% acreditable a la Fase 1",
      size=12.5, color=MUTED, space_after=3)
-para(tf, "Tu seguro: te quedas los activos y, si no ves valor, te devolvemos el anticipo. El riesgo es nuestro.",
+para(tf, "Tu seguro: te quedas los activos; avanzas a la Fase 1 solo si la Puerta 0 pasa su vara objetiva. Sin letra chica.",
      size=12, color=TEAL, bold=True)
 tf = tb(s, Inches(9.2), y, Inches(3.3), Inches(1.4), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, "US$2.500", size=34, color=TEAL, bold=True, align=PP_ALIGN.RIGHT, first=True)
@@ -427,7 +427,7 @@ para(tf, [("Referencia: ", True, NAVY, 12.5),
      first=True, leading=1.1)
 yy = Emu(int(y)+int(Inches(0.72)))
 data = [["Fase","Nombre","Duración","Esfuerzo","Inversión","Resultado / Puerta"],
-        ["0 ◀","Factibilidad + Quick Wins","2–3 sem","8–12 jorn.","US$2.500*","Empezamos aquí: semáforo + 2 quick wins"],
+        ["0 ◀","Quick Wins + prueba de valor","2–3 sem","8–12 jorn.","US$2.500*","Empezamos aquí: 2 quick wins + semáforo"],
         ["1","Estandarizar, Documentar, Medir","4–6 sem","20–30 jorn.","~US$9.500","La “columna vertebral”: SOPs, rúbrica, métricas"],
         ["2","IA asistida (modular)","6–8 sem","25–35 jorn.","~US$12.000","Screener/Ranker + Generador de CV (con HITL)"],
         ["3","Activo de datos y escala","horizonte","a dimensionar","desde 15.000 /\nretainer 3.500/mes","Base buscable, mercado interno, benchmark"]]

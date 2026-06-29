@@ -89,7 +89,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 | Fase | Nombre | Duración | Esfuerzo | Inversión (US$) | Resultado / Puerta |
 |---|---|---|---|---|---|
-| **0 ◀ hoy** | Factibilidad + Quick Wins | 2–3 sem | 8–12 jornadas | **2.500** ⃰ | **Empezamos aquí:** semáforo + 2 quick wins visibles |
+| **0 ◀ hoy** | Quick Wins + prueba de valor con tus datos | 2–3 sem | 8–12 jornadas | **2.500** ⃰ | **Empezamos aquí:** 2 quick wins visibles + semáforo de viabilidad |
 | **1** | Estandarizar, Documentar y Medir | 4–6 sem | 20–30 jornadas | **9.500** | La "columna vertebral": SOPs, rúbrica, líneas base |
 | **2** | IA asistida (modular) | 6–8 sem | 25–35 jornadas | **12.000** | Screener/Ranker + Generador de CV, con humano-en-el-bucle |
 | **3** | Activo de datos y escala | horizonte | a dimensionar | **desde 15.000** o retainer **3.500/mes** | Base buscable, mercado interno, benchmark (si la ley lo permite) |
@@ -113,7 +113,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con DPA / no-entrenamiento (p. ej. Claude for Work o API con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
 - **Tablero de línea base retrospectiva** minado del historial del ATS — *si el ATS lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
-**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
+**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si el export lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende del export—** armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
 :::
 
 ::: phase
@@ -129,7 +129,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Tu Team Tailor ordenado:** etapas estándar y campos obligatorios al abrir cada mandato.
 - **Un tablero con tu métrica guía y ~10 indicadores** *(árbol de métricas):* cada uno con dueño, definición y de dónde sale el dato.
 - **Kit de cercanía al candidato:** acuerdos de tiempo de respuesta (SLA) + plantillas de comunicación.
-- **El registro de datos que te pide la ley** *(gobernanza / RoPA-lite):* qué datos usas, para qué finalidad, con qué permiso y por cuánto tiempo.
+- **El registro de datos que te pide la ley** *(gobernanza / RoPA-lite):* qué datos usas, para qué finalidad, con qué permiso y por cuánto tiempo — **incluyendo una capa de consentimiento prospectivo de uso secundario** en el intake desde ya, para no esterilizar el activo de datos de la Fase 3 (cuesta una frase hoy; es irretroactable mañana).
 - **Un vocabulario común de skills y sectores** *(diccionario + taxonomía v1, base ESCO + lo local):* se construye una vez y **se despliega en SV y GT**.
 
 **Puerta 1 → Fase 2:** etapas estandarizadas; SOP + rúbrica firmados por el equipo; golden set armado; time-to-terna baseline medido. *La IA no arranca sin esto.*
@@ -189,12 +189,12 @@ FASE 3                                    ------------->       Activo de datos y
 
 | Empezamos aquí | |
 |---|---|
-| **Fase 0 — Factibilidad pagada + 2 quick wins** · 2–3 semanas | **US$2.500** |
+| **Fase 0 — Quick wins + prueba de valor con tus datos** · 2–3 semanas | **US$2.500** |
 | 100% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
 
 Es lo **único** que decides hoy. No hay compromiso con el resto del programa.
 
-> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/SOP de CV con tu *branding*, registro anti-duplicado y la línea base que se haya podido medir— **son tuyos pase lo que pase**, incluso si la Puerta 0 sale roja. **Y nuestra garantía:** si al cerrar la Fase 0 no ves valor claro, **te devolvemos el anticipo**. El riesgo de probar es nuestro, no tuyo.
+> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/SOP de CV con tu *branding*, registro anti-duplicado y la línea base que se haya podido medir— **son tuyos pase lo que pase**. **Y el criterio para seguir es objetivo, no a ojo:** solo avanzas (y pagas) la Fase 1 si al cerrar la Fase 0 ves **al menos una de las dos pruebas de la Puerta 0** —un candidato que habrías pasado por alto, o armar una terna en la mitad del tiempo—. Si no, no sigues. Sin letra chica.
 
 > **Para que las cuentas te cuadren.** Si tomas la asistente temporal (~US$2.000 por 3 meses) **y** la Fase 0 (US$2.500), son ~**US$4.500** — y tienen sentido juntos: la temporal **descarga la operación** del equipo hoy; la Fase 0 **ataca la causa raíz**. La vara real no es eso, es lo que cuesta el **5º reclutador** que pediste: ~**US$15.000/año** cargado. Ahí está el puente hacia la Fase 1.
 
@@ -228,6 +228,7 @@ Pasar tu terna de ~5 días a 48–72h no es solo comodidad: es **ganar mandatos 
 
 - **Lo honesto:** el ejemplo usa un *fee* **conservador supuesto** —prudente, no inflado—. El caso ya se sostiene con esos números; si nos pasas tu *fee* real cuando puedas, lo afinamos. **No es tarea para hoy.**
 - **Caveat:** la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. Buscamos **ponerte primera en la fila** —no prometemos colocaciones—.
+- **La pregunta que decide todo (la primera del martes):** ¿hoy **rechazas, enfrías o pierdes mandatos** por falta de velocidad, o a veces tienes **capacidad ociosa**? Este retorno aplica **solo si pierdes mandatos por velocidad**. Si el cuello es de oferta, el valor está en otra parte —calidad y cobertura de tu base— y te lo decimos honesto, no forzamos el número.
 
 # 6. Cómo mediremos el éxito
 
@@ -277,6 +278,7 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 | **Un CV real anonimizado** (por correo) *— opcional* | **Teaser del viernes** con tu *branding*, en entorno con DPA. *Si no llega, usamos uno sintético realista (sin datos reales).* | **Esta semana** |
 | Accesos a Team Tailor (lectura/export) | Verificar la API y minar la línea base — ya dentro de la Fase 0 | **Lunes** (tiene lead time propio) |
 | Contacto de tu abogado/a + una vacante abierta | Validar el marco de datos y nutrir la **demo viva** (tantos CVs como permita el export) en entorno con DPA | Arranque de Fase 0 |
+| **¿Pierdes mandatos por velocidad, o tienes capacidad ociosa?** | Validar la **base misma del ROI** | **Primera pregunta del martes** |
 | *Fee* por colocación + volumen de mandatos/mes | Afinar el ROI (el ejemplo ya usa un supuesto conservador) | Cuando puedas — no bloquea |
 | Horas protegidas de Virginia (golden set) | Codificar el "ojo clínico" | Fase 1 |
 | Confirmación de consentimiento de la base | Habilitar usos lícitos | Semana 1 |
@@ -290,19 +292,21 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 
 > El *fee* por colocación **no es tarea para hoy**: el ROI ya se sostiene con un supuesto conservador. Si nos lo pasas cuando puedas, lo afinamos con tu número.
 
+> **Sobre la demo:** la IA **pre-ordena con tu rúbrica aún sin calibrar**. Donde su orden discrepe de tu tripa, ese desacuerdo **no es un fallo: es justo el insumo que la Fase 1 codifica** —tu ojo clínico afinando la herramienta—.
+
 # 11. Orden de servicio — Fase 0 (para firmar)
 
 Esta página convierte el "sí" en un arranque. Es solo la **Fase 0**; el resto se cotiza después, sin compromiso.
 
 | | |
 |---|---|
-| **Servicio** | Fase 0 — Factibilidad + Quick Wins (entregables de §3) |
+| **Servicio** | Fase 0 — Quick Wins + prueba de valor con tus datos (entregables de §3) |
 | **Duración** | 2–3 semanas desde el anticipo |
 | **Inversión** | **US$2.500** (acredita 100% a la Fase 1 si avanzas) |
 | **Forma de pago** | 50% de anticipo para arrancar · 50% al entregar |
 | **Tus activos** | Plantilla/SOP de CV, registro anti-duplicado y línea base **son tuyos** pase lo que pase |
-| **Garantía** | Si al cerrar la Fase 0 no ves valor claro, te devolvemos el anticipo |
-| **Validez de esta oferta** | Hasta el **‹fecha›** (10 días hábiles) |
+| **Garantía objetiva** | Avanzas (y pagas) la Fase 1 solo si se cumple ≥1 prueba de la Puerta 0 (§3): un candidato que habrías pasado por alto, o una terna en la mitad del tiempo |
+| **Validez de esta oferta** | **10 días hábiles** desde la presentación |
 
 **Continuidad (no dependes de una sola persona):** todo se entrega **documentado y en tu poder**, tu equipo queda como dueño del estándar, y trabajamos con respaldo para que el proyecto siga aunque cambien las manos.
 

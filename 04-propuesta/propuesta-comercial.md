@@ -278,6 +278,7 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 - Es **una persona** que vende, administra y ejecuta. 53–77 jornadas ≈ **5–6 meses** ajustados: riesgo real de subcotizar y desbordarse.
 - **Cobrar Fase 0 por adelantado.** **No firmar F1–F2** hasta verificar la API/export de Team Tailor.
 - Dimensionar dedicación real y **subcontratar lo legal/ASR** en vez de absorberlo.
+- **Reversión de riesgo des-apilada (Consejo #05):** se quitó el "put gratis". Se **eliminó la devolución del anticipo**; el de-riesgo queda en (1) 100% acreditable, (2) los activos son tuyos, (3) **gate objetivo de Puerta 0**. La garantía ya no cuelga del juicio subjetivo "valor claro".
 - **⚠️ Autocanibalización de la Fase 1 (decisión comercial de Víctor antes del viernes):** $9.500 − $2.500 (crédito 100% de F0) = ~$7.000 por hasta 30 jornadas ≈ **~$233/jornada** — tarifa de junior para un estándar "McKinsey". El crédito que de-riesga a Virginia te canibaliza. **Opciones:** (a) subir F1 al rango **~$12–14k**; o (b) acreditar F0 **parcial (50%)** en vez de 100%. *Recomendación: como es el primer cliente y la referencia vale más que el margen, mantén el gesto generoso del 100% pero **sube F1** — no regales ambos.* No se cambió el "100% acreditable" del doc cliente sin tu visto bueno.
 
 ### 11.5 Build vs. buy (declaración de conflicto de interés)
@@ -302,6 +303,7 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 |---|---|---|---|
 | 1 | Confirmar país + fee/colocación + accesos Team Tailor | Virginia | Esta semana |
 | 2 | Preparar los 4 artefactos para la reunión con Lili | Nosotros | **Lunes** |
+| 2b | **Montar y probar el entorno con DPA** (Claude for Work / API no-entrenamiento) con un CV sintético — *bloqueante del teaser legal del viernes* | **Nosotros** | **Lunes** |
 | 3 | **Reunión Virginia ↔ Lili** (alinear rol y temporal) | Virginia + Lili | **Martes** |
 | 4 | Entregar **propuesta pulida + teaser** (**CV real anonimizado** reformateado con branding, en entorno con DPA + concepto de dedup) | Nosotros | **Viernes** |
 | 5 | Decisión de alcance (Opción A/B/C) y arranque de Fase 0 | Virginia | Semana siguiente |
