@@ -39,7 +39,18 @@ Registro vivo de sesiones, decisiones y pendientes. La entrada más reciente va 
 - [ ] Conseguir **fee por colocación + volumen de mandatos/mes** (para el caso de ROI). Conversación del martes.
 - [ ] Validar oficialmente **consentimiento de la base** y posible exposición UE.
 - [ ] **Dictamen de abogado salvadoreño** antes de cualquier benchmark.
-- [ ] Pulir cifras de pricing con tarifa local; **propuesta final el viernes**.
-- [ ] Preparar el **kit para la reunión del martes** con Lili (JD "Embajador de Marca", "día de Lili antes/después", mapa de proceso co-autorable) — listo el lunes.
+- [x] **Entregables del viernes producidos:** `Propuesta-Conexion-Talento.pdf` (16 pp., con portada, fases, esfuerzo, pricing) + `Presentacion-Conexion-Talento.pptx` (17 slides). Generadores en `04-propuesta/assets/` (regenerables).
+- [ ] Pulir cifras de pricing con tarifa local + reemplazar ‹TU CONSULTORA› por el nombre/logo de la firma.
+- [ ] (Opcional) Verificar visualmente las 17 slides en PowerPoint/Keynote antes de exponer.
+
+---
+
+## Sesión 01b — 2026-06-29 — Producción de entregables (PDF + PPT)
+
+- Foco redirigido: **olvidar la reunión de Lili**; objetivo = proyecto completo por fases + PDF + PPT para Virginia el viernes.
+- **Pricing concretado** (indicativo USD): F0 2.500 (acredita a F1) · F1 9.500 · F2 12.000 (modular) · F3 desde 15.000 / retainer 3.500/mes. Arranque F0+F1 ~12.000; programa 0–2 ~24.000.
+- **Esfuerzo por fase** añadido (jornadas-persona): F0 8–12 · F1 20–30 · F2 25–35.
+- Stack de generación: **pandoc + weasyprint** (PDF) y **python-pptx** (deck). Portada PDF verificada visualmente; portada PPTX verificada con QuickLook.
+- Marca pendiente: el placeholder **‹TU CONSULTORA›** debe reemplazarse por el nombre/logo real (la firma aún no tiene nombre definido).
 
 ---

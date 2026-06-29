@@ -3,3 +3,9 @@ node_modules/
 *.tmp
 scratch/
 *.env
+
+# Artefactos de build (regenerables)
+04-propuesta/assets/_*.html
+04-propuesta/assets/preview/
+04-propuesta/assets/ppreview/
+*.png
