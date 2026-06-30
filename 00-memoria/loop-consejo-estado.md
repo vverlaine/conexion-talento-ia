@@ -72,11 +72,34 @@ el cumplimiento legal, o la probabilidad de éxito del primer proyecto. Lo cosm�
 
 ---
 
-## ✅ LOOP COMPLETO — 5/5 iteraciones (no relanzar)
+## Primera tanda ✅ — 5/5 iteraciones
 
-**Convergencia observada:** estructural (1) → cumplimiento/alcance (2) → cierre comercial (3) → mecánica de cierre (4) → integridad fina + auto-correcciones (5). Las rondas 4–5 empezaron a **corregir adiciones propias** (señal de rendimientos decrecientes). Recomendación: **parar el ciclo sintético aquí** y pasar a prueba con humano real (Virginia/un colega senior). Si la heartbeat programada se dispara, leer esto y **detenerse**.
+**Convergencia:** estructural (1) → cumplimiento/alcance (2) → cierre comercial (3) → mecánica de cierre (4) → integridad fina + auto-correcciones (5). Las rondas 4–5 empezaron a **corregir adiciones propias** (rendimientos decrecientes).
 
-**Único pendiente abierto:** el **nombre de la firma** (Víctor elige entre Cifra / Vértice / Praxis u otro) → reemplazar ‹TU CONSULTORA› en `Propuesta-Conexion-Talento.md`, `assets/render_pdf.py` (FIRM) y `assets/build_pptx.py` (FIRM), re-render.
+**Único pendiente abierto:** el **nombre de la firma** (Cifra / Vértice / Praxis u otro) → reemplazar ‹TU CONSULTORA› en `Propuesta-Conexion-Talento.md`, `assets/render_pdf.py` (FIRM) y `assets/build_pptx.py` (FIRM), re-render.
+
+---
+
+## Segunda tanda (6–10) — el usuario relanzó el loop
+
+**Ajuste:** umbral ALTO. El consejo ahora (a) vigila el **bloat** y vale recortes tanto como adiciones,
+(b) evita oscilaciones/re-edits, (c) ignora el nombre de la firma (pendiente del usuario), (d) prefiere
+**retos profundos** (¿la tesis es correcta? ¿la razón más fuerte para un NO? ¿el BATNA?), (e) **sesga hacia
+haySignificativas=false** — concluir "ya está listo" es un resultado válido.
+
+### Iteración 6 — consejo ✅ + aplicación ✅ (umbral alto funcionó)
+- **Solo 3 mejoras** (2 altas, 1 media) — sustantivas, sin nitpicks. El umbral alto evitó el relleno.
+  1. *(alta)* **Auditoría exprés de Team Tailor** sobre una vacante viva en semana 1 = **alivio inmediato con mano de Víctor** (no de la temporal) → desarma la objeción del CFO "¿qué hace tu $2.500 esta semana?". Estaba solo como nota filosófica; ahora es entregable. (PDF §3 F0, deck slide 8)
+  2. *(alta)* **Protocolo de la garantía objetiva:** la prueba (b) "mitad de tiempo" era etiqueta sin método. Definido baseline + reloj de pared + misma vacante/pool, **aislado de la temporal** (que contaminaba el test "proceso, no manos"). (PDF Puerta 0/§5/§11)
+  3. *(media)* **"Competidor" en sentido estrecho** en la cláusula de IP — si no, casi cualquier boutique CA sería "competidora" y la cláusula quedaba hueca. (interna §11.2)
+- Choque no resuelto (registrado, no aplicado): el Pensador quiere recortar a un 2º doc el horizonte; el Forastero-como-Virginia "ya firmo". Tratado como criterio, no defecto.
+- Verificado: §3 Fase 0 (auditoría + protocolo). **Estado: HECHO.**
+
+### Iteración 7 — 🔄 consejo en curso
+### Iteración 8 — ⏳ pendiente
+### Iteración 8 — ⏳ pendiente
+### Iteración 9 — ⏳ pendiente
+### Iteración 10 — ⏳ pendiente
 ### Iteración 4 — ⏳ pendiente
 ### Iteración 5 — ⏳ pendiente
 

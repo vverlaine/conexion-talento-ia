@@ -107,6 +107,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Entregables:**
 
+- **Auditoría exprés de Team Tailor sobre una vacante viva (semana 1):** activamos la IA y automatizaciones que **ya pagas y no usas**, sobre una búsqueda real → **horas de vuelta para tu equipo esta misma semana, con nuestra mano** (no la de la temporal). Doble función: es tu primer quick win tangible **y** fija el cronómetro base del "mitad de tiempo" (ver Puerta 0).
 - **Spike de factibilidad técnica y legal:** verificar la API/export de Team Tailor contra la cuenta real; muestreo de vigencia de la base; confirmación del marco legal salvadoreño y del consentimiento.
 - **Registro anti-duplicado** candidato × cliente × fecha (cierra el riesgo reputacional ya materializado).
 - **Plantilla/SOP de CV con branding v1**: formalizar tu *prompt* como activo versionado de la firma.
@@ -114,6 +115,8 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Tablero de línea base retrospectiva** minado del historial del ATS — *si el ATS lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
 **Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si el export lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende del export—** armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
+
+*Cómo medimos (b), sin trampas:* el **baseline** es el tiempo de una terna reciente comparable (~5 días declarados); la prueba se cronometra **a reloj de pared sobre la misma vacante y el mismo pool**, y la corremos sobre una vacante que **la temporal no toque** —para que el test mida proceso, no manos extra—. Tú validas que la calidad de la terna es aceptable. Sin este protocolo, una discrepancia se vuelve pelea de pago; con él, la garantía es verificable.
 :::
 
 ::: phase

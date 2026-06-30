@@ -300,19 +300,20 @@ tf = tb(s, ML, y, CW, Inches(0.45))
 para(tf, [("Con TUS datos, no en abstracto: lo ves, lo tocas, y desde ahí decides el siguiente paso.", True, TEAL, 14.5)],
      first=True, leading=1.15)
 items = [
- ("La IA trabajando con tus datos","20–30 CVs reales de una vacante tuya abierta, ordenados con tu criterio replicado — en un entorno con DPA, cumpliendo desde el día 1."),
+ ("Horas de vuelta esta semana","activamos la IA que Team Tailor ya cobra, sobre una vacante viva — alivio inmediato, con nuestra mano (no la de la temporal)."),
+ ("La IA trabajando con tus datos","20–30 CVs reales ordenados con tu criterio replicado — en un entorno con DPA, cumpliendo desde el día 1."),
  ("Tu CV con el sello de la firma","plantilla única, ya montada sobre un candidato real."),
  ("Registro anti-duplicado funcionando","se acaba el bochorno de presentar dos veces al mismo candidato."),
  ("El semáforo honesto","te decimos si tu base realmente se puede exportar y cuánto de los 4.000 sigue vigente."),
 ]
-yy = Inches(2.45)
+yy = Inches(2.32)
 for h,t in items:
-    rect(s, ML, yy, Inches(0.5), Inches(0.5), fill=TEAL)
-    tf = tb(s, ML, yy, Inches(0.5), Inches(0.5), anchor=MSO_ANCHOR.MIDDLE)
-    para(tf, "✓", size=18, color=WHITE, bold=True, align=PP_ALIGN.CENTER, first=True)
-    tf = tb(s, Inches(1.45), yy, Inches(11.0), Inches(0.95), anchor=MSO_ANCHOR.MIDDLE)
-    para(tf, [(h+":  ", True, NAVY, 15),(t, False, INK, 15)], first=True, leading=1.18)
-    yy = Emu(int(yy)+int(Inches(0.98)))
+    rect(s, ML, yy, Inches(0.46), Inches(0.46), fill=TEAL)
+    tf = tb(s, ML, yy, Inches(0.46), Inches(0.46), anchor=MSO_ANCHOR.MIDDLE)
+    para(tf, "✓", size=16, color=WHITE, bold=True, align=PP_ALIGN.CENTER, first=True)
+    tf = tb(s, Inches(1.4), yy, Inches(11.1), Inches(0.86), anchor=MSO_ANCHOR.MIDDLE)
+    para(tf, [(h+":  ", True, NAVY, 14.5),(t, False, INK, 14.5)], first=True, leading=1.15)
+    yy = Emu(int(yy)+int(Inches(0.9)))
 
 # ============================================================== SLIDE 9 — MÉTRICAS
 s = slide(); y = title_bar(s, "04 · Cómo medimos el éxito", "De “cero métricas” a un cuadro de mando", 9)

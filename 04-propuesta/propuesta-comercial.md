@@ -265,7 +265,7 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 - **Protege a ambos:** Virginia solo paga lo que ya vio funcionar; Víctor no ejecuta meses sin cobrar ni se ata a un alcance aún no verificable.
 
 ### 11.2 Propiedad intelectual / reutilización de metodología
-- Víctor **conserva** su metodología, plantillas, rúbricas y marco — anonimizados, **sin** la base de candidatos ni datos del cliente — para usarlos con clientes **no competidores**.
+- Víctor **conserva** su metodología, plantillas, rúbricas y marco — anonimizados, **sin** la base de candidatos ni datos del cliente — para usarlos con clientes **no competidores**. *Definir "competidor" en sentido **estrecho**: otra boutique de headhunting en SV/GT sobre el mismo segmento. El reúso **cross-industria y cross-función** queda explícitamente permitido —si no, en RRHH-Centroamérica casi cualquier firma sería "competidora" y la cláusula quedaría hueca, vaciando la economía del primer cliente (§11.6).*
 - Línea clara: la **metodología es de Víctor**; los **datos y el contenido específico son del cliente**.
 - Esto convierte al cliente cero en **palanca de la firma**, no en un callejón sin salida. Dejarlo por escrito desde ya evita discusión futura. *(Esta es la jugada del "Expansionista": va al contrato, no al pitch.)*
 
