@@ -3,48 +3,52 @@
 
 ---
 
-## 0. Cómo leer este documento
-
-Este es un documento de **diagnóstico**, no de propuesta. Su objetivo es establecer una línea de verdad —defendible y sin complacencia— sobre el estado actual de Conexión Talento en sus dimensiones de proceso, datos, tecnología, métricas y personas; mapear el proceso de reclutamiento de 8 pasos contra su "deber ser"; y emitir un veredicto fundamentado sobre Team Tailor.
-
-Dos disciplinas atraviesan el documento:
-
-1. **Honestidad sobre lo que sabemos vs. lo que suponemos.** Todo dato no confirmado por el cliente se marca con ⚠️ y se trata como *supuesto a validar*, no como hecho. Varios de estos supuestos son **bloqueantes**: condicionan el alcance, el riesgo legal y la viabilidad técnica. No se difieren como "preguntas abiertas"; se elevan como **precondiciones con dueño**.
-2. **Separar el síntoma de la causa.** El cliente percibe el problema como "falta una persona" y la solución como "6 agentes de IA". El diagnóstico sostiene una tesis distinta y la defiende con evidencia.
+> **En una frase:** El problema de Conexión Talento no es falta de tecnología ni de personal, es falta de un proceso ordenado y medible; automatizar el desorden con IA solo lo haría más rápido y dañaría justo lo que la hace premium.
 
 ---
 
-## 1. Síntesis ejecutiva (BLUF)
+## 0. Cómo leer este documento
 
-> **Tesis central:** Conexión Talento no tiene un problema de tecnología ni de capacidad; tiene un problema de **disciplina de proceso**. Opera un proceso de 8 pasos ejecutado de cuatro maneras distintas por cuatro personas, sin estándar documentado, sin métricas instrumentadas y con un activo de datos (4.000 candidatos) que hoy es **potencial sin refinar, no "oro" líquido**. Automatizar este estado con IA no resolvería el problema: **escalaría la inconsistencia a velocidad de máquina** y erosionaría justo el "ojo clínico" y la "cercanía al candidato" que hacen premium a la firma.
+Esto es un **diagnóstico**, no una propuesta. Sirve para fijar una verdad común y honesta sobre dónde está hoy Conexión Talento en cinco frentes: proceso, datos, tecnología, métricas y personas. También compara su proceso de reclutamiento de 8 pasos con cómo debería funcionar, y da un veredicto sobre el sistema Team Tailor.
+
+Dos reglas guían todo el documento:
+
+1. **Distinguimos lo que sabemos de lo que suponemos.** Todo dato que el cliente aún no ha confirmado lleva ⚠️ y se trata como *supuesto por validar*, no como hecho. Varios de esos supuestos son **bloqueantes**: condicionan el alcance, el riesgo legal y si el proyecto es viable. No los dejamos como "preguntas abiertas": los elevamos a **condiciones previas, cada una con un responsable**.
+2. **Separamos el síntoma de la causa.** El cliente vive el problema como "me falta una persona" y la solución como "6 agentes de IA". El diagnóstico sostiene otra cosa y la respalda con evidencia.
+
+---
+
+## 1. Síntesis ejecutiva (lo esencial primero)
+
+> **Tesis central:** Conexión Talento no tiene un problema de tecnología ni de capacidad; tiene un problema de **disciplina de proceso**. Corre un proceso de 8 pasos que cuatro personas ejecutan de cuatro maneras distintas, sin un estándar escrito, sin nada medido, y con un activo de datos (4.000 candidatos) que hoy es **potencial sin pulir, no "oro" listo para usar**. Automatizar este estado con IA no resolvería nada: **multiplicaría la inconsistencia a velocidad de máquina** y desgastaría justo el "ojo clínico" y la cercanía al candidato que hacen premium a la firma.
 
 **Los cinco hechos que definen el punto de partida:**
 
-| # | Hallazgo | Implicación |
+| # | Hallazgo | Qué significa para el negocio |
 |---|----------|-------------|
-| 1 | El cuello de botella real **no es el cribado de 200 CVs**, es el **intake** (pasos 1–2). Sin un *scorecard* calibrado, los 4 reclutadores aplican 4 criterios y la terna depende del juicio no escalable de Virginia. | "Garbage in, garbage out": acelerar el cribado sin estandarizar el origen produce malos *matches* más rápido. |
-| 2 | La promesa de marca —"cercanía al candidato"— **contradice la realidad operativa**: atacan en LinkedIn por falta de seguimiento; el único contacto sistemático con el rechazado es un correo automático a 15 días. | El diferenciador que quieren *vender* es hoy su mayor **pasivo reputacional**. |
-| 3 | "Cero métricas" es **parcialmente falso**. Team Tailor registra *timestamps* y etapas. Existe una línea base **recuperable** ⚠️ (sujeta a verificación de API/export y a la contaminación por uso inconsistente de etapas). El problema es de **lectura**, no de inexistencia. | La línea base es recuperable, pero **solo confiable en los extremos** (apertura→terna→cierre); los tiempos intermedios son ruido hasta estandarizar etapas. |
-| 4 | Enviar el mismo candidato dos veces al mismo cliente **no es una anécdota**: es ausencia de *submission ownership* e historial. Es un fallo de control determinista, no un problema de IA. | Riesgo reputacional **ya materializado**; corregible con un registro simple, no con un modelo. |
-| 5 | La base de 4.000 candidatos **no es "oro" todavía**. Sin clave de identidad única, sin taxonomía de *skills*, sin protocolo de vigencia. Estimación gruesa ⚠️: 30–50% podría no estar vigente. El número honesto es "candidatos vigentes y contactables", probablemente **1.500–2.500** ⚠️. | El "60% del valor" es potencial **condicionado** a una estructura de datos que aún no existe. |
+| 1 | El verdadero cuello de botella **no es revisar 200 CVs**, es el arranque del encargo (pasos 1–2): entender bien el puesto. Sin una hoja de criterios para evaluar candidatos (*scorecard*) acordada, los 4 reclutadores aplican 4 criterios distintos y la terna depende del juicio de Virginia, que no se puede multiplicar. | Si entra basura, sale basura: acelerar la revisión sin ordenar el origen produce malas coincidencias más rápido. |
+| 2 | La promesa de marca —"cercanía al candidato"— **choca con la realidad operativa**: los critican en LinkedIn por no dar seguimiento; el único contacto sistemático con quien se rechaza es un correo automático a los 15 días. | El diferenciador que quieren *vender* es hoy su mayor **riesgo de reputación**. |
+| 3 | "Cero métricas" es **parcialmente falso**. Team Tailor (el sistema donde guardan los candidatos) registra fechas y etapas. Existe un **punto de partida medido recuperable** ⚠️ (sujeto a verificar que se pueda extraer la información del sistema y a que las etapas se usaron de forma inconsistente). El problema es de **lectura**, no de que no exista. | El punto de partida es recuperable, pero **solo confiable en los extremos** (apertura → terna → cierre); los tiempos intermedios son ruido hasta ordenar las etapas. |
+| 4 | Enviar el mismo candidato dos veces al mismo cliente **no es una anécdota**: es que nadie es dueño de qué se presentó ni hay historial. Es un fallo de control simple, no un problema de IA. | Daño de reputación **ya ocurrido**; se corrige con un registro simple, no con un modelo de IA. |
+| 5 | La base de 4.000 candidatos **todavía no es "oro"**. No hay identificador único por persona, ni vocabulario común de habilidades, ni forma de saber quién sigue vigente. Estimación gruesa ⚠️: entre 30% y 50% podría estar desactualizado. El número honesto es "candidatos vigentes y contactables", probablemente **entre 1.500 y 2.500** ⚠️. | El "60% del valor" es potencial **condicionado** a una estructura de datos que aún no existe. |
 
-**Madurez global:** Conexión Talento se sitúa en un **Nivel 1–2 de 5 ("Inicial / Reactivo")** en una escala de madurez digital. El conocimiento es tácito, los procesos son artesanales y el dato está sin gobernar. Esto **no es una crítica**: es típico de una PYME consultora exitosa cuyo valor reside en el criterio humano. El reto es industrializar el *back-office* sin commoditizar el *craft*.
+**Madurez global:** Conexión Talento está en un **Nivel 1–2 de 5 ("Inicial / Reactivo")** en madurez digital. El conocimiento vive en la cabeza de las personas, los procesos son artesanales y los datos no están gobernados. Esto **no es una crítica**: es lo típico de una PYME consultora exitosa cuyo valor está en el criterio humano. El reto es industrializar la parte operativa (la "trastienda") sin convertir en commodity el oficio.
 
 ---
 
-## 2. Supuestos bloqueantes (precondiciones, no "preguntas abiertas")
+## 2. Supuestos bloqueantes (condiciones previas, no "preguntas abiertas")
 
-La crítica adversarial es contundente en este punto y la incorporamos: **no se puede dimensionar ni prometer nada** mientras estos supuestos sigan abiertos. Cada uno tiene dueño y plazo.
+Aquí la revisión crítica es contundente y la asumimos: **no se puede dimensionar ni prometer nada** mientras estos supuestos sigan abiertos. Cada uno tiene responsable y plazo.
 
-| ID | Supuesto a validar ⚠️ | Por qué bloquea | Dueño / Cómo se cierra |
+| ID | Supuesto por validar ⚠️ | Por qué bloquea | Responsable / Cómo se cierra |
 |----|----------------------|-----------------|------------------------|
-| **B1** | **País exacto de operación** (y residencia de candidatos/clientes). | Define la ley de datos (Ley 8968 CR + PRODHAB · Ley 81 Panamá + ANTAI · Ley 787 Nicaragua · *habeas data* Guatemala), la viabilidad del benchmark salarial y la exposición a GDPR/EU AI Act si hay UE. | **Virginia — correo de 5 minutos. Cerrar HOY.** Es el dato más barato y más estructural del proyecto. |
-| **B2** | **API / export / tier real de Team Tailor.** | Toda la estrategia de datos y la línea base retrospectiva cuelgan de esto. Si el plan limita llamadas o no permite export masivo, colapsa medio diagnóstico cuantitativo. | Consultor — verificación técnica directa en la cuenta. **No prometer ningún quick-win de datos hasta confirmarlo.** |
-| **B3** | **Existencia de un *golden set*** (historial recuperable de quién entró a terna vs. no). | Sin él no se puede calibrar ni evaluar un *ranker* contra el criterio de Virginia. Con "cero documentación", **probablemente no existe** y construirlo consume el recurso más escaso (tiempo de Virginia). | Consultor + Virginia — auditoría del ATS. Tratar como **esfuerzo no trivial**, no como insumo dado. |
-| **B4** | **Origen y consentimiento de los 4.000** (aplicación voluntaria vs. *sourcing*/scraping de LinkedIn). | Cambia por completo la base legal para reutilizar/monetizar y el % realmente vigente. | Muestreo de vigencia + revisión de términos de aplicación actuales. |
-| **B5** | **Modelo de honorarios y volumen** (fee por colocación, mandatos/mes, colocaciones/año ⚠️ est. 20–60). | Define la economía unitaria, el ROI y la **validez estadística** de toda métrica de embudo (a este volumen, NPS y auditorías de sesgo tienen *n* insuficiente). | Virginia — primera pregunta de scoping. |
+| **B1** | **País exacto de operación** (y dónde residen candidatos y clientes). | Define qué ley de datos aplica (Ley 8968 Costa Rica + PRODHAB · Ley 81 Panamá + ANTAI · Ley 787 Nicaragua · *habeas data* Guatemala), si el comparativo salarial es viable, y la exposición a la normativa europea (GDPR / EU AI Act) si hay datos de la UE. | **Virginia — correo de 5 minutos. Cerrar HOY.** Es el dato más barato y más estructural del proyecto. |
+| **B2** | **Acceso real a los datos de Team Tailor** (conexión técnica entre sistemas, capacidad de extraer la información y nivel de plan contratado). | Toda la estrategia de datos y el punto de partida histórico cuelgan de esto. Si el plan limita las consultas o no deja descargar la información, se cae medio diagnóstico cuantitativo. | Consultor — verificación técnica directa en la cuenta. **No prometer ninguna victoria rápida de datos hasta confirmarlo.** |
+| **B3** | **Existencia de un set de decisiones de referencia** (los casos que enseñan a la IA a elegir como Virginia): el historial recuperable de quién entró a terna y quién no. | Sin él no se puede calibrar ni evaluar un asistente que ordene candidatos contra el criterio de Virginia. Con "cero documentación", **probablemente no existe**, y construirlo consume el recurso más escaso: el tiempo de Virginia. | Consultor + Virginia — auditoría del sistema. Tratarlo como **trabajo serio**, no como algo que ya está dado. |
+| **B4** | **Origen y consentimiento de los 4.000** (¿aplicaron voluntariamente o se extrajeron de LinkedIn?). | Cambia por completo la base legal para reutilizar o monetizar esos datos y el porcentaje que sigue vigente. | Muestreo de vigencia + revisión de los términos de aplicación actuales. |
+| **B5** | **Modelo de honorarios y volumen** (cobro por colocación, encargos por mes, colocaciones al año ⚠️ est. 20–60). | Define la economía del negocio, el retorno y la **validez estadística** de toda métrica de embudo (a este volumen, encuestas de satisfacción y auditorías de sesgo tienen demasiados pocos casos para ser fiables). | Virginia — primera pregunta de delimitación del proyecto. |
 
-> **Regla de gobierno:** ninguna afirmación cuantitativa de este diagnóstico se eleva a "hecho" hasta cerrar B1–B5. Lo que sigue se construye sobre lo observable y marca explícitamente lo supuesto.
+> **Regla de gobierno:** ninguna afirmación con cifras de este diagnóstico se da por "hecho" hasta cerrar B1–B5. Lo que sigue se construye sobre lo observable y marca explícitamente lo que es supuesto.
 
 ---
 
@@ -52,51 +56,51 @@ La crítica adversarial es contundente en este punto y la incorporamos: **no se 
 
 Escala: **1 Inicial · 2 Reactivo · 3 Definido · 4 Gestionado · 5 Optimizado.**
 
-| Dimensión | Nivel actual | Evidencia (estado "es") | "Deber ser" mínimo viable (Nivel 3) | Brecha clave |
+| Dimensión | Nivel actual | Evidencia (cómo está hoy) | Mínimo deseable (Nivel 3) | Brecha clave |
 |-----------|:---:|-------------|------------------------|--------------|
-| **Procesos** | **1 → 2** | Un proceso de 8 pasos, 4 ejecuciones distintas. Cero documentación. Único activo semi-estándar: el "prompt" de CV de Virginia (no versionado, vive en su cuenta). | SOP por paso con dueño (RACI), SLA, entradas/salidas y *scorecard* de intake. Estándar como **propiedad de la firma**, no de personas. | No se sabe aún si las 4 formas difieren por **criterio** (qué evalúan) o por **formato** (cómo registran). **Resolverlo es prerrequisito del scoping.** ⚠️ |
-| **Datos** | **1** | 4.000 registros sin clave única, sin taxonomía, sin etiquetas, sin protocolo de vigencia. Duplicados confirmados (caso del candidato reenviado). No saben cuántos vigentes. | Modelo canónico (Candidato/Aplicación/Vacante/Cliente/Skill/Evento), resolución de identidad, *score* de vigencia, taxonomía (base ESCO + overlay local ⚠️ esfuerzo de curaduría real). | El dato es hoy **pasivo legal y operativo**, no activo. El "60% del valor" está sin materializar. |
-| **Tecnología** | **2** | ATS Team Tailor en uso real (integración LinkedIn, psicométricas, rechazos automáticos). Funciones de IA **pagadas y no usadas**. ChatGPT de consumo con PII de candidatos (**brecha activa**). | Explotar lo ya pagado antes de construir. Capa de orquestación determinista sobre API. Cortar PII en ChatGPT de consumo (Enterprise/API con no-entrenamiento + DPA). | Sub-utilización, no carencia. El problema es de **adopción y configuración**, no de falta de herramientas. |
-| **Métricas** | **1** | "No métricas" declarado. Sin KPIs de industria. Sin línea base. Sin seguimiento del plan a 90 días (que ya entregan y es, sin saberlo, su *quality-of-hire*). | Árbol de ~10 KPIs con North Star (*fill rate* dentro de SLA + colocaciones/reclutador). Captura forward + reconstrucción retrospectiva con *caveats*. | Los datos **existen** en el ATS pero no se leen. Brecha de **instrumentación y lectura**, no de generación. |
-| **Personas** | **2** | 4 reclutadores + 1 temporal. Conocimiento tácito concentrado en Virginia ("ojo clínico") y Lili (operación). Lili a 7am–7pm: punto único de falla **y *flight risk*** no gestionado. | Dueño de proceso nombrado; conocimiento extraído y documentado; rol de "Embajador de Marca / Candidate Experience" que redefine la persona extra de *backfill* a capacidad. | Dependencia crítica de 2 personas. Si Lili renuncia por *burnout* antes de extraer su conocimiento, se pierden operación, memoria y *sponsor* de golpe. |
+| **Procesos** | **1 → 2** | Un proceso de 8 pasos, ejecutado de 4 formas distintas. Cero documentación. Único activo semi-estándar: el "prompt" de CV de Virginia (sin control de versiones, vive en su cuenta personal). | Un instructivo por paso con responsable claro (quién hace qué en cada paso), compromisos de tiempo de respuesta, entradas y salidas, y una hoja de criterios para evaluar candidatos al arranque. El estándar como **propiedad de la firma**, no de las personas. | Aún no se sabe si las 4 formas difieren en el **criterio** (qué evalúan) o en el **formato** (cómo lo registran). **Resolverlo es requisito antes de delimitar el proyecto.** ⚠️ |
+| **Datos** | **1** | 4.000 registros sin identificador único, sin vocabulario común de habilidades, sin etiquetas, sin forma de saber quién sigue vigente. Duplicados confirmados (el candidato reenviado). No saben cuántos siguen vigentes. | Un modelo de datos ordenado (Candidato / Aplicación / Vacante / Cliente / Habilidad / Evento), un identificador único por persona, una señal de vigencia y un vocabulario común de habilidades (base ESCO + ajuste local ⚠️ requiere trabajo real de curaduría). | Hoy el dato es un **pasivo legal y operativo**, no un activo. El "60% del valor" está sin materializar. |
+| **Tecnología** | **2** | Team Tailor en uso real (integración con LinkedIn, pruebas psicométricas, rechazos automáticos). Funciones de IA **pagadas y sin usar**. ChatGPT de consumo manejando datos personales de candidatos (**fuga de datos activa**). | Aprovechar lo que ya se paga antes de construir nada. Una capa que coordine los pasos de forma controlada sobre la conexión técnica al sistema. Cortar el uso de datos personales en ChatGPT de consumo (pasar a Enterprise/API con compromiso de no entrenar con los datos + acuerdo de protección de datos: el proveedor no usa ni entrena con la información). | Es subutilización, no carencia. El problema es de **adopción y configuración**, no de falta de herramientas. |
+| **Métricas** | **1** | "No hay métricas", según declaran. Sin indicadores de industria. Sin punto de partida medido. Sin seguimiento del plan a 90 días (que ya entregan y es, sin saberlo, su medida de calidad de la contratación). | Un árbol de unos 10 indicadores con una métrica guía (% de vacantes cubiertas dentro del tiempo comprometido + colocaciones por reclutador). Capturar datos de aquí en adelante y reconstruir el histórico con sus advertencias. | Los datos **existen** en el sistema pero nadie los lee. La brecha es de **medir y leer**, no de generar datos. |
+| **Personas** | **2** | 4 reclutadores + 1 temporal. El conocimiento clave está concentrado en Virginia ("ojo clínico") y Lili (operación). Lili trabaja de 7am a 7pm: es punto único de falla **y riesgo real de que se vaya**, sin gestionar. | Nombrar a un dueño del proceso; extraer y documentar el conocimiento; crear un rol de "Embajador de Marca / Experiencia del Candidato" que convierta a la persona extra de simple relevo en capacidad nueva. | Dependencia crítica de 2 personas. Si Lili renuncia por agotamiento antes de extraer su conocimiento, se pierden de golpe la operación, la memoria y el principal apoyo interno al proyecto. |
 
-**Lectura transversal:** la firma es fuerte donde reside su valor (criterio humano, relación) y débil donde se industrializa el valor (proceso, dato, medición). El proyecto debe **estandarizar sin piedad el back-office** (cribado, etiquetado, formateo, registro) y **preservar el juicio humano** en terna, negociación y relación con el candidato. Sobre-estandarizar el diferenciador lo destruye.
+**Lectura transversal:** la firma es fuerte donde está su valor (criterio humano, relación) y débil donde ese valor se industrializa (proceso, dato, medición). El proyecto debe **estandarizar sin piedad la trastienda** (revisión, etiquetado, formateo, registro) y **preservar el juicio humano** en terna, negociación y relación con el candidato. Estandarizar de más el diferenciador lo destruye.
 
 ---
 
-## 4. Mapa del proceso de reclutamiento: "es actual" vs. "deber ser"
+## 4. Mapa del proceso de reclutamiento: "cómo es hoy" vs. "cómo debería ser"
 
-> **Nota de método:** este mapa documenta el flujo declarado. La distinción **criterio vs. formato** en las 4 variantes (paso 4 sobre todo) **no está resuelta** y debe levantarse mediante *shadowing* de una vacante real antes de diseñar el "deber ser" definitivo. Lo que sigue es el armazón, no el SOP final.
+> **Nota de método:** este mapa documenta el flujo tal como lo declaran. La diferencia **criterio vs. formato** en las 4 variantes (sobre todo el paso 4) **no está resuelta** y hay que levantarla acompañando una vacante real de principio a fin antes de diseñar el "deber ser" definitivo. Lo que sigue es el armazón, no el instructivo final.
 
-| # | Paso | Estado actual ("es") | Deber ser ("debe") | Dueño | Brecha / Riesgo |
+| # | Paso | Cómo es hoy | Cómo debería ser | Responsable | Brecha / Riesgo |
 |---|------|---------------------|-------------------|-------|-----------------|
-| **1** | **Perfilamiento** | Tácito, depende del reclutador. Sin captura estructurada del contexto. | *Kickoff* estructurado **con el cliente**: contexto, 3–5 competencias críticas, definición de éxito a 90 días. | Reclutador (consultivo) | **Cuello de botella real.** Sin esto, ningún paso posterior tiene criterio. |
-| **2** | **Redacción de perfil de puesto** | Variable, no calibrada de forma consistente al tamaño/contexto de la empresa. | Plantilla única calibrable. *Must-have* vs. *nice-to-have* con **pesos**. | Reclutador | Sin pesos explícitos, el cribado es subjetivo aguas abajo. |
-| **3** | **Sourcing / búsquedas** | Manual; búsquedas + preguntas para revelar perfil real (artesanal, no documentado). | Búsqueda booleana estándar + uso de la base interna como **primera fuente** (hoy no se mide *internal-fill*). | Reclutador | Único paso genuinamente "agéntico" (decisiones iterativas). Se sub-explota la base. |
-| **4** | **Cribado de ~200 CVs** (puntuar → top 10 → terna) | **4 personas, 4 criterios.** Rúbrica tácita en el "ojo clínico" de Virginia. Mayor consumo de horas. | *Scorecard* explícito y ponderado + *golden set* de referencia. Cribado asistido **con humano validando**. | Reclutador + dueño de estándar | **Keystone de la estandarización.** Documentar la rúbrica es ~80% del valor de la fase de estándares. |
-| **5** | **Pre-screening telefónico** ("a veces grabado" → IA) | Sin banco de preguntas ligado al *scorecard*. Grabación inconsistente, **sin consentimiento documentado** ⚠️. | Entrevista **estructurada** (predice desempeño ~2x mejor) con guion STAR por competencia + consentimiento de grabación. | Reclutador | Sin estructura, la IA de transcripción aporta **ruido, no señal**. Riesgo legal de grabación. |
-| **6** | **Terna** | Depende del juicio de Virginia; sin *quality gate* uniforme. | Terna = exactamente 3 finalistas validados contra *scorecard*. **Gate anti-duplicado obligatorio**. | Virginia / reclutador | *Craft* a preservar. Pero requiere verificación determinista previa al envío. |
-| **7** | **Negociación / cierre con cliente** (plan de desarrollo a 90 días) | Se entrega como "valor"; **no se instrumenta** ni se recupera el dato a 90 días. | Clausular la **devolución del dato de retención/desempeño a 90 días** = KPI de *quality-of-hire* + gancho de cross-sell. | Virginia | *Craft* a preservar. Se está regalando la métrica más vendible de todas. |
-| **8** | **Formateo de CV con branding** | "Prompt" de Virginia en ChatGPT de consumo. **Único proceso semi-estándar**, no versionado, con **PII en herramienta de consumo (brecha activa)**. | Plantilla determinista (el layout no lo decide el LLM) + extracción a esquema fijo. Versionado y propiedad de la firma. Entorno con no-entrenamiento + DPA. | Dueño de estándar | **Candidato natural al primer quick-win** de bajo esfuerzo y alta visibilidad. |
+| **1** | **Perfilamiento** | Tácito, depende del reclutador. No se captura el contexto de forma ordenada. | Reunión de arranque estructurada **con el cliente**: contexto, 3–5 competencias críticas, definición de éxito a 90 días. | Reclutador (consultivo) | **Cuello de botella real.** Sin esto, ningún paso posterior tiene criterio. |
+| **2** | **Redacción del perfil de puesto** | Variable, no se ajusta de forma consistente al tamaño y contexto de la empresa. | Una sola plantilla ajustable. Separar lo imprescindible de lo deseable, con **pesos**. | Reclutador | Sin pesos explícitos, todo lo que viene después se vuelve subjetivo. |
+| **3** | **Búsqueda de candidatos (sourcing)** | Manual; búsquedas + preguntas para descubrir el perfil real (artesanal, sin documentar). | Búsqueda estándar + usar la base interna como **primera fuente** (hoy no se mide el % de vacantes cubiertas con la propia base). | Reclutador | Único paso genuinamente "agéntico" (decisiones que se van encadenando). La base propia se aprovecha poco. |
+| **4** | **Revisión de ~200 CVs** (puntuar → top 10 → terna) | **4 personas, 4 criterios.** La hoja de criterios vive tácita en el "ojo clínico" de Virginia. Es donde se consumen más horas. | Hoja de criterios explícita y con pesos + set de decisiones de referencia. Revisión asistida **siempre con una persona validando**. | Reclutador + dueño del estándar | **Pieza central de la estandarización.** Escribir esa hoja de criterios vale ~80% de toda esta fase. |
+| **5** | **Entrevista telefónica previa** ("a veces grabada" → IA) | Sin banco de preguntas ligado a la hoja de criterios. Grabación inconsistente y **sin consentimiento documentado** ⚠️. | Entrevista **estructurada** (predice el desempeño ~2x mejor) con guion por competencia + consentimiento de grabación. | Reclutador | Sin estructura, transcribir con IA aporta **ruido, no señal**. Riesgo legal por grabar sin permiso. |
+| **6** | **Terna** | Depende del juicio de Virginia; sin un filtro de calidad uniforme. | Terna = exactamente 3 finalistas validados contra la hoja de criterios. **Verificación anti-duplicado obligatoria**. | Virginia / reclutador | Oficio a preservar. Pero requiere una comprobación automática antes de enviar. |
+| **7** | **Negociación / cierre con cliente** (plan de desarrollo a 90 días) | Se entrega como "valor"; **no se mide** ni se recupera el dato a los 90 días. | Dejar por contrato la **devolución del dato de retención/desempeño a los 90 días** = indicador de calidad de la contratación + gancho para vender más servicios. | Virginia | Oficio a preservar. Hoy están regalando la métrica más vendible de todas. |
+| **8** | **Formateo de CV con la marca** | El "prompt" de Virginia en ChatGPT de consumo. **Único proceso semi-estándar**, sin control de versiones, con **datos personales en herramienta de consumo (fuga activa)**. | Plantilla fija (el diseño no lo decide la IA) + extracción de datos a un formato fijo. Con control de versiones y propiedad de la firma. Entorno con compromiso de no entrenar con los datos + acuerdo de protección de datos. | Dueño del estándar | **Candidato natural a la primera victoria rápida**: bajo esfuerzo, alta visibilidad. |
 
 ### 4.1 Los "6 agentes": reencuadre honesto
 
-El cliente visualiza 6 agentes de IA. El diagnóstico técnico es inequívoco: **de los 6, solo 1 (Sourcer) es verdaderamente agéntico.** Los otros 5 son *prompt-chains*/herramientas con salida estructurada y *routing* determinista.
+El cliente imagina 6 agentes de IA. El diagnóstico técnico es claro: **de los 6, solo 1 (el de búsqueda) es de verdad un agente.** Los otros 5 son cadenas de instrucciones / herramientas con salida ordenada y un enrutamiento automático fijo.
 
-| "Agente" que visualiza el cliente | Qué es en realidad | Veredicto de secuencia |
+| "Agente" que imagina el cliente | Qué es en realidad | Veredicto |
 |-----------------------------------|--------------------|------------------------|
-| 1. Perfilador | Herramienta de plantillas + RAG sobre fuentes curadas | Requiere biblioteca de competencias/salarios **verificable**; cifras salariales **nunca** generadas por LLM. |
-| 2. Redactor | Plantilla con LLM normalizador | Depende del SOP del paso 2. |
-| 3. Sourcer | **Único agéntico** (búsqueda iterativa) | Aspiracional; depende de base estructurada. |
-| 4. Screener/Ranker | Scorer contra rúbrica + *ranking* | El de **mayor palanca**, pero exige *golden set* y des-identificación de PII. Humano valida top 10. |
-| 5. Entrevistador pre-screening | ASR (comprar) + resumen estructurado | Requiere consentimiento + entrevista estructurada previa. |
-| 6. Generador de CV | Extracción a esquema + plantilla determinista | **Quick-win** de menor riesgo. |
+| 1. Perfilador | Herramienta de plantillas + consulta a fuentes curadas | Requiere una biblioteca de competencias/salarios **verificable**; las cifras salariales **nunca** las inventa la IA. |
+| 2. Redactor | Plantilla con IA que normaliza el texto | Depende del instructivo del paso 2. |
+| 3. Buscador (Sourcer) | **Único agente de verdad** (búsqueda que se encadena) | Aspiracional; depende de tener la base estructurada. |
+| 4. Asistente que ordena candidatos (Screener/Ranker) | Puntúa contra la hoja de criterios y ordena | El de **mayor palanca**, pero exige el set de decisiones de referencia y quitar los datos personales antes de procesar. La persona valida el top 10. |
+| 5. Entrevistador previo | Transcripción automática (comprar) + resumen ordenado | Requiere consentimiento + entrevista estructurada previa. |
+| 6. Generador de CV | Extracción a formato fijo + plantilla fija | **Victoria rápida** de menor riesgo. |
 
-> **Conclusión:** no se construyen 6 agentes en paralelo. Se construyen **3 herramientas deterministas confiables** (CV, dedup, cribado asistido) con humano-en-el-loop, **sobre proceso ya estandarizado**, y se reserva la autonomía agéntica solo donde aporta. El guardarraíl del cliente —"la IA no opina fuera de scope"— es correcto y debe materializarse **como código** (salida forzada por esquema), no como instrucción de *prompt*.
+> **Conclusión:** no se construyen 6 agentes en paralelo. Se construyen **3 herramientas fiables y controladas** (CV, quitar duplicados, revisión asistida) siempre con una persona validando, **sobre un proceso ya estandarizado**, y se reserva la autonomía de un agente solo donde aporta. El guardarraíl que pide el cliente —"la IA no opina fuera de su alcance"— es correcto y debe quedar **escrito en el código** (la salida forzada a un formato fijo), no como una mera instrucción de texto.
 
 ### 4.2 Corrección crítica al guardarraíl de auto-rechazo
 
-El guardarraíl propuesto por el cliente —*rank* 30+ = **rechazo cordial automático**— es el **mayor pasivo legal y reputacional del diseño**. En una empresa a la que **ya atacan en LinkedIn** por falta de seguimiento, dejar que la IA rechace sin aprobación humana amplifica el problema y constituye **decisión automatizada** (intervención humana exigible si hay exposición UE; *profiling*). **Recomendación firme: el rechazo es *human-in-the-loop* obligatorio** —o como mínimo, *batch* revisado antes de enviar—. Esto, además de cumplir, **protege el diferenciador de cercanía**.
+El guardarraíl que propone el cliente —candidato en posición 30 o más = **rechazo cordial automático**— es el **mayor riesgo legal y de reputación del diseño**. En una empresa a la que **ya critican en LinkedIn** por falta de seguimiento, dejar que la IA rechace sin aprobación humana agranda el problema y constituye una **decisión automatizada** (con exposición europea es exigible que intervenga una persona; hay perfilado de por medio). **Recomendación firme: el rechazo debe pasar siempre por una persona** —o como mínimo, revisar el lote antes de enviar—. Además de cumplir la ley, esto **protege el diferenciador de cercanía**.
 
 ---
 
@@ -104,35 +108,35 @@ El guardarraíl propuesto por el cliente —*rank* 30+ = **rechazo cordial autom
 
 ### 5.1 Qué hace bien (y ya se paga)
 
-- **Integración con LinkedIn** (link de aplicación) operativa.
+- **Integración con LinkedIn** (enlace de aplicación) funcionando.
 - **Envío automático de pruebas psicométricas** funcionando.
-- **Correos automáticos de rechazo** (a 15 días) — funcionan, aunque su *timing* y tono son parte del problema de experiencia.
-- **Registro silencioso de eventos** (*timestamps*, movimientos de etapa) sobre ~4.000 candidatos → **línea base histórica latente**.
-- **DPA y funciones de cumplimiento integradas** como procesador de datos: relevante, porque migrar a sistema propio **trasladaría a una PYME de 10 personas** toda la responsabilidad de seguridad, notificación de brechas y atención de derechos ARCO.
-- **Funciones de IA incluidas** en el plan ⚠️ (alcance a confirmar) — **pagadas y no usadas**.
+- **Correos automáticos de rechazo** (a los 15 días) — funcionan, aunque su momento y tono son parte del problema de experiencia.
+- **Registro silencioso de eventos** (fechas, movimientos de etapa) sobre ~4.000 candidatos → **un punto de partida histórico latente**.
+- **Acuerdo de protección de datos y funciones de cumplimiento ya integradas** como procesador de datos: importante, porque migrar a un sistema propio **le cargaría a una PYME de 10 personas** toda la responsabilidad de seguridad, aviso de brechas y atención de derechos de los titulares (acceso, rectificación, cancelación, oposición).
+- **Funciones de IA incluidas** en el plan ⚠️ (alcance por confirmar) — **pagadas y sin usar**.
 
 ### 5.2 Qué no hace bien (o no se está usando)
 
-- **Sub-utilización severa:** las funciones de IA pagadas no se usan; trabajo manual pese a herramientas disponibles.
-- **Etapas usadas de forma inconsistente** (4 personas) → contamina los tiempos intermedios del embudo.
-- **Sin custom fields/tags estructurados** que hagan la base buscable por *skill*.
-- **Sin gate anti-duplicado** nativo aprovechado → permitió el reenvío del mismo candidato.
+- **Subutilización severa:** las funciones de IA pagadas no se usan; se hace trabajo manual a pesar de tener las herramientas.
+- **Etapas usadas de forma inconsistente** (4 personas) → ensucia los tiempos intermedios del embudo.
+- **Sin campos ni etiquetas estructuradas** que hagan la base buscable por habilidad.
+- **Sin aprovechar la verificación anti-duplicado** → permitió reenviar el mismo candidato.
 
-### 5.3 Decisión: ¿augmentar o reemplazar?
+### 5.3 Decisión: ¿potenciar o reemplazar?
 
-> **Veredicto: AUGMENTAR. No migrar — todavía y probablemente no.** La disposición de Virginia a dejar el ATS es comprensible pero **resuelve el problema equivocado**: migrar 4.000 registros sin taxonomía ni protocolo solo replicaría el desorden en un sistema nuevo y más caro, y pondría en riesgo la operación que genera el **63% de los ingresos**.
+> **Veredicto: POTENCIAR. No migrar — todavía y probablemente no.** El deseo de Virginia de dejar el sistema es comprensible pero **resuelve el problema equivocado**: migrar 4.000 registros sin vocabulario común ni protocolo solo replicaría el desorden en un sistema nuevo y más caro, y pondría en riesgo la operación que genera el **63% de los ingresos**.
 
 **Criterios de decisión (a evaluar con datos, no por impulso):**
 
-| Criterio | Umbral que justificaría **augmentar** (default) | Umbral que justificaría **reemplazar** |
+| Criterio | Umbral que justificaría **potenciar** (opción por defecto) | Umbral que justificaría **reemplazar** |
 |----------|------------------------------------------------|----------------------------------------|
-| **API / export** (B2) | API REST con export másivo disponible en el tier actual → se extrae y enriquece **por encima** sin migrar. | Sin export másivo / *rate-limit* prohibitivo que impida explotar el dato. |
-| **Funciones de IA pagadas** | Cubren matching/screening/ASR con calidad aceptable → exprimir antes de construir. | No existen o son inservibles para el caso. |
-| **Costo total de propiedad** | TCO de quedarse < TCO de construir+operar+asumir compliance. | Costo de quedarse demostrablemente superior **con caso de negocio**. |
-| **Riesgo de seguridad/compliance** | Mantener el DPA y los controles de TT reduce exposición de la PYME. | Solo si se cuenta con controles propios equivalentes. |
-| **Volumen** ⚠️ (20–60 colocaciones/año) | A este volumen, **construir custom probablemente da ROI negativo por años**. Favorece *buy*. | Solo si el volumen escala materialmente. |
+| **Acceso a los datos** (B2) | Se puede conectar a otros sistemas y descargar toda la información en el plan actual → se extrae y enriquece **por fuera** sin migrar. | No se puede descargar masivamente / un límite de consultas tan bajo que impide explotar el dato. |
+| **Funciones de IA pagadas** | Cubren coincidencia/revisión/transcripción con calidad aceptable → exprimirlas antes de construir. | No existen o no sirven para este caso. |
+| **Costo total de propiedad** | Cuesta menos quedarse que construir + operar + asumir el cumplimiento legal. | Quedarse cuesta más, demostrado **con caso de negocio**. |
+| **Riesgo de seguridad/cumplimiento** | Mantener el acuerdo de protección de datos y los controles de Team Tailor reduce la exposición de la PYME. | Solo si hay controles propios equivalentes. |
+| **Volumen** ⚠️ (20–60 colocaciones/año) | A este volumen, **construir a medida probablemente da retorno negativo durante años**. Favorece comprar. | Solo si el volumen crece de forma material. |
 
-> **Declaración de integridad (incorporada de la crítica adversarial):** existe un **conflicto de interés estructural** —nuestro ingreso crece cuanto más custom se construya—. La recomendación honesta para el primer proyecto es **exprimir lo que Team Tailor ya cobra y comprar *add-ons* antes de construir infraestructura propia**. Lo declaramos explícitamente. La decisión augmentar-vs-reemplazar se toma en una fase posterior, **con datos de B2 y B5**, no en este diagnóstico.
+> **Declaración de integridad (asumida de la revisión crítica):** existe un **conflicto de interés estructural** —nuestro ingreso crece cuanto más se construya a medida—. La recomendación honesta para el primer proyecto es **exprimir lo que Team Tailor ya cobra y comprar complementos antes de construir infraestructura propia**. Lo declaramos abiertamente. La decisión de potenciar vs. reemplazar se toma en una fase posterior, **con los datos de B2 y B5**, no en este diagnóstico.
 
 ---
 
@@ -140,22 +144,22 @@ El guardarraíl propuesto por el cliente —*rank* 30+ = **rechazo cordial autom
 
 | Severidad | Riesgo | Naturaleza | Mitigación inmediata |
 |:---:|--------|-----------|----------------------|
-| 🔴 **Crítico** | **Brecha activa de PII**: CVs de candidatos en ChatGPT de consumo. | Legal / hoy | Cortar uso; migrar a entorno con no-entrenamiento + DPA. Costo casi nulo. |
-| 🔴 **Crítico** | **Reenvío de candidato al mismo cliente** ya materializado. | Reputacional / operativo | Registro de presentaciones (candidato × cliente × fecha) + regla de no-reenvío. Determinista, días. |
-| 🔴 **Crítico** | ***Flight risk* de Lili** (7am–7pm, punto único de falla, *sponsor* de adopción). | Humano / continuidad | Aliviar **antes** de pedirle documentar; extraer su conocimiento en las primeras 2–3 semanas; enmarcar la temporal como **seguro anti-fuga**. |
-| 🟠 **Alto** | **Benchmark de compensaciones** que el cliente quiere vender ya. | Legal (antitrust/datos) | **Congelar la venta.** Re-identificable aun agregado en mercado pequeño; posible violación de NDAs. Camino positivo: alianza con proveedor licenciado o producto futuro con consentimiento granular. |
-| 🟠 **Alto** | **Daño reputacional en LinkedIn** por mala experiencia de candidato. | Reputacional | SLA de comunicación + plantillas. **Arreglar el SLA antes de lanzar CSAT** (encuestar a candidatos ya enojados provoca más backlash). |
-| 🟠 **Alto** | **Sesgo algorítmico** si se cribara sobre datos históricos con PII (foto, edad, estado civil comunes en CVs de la región). | Legal-laboral / ético | Des-identificación antes del scoring; auditoría de impacto desigual antes de producción. |
-| 🟡 **Medio** | **Sobrevaloración del activo de datos** (supuesto del "60%"). | Estratégico | Auditoría de vigencia **antes** de invertir en enriquecer. |
-| 🟡 **Medio** | **Continuidad operativa**: el 63% de ingresos debe seguir fluyendo durante la transformación. | Negocio | Guardarraíl: ninguna intervención toca un mandato en vuelo. |
+| 🔴 **Crítico** | **Fuga activa de datos personales**: CVs de candidatos en ChatGPT de consumo. | Legal / hoy | Cortar el uso; pasar a un entorno con compromiso de no entrenar con los datos + acuerdo de protección de datos. Costo casi nulo. |
+| 🔴 **Crítico** | **Reenvío del mismo candidato al mismo cliente**, ya ocurrido. | Reputacional / operativo | Registro de presentaciones (candidato × cliente × fecha) + regla de no reenvío. Automático, cuestión de días. |
+| 🔴 **Crítico** | **Riesgo de que Lili se vaya** (7am–7pm, punto único de falla, principal apoyo interno a la adopción). | Humano / continuidad | Aliviarla **antes** de pedirle documentar; extraer su conocimiento en las primeras 2–3 semanas; presentar a la temporal como **seguro anti-fuga**. |
+| 🟠 **Alto** | **Comparativo salarial** que el cliente quiere vender ya. | Legal (competencia/datos) | **Congelar la venta.** Aun agregado, en un mercado pequeño se puede volver a identificar a personas y empresas; posible violación de acuerdos de confidencialidad. Camino positivo: alianza con un proveedor con licencia, o un producto futuro con consentimiento específico. |
+| 🟠 **Alto** | **Daño de reputación en LinkedIn** por mala experiencia del candidato. | Reputacional | Compromiso de tiempo de respuesta en la comunicación + plantillas. **Arreglar ese compromiso antes de lanzar encuestas de satisfacción** (encuestar a candidatos ya molestos provoca más reacción negativa). |
+| 🟠 **Alto** | **Sesgo del algoritmo** si se revisara sobre datos históricos con datos personales (foto, edad, estado civil, comunes en los CVs de la región). | Legal-laboral / ético | Quitar los datos personales antes de puntuar; auditar el impacto desigual antes de pasar a producción. |
+| 🟡 **Medio** | **Sobrevaloración del activo de datos** (el supuesto del "60%"). | Estratégico | Auditar la vigencia **antes** de invertir en enriquecer. |
+| 🟡 **Medio** | **Continuidad operativa**: el 63% de los ingresos debe seguir fluyendo durante la transformación. | Negocio | Guardarraíl: ninguna intervención toca un encargo en curso. |
 
 ---
 
 ## 7. Tensiones entre dimensiones y ruta crítica
 
-La crítica adversarial señaló con razón que las distintas perspectivas **se contradicen en la secuencia** y nadie lo reconcilia. Lo hacemos aquí explícitamente:
+La revisión crítica señaló, con razón, que las distintas perspectivas **se contradicen en el orden** y nadie las reconcilia. Lo hacemos aquí explícitamente:
 
-- **Datos** quiere extraer/parsear en paralelo temprano.
+- **Datos** quiere extraer y procesar en paralelo desde temprano.
 - **Procesos** quiere documentar primero ("no automatizar el desorden").
 - **Métricas** necesita etapas estandarizadas antes de medir el embudo.
 
@@ -163,52 +167,54 @@ La crítica adversarial señaló con razón que las distintas perspectivas **se 
 
 ```
 B1 país (HOY) ─┐
-B2 API TT ─────┼──► [Spike de factibilidad técnica+legal, 1 sem]
-B3 golden set ─┤        │
+B2 datos TT ───┼──► [Prueba rápida de factibilidad técnica + legal, 1 sem]
+B3 set ref. ───┤        │
 B4 consent. ───┘        ▼
-                 Estandarizar etapas + scorecard de intake (proceso)
+                 Estandarizar etapas + hoja de criterios de arranque (proceso)
                         │
           ┌─────────────┼──────────────┐
           ▼             ▼              ▼
-   Línea base       Quick-wins      Auditoría de
-   (extremos)       deterministas   vigencia base
-   con caveats      (dedup, CV)     (radiografía real)
+   Punto de         Victorias       Auditoría de
+   partida          rápidas         vigencia de la
+   (extremos)       controladas     base (radiografía
+   con avisos       (duplicados,    real)
+                    CV)
           └─────────────┼──────────────┘
                         ▼
-        Solo entonces: enriquecimiento de datos + IA asistida
+        Solo entonces: enriquecer datos + IA asistida
 ```
 
-**Dependencia circular que hay que romper (señalada por la crítica):** para estandarizar etapas hay que **liberar a Lili**; para liberarla ayuda la IA de cribado; para la IA de cribado hace falta el *golden set*; el *golden set* requiere tiempo de Virginia (el recurso más escaso y resistente por identidad).
+**Dependencia circular que hay que romper (la señaló la revisión crítica):** para estandarizar las etapas hay que **liberar a Lili**; para liberarla ayuda la IA de revisión; para esa IA hace falta el set de decisiones de referencia; y ese set requiere tiempo de Virginia (el recurso más escaso y el que más se resiste, porque toca su identidad).
 
-> **Cómo se rompe:** la asistente temporal **descarga la operación de Lili** (su pedido real) para liberar 4–6 h/semana de tiempo protegido de Lili y Virginia destinado a *co-diseñar* el estándar y etiquetar el *golden set*. **No** se usa la temporal para "hacer data" mientras Lili sigue ahogada —eso quemaría a la *champion* en el mes 2.
+> **Cómo se rompe:** la asistente temporal **descarga la operación de Lili** (lo que ella de verdad pidió) para liberar 4–6 h/semana de tiempo protegido de Lili y Virginia, dedicado a **co-diseñar** el estándar y etiquetar el set de decisiones de referencia. **No** se usa la temporal para "hacer data" mientras Lili sigue ahogada —eso quemaría a la principal aliada interna en el mes 2.
 
 ---
 
 ## 8. Qué NO concluye este diagnóstico (límites de honestidad)
 
-Para no caer en el mismo error que señalamos al cliente —prometer sobre supuestos frágiles—, declaramos los límites:
+Para no caer en el mismo error que le señalamos al cliente —prometer sobre supuestos frágiles—, declaramos los límites:
 
-- **No afirmamos** que la línea base esté lista "en 2 semanas": depende de B2 y los tiempos intermedios estarán contaminados hasta estandarizar etapas. Solo los **extremos** serán confiables.
-- **No afirmamos** que parsear 4.000 CVs sea trivial: el cómputo cuesta ⚠️ ~US$40–150, pero el **QA, la des-identificación, la dedup y el mapeo a taxonomía son semanas de trabajo calificado**, no centavos.
-- **No afirmamos** el ahorro de "10–15 h/semana de Lili": es estimación hasta hacer un *time-tracking* ligero de 2 semanas. El ROI "IA vs. contratar" se construye **contra el costo de build**, no solo contra el costo de la temporal.
+- **No afirmamos** que el punto de partida esté listo "en 2 semanas": depende de B2 y los tiempos intermedios estarán contaminados hasta ordenar las etapas. Solo los **extremos** serán confiables.
+- **No afirmamos** que procesar 4.000 CVs sea trivial: el cómputo cuesta ⚠️ ~US$40–150, pero la **revisión de calidad, quitar datos personales, eliminar duplicados y mapear al vocabulario común son semanas de trabajo calificado**, no centavos.
+- **No afirmamos** el ahorro de "10–15 h/semana de Lili": es estimación hasta medir su tiempo real durante 2 semanas. El retorno de "IA vs. contratar" se calcula **contra el costo de construir**, no solo contra el costo de la temporal.
 - **No afirmamos** que la base valga "60%": es marketing interno hasta que la auditoría de vigencia (B4) lo confirme o lo desmienta con datos.
-- **No tratamos** el benchmark de compensaciones como línea de ingreso real: puede estar **legalmente muerto de origen** según B1/B4.
+- **No tratamos** el comparativo salarial como una línea de ingreso real: puede estar **legalmente muerto de origen** según B1/B4.
 
 ---
 
 ## 9. Conclusión del diagnóstico
 
-Conexión Talento es una firma **valiosa y bien posicionada** cuyo problema no es la ausencia de tecnología, sino la **ausencia de disciplina de proceso, medición y gobierno del dato**. El estado actual es coherente con una PYME exitosa que creció sobre talento artesanal; el reto —y la oportunidad— es **industrializar el back-office sin matar el craft que la hace premium**.
+Conexión Talento es una firma **valiosa y bien posicionada** cuyo problema no es la falta de tecnología, sino la **falta de disciplina de proceso, de medición y de gobierno del dato**. El estado actual es coherente con una PYME exitosa que creció sobre talento artesanal; el reto —y la oportunidad— es **industrializar la trastienda sin matar el oficio que la hace premium**.
 
-El camino correcto está claro y va **a contracorriente del impulso inicial del cliente** (6 agentes, "mismo día", vender el benchmark, salir del ATS, contratar una persona más):
+El camino correcto está claro y va **a contracorriente del impulso inicial del cliente** (6 agentes, "mismo día", vender el comparativo salarial, salir del sistema, contratar una persona más):
 
 1. **Cerrar los 5 supuestos bloqueantes** (empezando por el país, hoy).
 2. **Estandarizar, digitalizar y documentar** antes de automatizar.
-3. **Recuperar la línea base** y empezar a medir lo que sí se controla (*time-to-submit*, *fill rate* dentro de SLA, *internal-fill*), no lo ajeno ("mismo día").
-4. **Augmentar Team Tailor**, no reemplazarlo, hasta tener datos.
-5. **Reparar la experiencia del candidato** —la "cercanía" prometida— como proceso verificable, no como eslogan.
+3. **Recuperar el punto de partida** y empezar a medir lo que sí se controla (tiempo hasta entregar la terna, % de vacantes cubiertas dentro del tiempo comprometido, % cubierto con la propia base), no lo ajeno ("mismo día").
+4. **Potenciar Team Tailor**, no reemplazarlo, hasta tener datos.
+5. **Reparar la experiencia del candidato** —la "cercanía" prometida— como un proceso verificable, no como un eslogan.
 
-> **La afirmación más defendible de todo el diagnóstico:** el primer entregable de valor para Conexión Talento **no tiene una sola línea de código**. Es un *scorecard* de intake, un SLA de comunicación al candidato y un registro anti-duplicado —artesanía de proceso que ningún competidor con IA puede copiar sin el criterio humano detrás—. Si un humano nuevo no puede seguir el SOP, la IA tampoco.
+> **La afirmación más defendible de todo el diagnóstico:** el primer entregable de valor para Conexión Talento **no tiene una sola línea de código**. Es una hoja de criterios para evaluar candidatos al arranque, un compromiso de tiempo de respuesta hacia el candidato y un registro anti-duplicado —artesanía de proceso que ningún competidor con IA puede copiar sin el criterio humano detrás—. Si una persona nueva no puede seguir el instructivo, la IA tampoco.
 
 ---
-*Documento de diagnóstico — Fase de Descubrimiento. Las cifras marcadas ⚠️ son supuestos a validar y no deben citarse como hechos confirmados del cliente hasta cerrar las precondiciones B1–B5.*
+*Documento de diagnóstico — Fase de Descubrimiento. Las cifras marcadas ⚠️ son supuestos por validar y no deben citarse como hechos confirmados del cliente hasta cerrar las condiciones previas B1–B5.*

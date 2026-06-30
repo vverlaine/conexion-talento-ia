@@ -182,7 +182,7 @@ s = slide(); y = title_bar(s, "01 · Entendimiento", "El reto", 3)
 tf = tb(s, ML, y, CW, Inches(1.3))
 para(tf, [("Conexión Talento vive de su motor de Reclutamiento & Selección — ", False, INK, 15),
           ("el 63% de los ingresos", True, NAVY, 15),
-          (". Tiene activos poco comunes: el ojo clínico de Virginia, un ATS y ~4.000 candidatos. "
+          (". Tiene activos poco comunes: el ojo clínico de Virginia, su sistema de candidatos (Team Tailor) y ~4.000 perfiles. "
            "Lo que falta no son herramientas: es la ", False, INK, 15),
           ("columna vertebral", True, NAVY, 15),
           (" que vuelve ese talento escalable.", False, INK, 15)], first=True, leading=1.25)
@@ -247,8 +247,8 @@ pairs = [
  ("“Quiero una persona más”","Sí, y primero una herramienta que multiplique las manos del equipo que ya tienes; si aun así hace falta gente, la sumas sabiendo exactamente para qué."),
  ("“Seis agentes de IA”","Sí, y arrancamos por el que más te quita el sueño y más valor te da. Uno bien hecho abre la puerta a los demás."),
  ("“La base es oro, vale ~60%”","Sí, y la puliremos para que valga lo que sabes: hoy es oro en bruto, sin clasificar y con una parte ya envejecida."),
- ("“Vendamos el benchmark salarial”","Sí, y por la puerta de adelante: anonimizado con dictamen legal, o de la mano de un proveedor licenciado."),
- ("“Salir del ATS / mismo día”","Sí, y primero exprimimos lo que ya pagas y lo medimos. Migrar después, con números. El “mismo día” es nuestro norte."),
+ ("“Vendamos el comparativo salarial de mercado”","Sí, y por la puerta de adelante: anonimizado con dictamen legal, o de la mano de un proveedor licenciado."),
+ ("“Salir del sistema de candidatos (Team Tailor) / mismo día”","Sí, y primero exprimimos lo que ya pagas y lo medimos. Migrar después, con números. El “mismo día” es nuestro norte."),
 ]
 yy = Inches(2.12)
 for q, a in pairs:
@@ -276,7 +276,7 @@ para(tf, "FASE 0 · ARRANQUE", size=12, color=TEALL, bold=True, first=True)
 tf = tb(s, Emu(int(ML)+int(Inches(0.3))), Emu(int(y)+int(Inches(0.9))), Inches(3.5), Inches(1.2))
 para(tf, "US$2.500", size=44, color=WHITE, bold=True, first=True, leading=1.0)
 tf = tb(s, Emu(int(ML)+int(Inches(0.3))), Emu(int(y)+int(Inches(2.0))), Inches(3.5), Inches(2.3))
-for t in ["2–3 semanas","Quick wins + prueba de valor con tus datos","100% acreditable a la siguiente fase","Cerca de tu presupuesto"]:
+for t in ["2–3 semanas","Victorias rápidas + prueba de valor con tus datos","100% acreditable a la siguiente fase","Cerca de tu presupuesto"]:
     para(tf, t, size=13.5, color=RGBColor(0xC2,0xD4,0xE2), bullet=True, space_after=9,
          first=(t.startswith("2–3")), leading=1.15)
 # bullets a la derecha
@@ -301,7 +301,7 @@ para(tf, [("Con TUS datos, no en abstracto: lo ves, lo tocas, y desde ahí decid
      first=True, leading=1.15)
 items = [
  ("Horas de vuelta esta semana","activamos la IA que Team Tailor ya cobra, sobre una vacante viva — alivio inmediato, con nuestra mano (no la de la temporal)."),
- ("La IA trabajando con tus datos","20–30 CVs reales ordenados con tu criterio replicado — en un entorno con DPA, cumpliendo desde el día 1."),
+ ("La IA trabajando con tus datos","20–30 CVs reales ordenados con tu criterio replicado — en un entorno con acuerdo de protección de datos, cumpliendo desde el día 1."),
  ("Tu CV con el sello de la firma","plantilla única, ya montada sobre un candidato real."),
  ("Registro anti-duplicado funcionando","se acaba el bochorno de presentar dos veces al mismo candidato."),
  ("El semáforo honesto","te decimos si tu base realmente se puede exportar y cuánto de los 4.000 sigue vigente."),
@@ -317,13 +317,13 @@ for h,t in items:
 
 # ============================================================== SLIDE 9 — MÉTRICAS
 s = slide(); y = title_bar(s, "04 · Cómo medimos el éxito", "De “cero métricas” a un cuadro de mando", 9)
-data = [["KPI","Qué mide","Línea base","Meta"],
-        ["Time-to-terna","Días de apertura a terna entregada","~5 días","48–72h"],
+data = [["Indicador","Qué mide","Línea base","Meta"],
+        ["Tiempo hasta la terna","Días de apertura a terna entregada","~5 días","48–72h"],
         ["Aceptación de terna","% de ternas que el cliente aprueba","a medir","↑ sostenido"],
         ["Rotación a 90 días","% de colocados que salen <90 días","a medir","↓"],
-        ["Cobertura base interna","% de mandatos cubiertos sin sourcing externo","~0% hoy","↑"],
+        ["Cobertura base interna","% de mandatos cubiertos sin búsqueda externa","~0% hoy","↑"],
         ["Salud de la base","% de candidatos vigentes y etiquetados","desconocida","↑"],
-        ["Experiencia (CSAT)","% de candidatos satisfechos (con n)","a medir","≥ 80%"]]
+        ["Experiencia (satisfacción)","% de candidatos satisfechos (con muestra)","a medir","≥ 80%"]]
 add_table(s, data, ML, y, CW, col_w=[Inches(2.6),Inches(5.7),Inches(2.0),Inches(1.63)],
           body_size=11.5, header_size=11.5, row_h=Inches(0.6))
 tf = tb(s, ML, Inches(6.5), CW, Inches(0.4))
@@ -360,7 +360,7 @@ para(tf, [("Lo honesto: ", True, NAVY, 13.5),
      bullet=True, space_after=8, first=True, leading=1.2)
 para(tf, [("Caveat: ", True, NAVY, 13.5),
           ("aplica solo si hoy pierdes mandatos por velocidad —no si tienes capacidad ociosa—; esa es la "
-           "primera pregunta del martes. La velocidad te pone primera en la fila; no prometemos colocaciones.", False, INK, 13.5)],
+           "primera pregunta de nuestra primera sesión. La velocidad te pone primera en la fila; no prometemos colocaciones.", False, INK, 13.5)],
      bullet=True, space_after=8, leading=1.2)
 
 # ============================================================== SLIDE 11 — INVERSIÓN
@@ -370,7 +370,7 @@ rect(s, ML, y, CW, Inches(1.4), fill=RGBColor(0xEE,0xF5,0xF6), line=TEAL, line_w
 rect(s, ML, y, Inches(0.14), Inches(1.4), fill=TEAL)
 tf = tb(s, Inches(1.05), Emu(int(y)+int(Inches(0.18))), Inches(7.8), Inches(1.1), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, [("Empezamos aquí — Fase 0", True, NAVY, 17)], first=True, space_after=3)
-para(tf, "Quick wins + prueba de valor con tus datos · 2–3 semanas · 100% acreditable a la Fase 1",
+para(tf, "Victorias rápidas + prueba de valor con tus datos · 2–3 semanas · 100% acreditable a la Fase 1",
      size=12.5, color=MUTED, space_after=3)
 para(tf, "Tu seguro: te quedas los activos; avanzas a la Fase 1 solo si la Puerta 0 pasa su vara objetiva. Sin letra chica.",
      size=12, color=TEAL, bold=True)
@@ -402,7 +402,7 @@ my = Inches(5.65)
 rect(s, ML, my, CW, Inches(0.85), fill=NAVY)
 tf = tb(s, Inches(1.0), my, Inches(11.4), Inches(0.85), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, [("Cómo cobramos:  ", True, GOLD, 13.5),
-          ("precio cerrado por fase — pagas solo lo que apruebas en cada puerta. Sin retainer ni cobro por "
+          ("precio cerrado por fase — pagas solo lo que apruebas en cada puerta. Sin cuota fija mensual ni cobro por "
            "“éxito” al inicio: no hay aún línea base para medirlo de forma justa.", False, WHITE, 13.5)],
      first=True, leading=1.2)
 
@@ -410,10 +410,10 @@ para(tf, [("Cómo cobramos:  ", True, GOLD, 13.5),
 s = slide(); y = title_bar(s, "06 · Riesgos y cumplimiento", "Lo gestionamos por diseño", 12)
 data = [["Riesgo","Mitigación"],
         ["Protección de datos — El Salvador ya regula (Decreto 144/2024, vigente)","Consentimiento por finalidad, registro, retención y responsable de datos desde la Fase 1. Cumplimiento por diseño = argumento de venta"],
-        ["Vender el benchmark salarial = bandera roja","Congelado hasta dictamen de abogado salvadoreño + anonimización irreversible (k-anonimato)"],
-        ["Sesgo en cribado automático","Humano-en-el-bucle obligatorio; la IA nunca rechaza sola; auditoría de sesgo y trazabilidad"],
-        ["API de Team Tailor no verificada","Spike de factibilidad en la Fase 0 (semana 1); plan B de captura acotada"],
-        ["Datos en Guatemala (transferencia SV–GT)","R&S opera en SV+GT. GT aún sin ley general; transferencia con DPA y minimización. El estándar se construye una vez y se despliega en ambos países"],
+        ["Vender el comparativo salarial de mercado = bandera roja","Congelado hasta dictamen de abogado salvadoreño + anonimización irreversible"],
+        ["Sesgo en el filtrado automático","Una persona validando siempre (obligatorio); la IA nunca rechaza sola; auditoría de sesgo y trazabilidad"],
+        ["Conexión técnica con Team Tailor no verificada","Prueba de factibilidad en la Fase 0 (semana 1); plan B de captura acotada"],
+        ["Datos en Guatemala (transferencia SV–GT)","Reclutamiento y Selección opera en SV+GT. GT aún sin ley general; transferencia con acuerdo de protección de datos y minimización de datos. El estándar se construye una vez y se despliega en ambos países"],
         ["Adopción del equipo","Co-diseño con los reclutadores; el rol extra como embajador de marca, no operativo"]]
 add_table(s, data, ML, y, CW, col_w=[Inches(4.6),Inches(7.33)],
           body_size=10.5, header_size=12, row_h=Inches(0.66))
@@ -428,10 +428,10 @@ para(tf, [("Referencia: ", True, NAVY, 12.5),
      first=True, leading=1.1)
 yy = Emu(int(y)+int(Inches(0.72)))
 data = [["Fase","Nombre","Duración","Esfuerzo","Inversión","Resultado / Puerta"],
-        ["0 ◀","Quick Wins + prueba de valor","2–3 sem","8–12 jorn.","US$2.500*","Empezamos aquí: 2 quick wins + semáforo"],
-        ["1","Estandarizar, Documentar, Medir","4–6 sem","20–30 jorn.","~US$9.500","La “columna vertebral”: SOPs, rúbrica, métricas"],
-        ["2","IA asistida (modular)","6–8 sem","25–35 jorn.","~US$12.000","Screener/Ranker + Generador de CV (con HITL)"],
-        ["3","Activo de datos y escala","horizonte","a dimensionar","desde 15.000 /\nretainer 3.500/mes","Base buscable, mercado interno, benchmark"]]
+        ["0 ◀","Victorias rápidas + prueba de valor","2–3 sem","8–12 jorn.","US$2.500*","Empezamos aquí: 2 victorias rápidas + semáforo"],
+        ["1","Estandarizar, Documentar, Medir","4–6 sem","20–30 jorn.","~US$9.500","La “columna vertebral”: manuales de proceso, guía de puntuación, métricas"],
+        ["2","IA asistida (modular)","6–8 sem","25–35 jorn.","~US$12.000","Asistente que ordena candidatos + Generador de CV (con una persona validando)"],
+        ["3","Activo de datos y escala","horizonte","a dimensionar","desde 15.000 /\ncuota fija 3.500/mes","Base buscable, mercado interno, comparativo salarial"]]
 add_table(s, data, ML, yy, CW,
           col_w=[Inches(0.85),Inches(2.95),Inches(1.2),Inches(1.3),Inches(1.85),Inches(3.78)],
           body_size=11, header_size=11, row_h=Inches(0.78))
@@ -459,7 +459,7 @@ for i,(name, a, b, col) in enumerate(bars):
 tf = tb(s, ML, Inches(5.7), CW, Inches(1.1))
 for t,fr in [("Hoy decides la Fase 0 (semanas 1–3). Lo demás se cotiza al pasar cada puerta.", True),
              ("Las fases se solapan poco y con apoyo puntual donde se requiere — no depende de una sola persona.", False),
-             ("Cada puerta go/no-go es una decisión explícita de continuar, reordenar o detener.", False)]:
+             ("Cada puerta es una decisión explícita de continuar, reordenar o detener.", False)]:
     para(tf, t, size=13, color=INK, bullet=True, space_after=6, first=fr, leading=1.15)
 
 # ============================================================== SLIDES 15-17 — ANEXO · DETALLE FASES
@@ -488,28 +488,28 @@ def phase_slide(n, tag, meta, objetivo, entregables, puerta, color, idx, kicker=
 
 phase_slide("1","Estandarizar, Documentar y Medir","4–6 semanas · 20–30 jornadas · ~US$9.500",
     "instalar la columna vertebral. Aquí vive el valor real y la capacidad que se queda.",
-    [("Mapa de proceso “deber ser”","los 8 pasos con RACI, SLA por etapa y dueño nombrado"),
-     ("SOP de cribado + rúbrica + golden set","tu ojo clínico hecho criterios y pesos — el entregable estrella"),
-     ("Scorecard de intake","1 página por vacante: must/nice-to-have, pesos, éxito a 90 días"),
-     ("Árbol de métricas + estandarización del ATS","1 North Star + ~10 KPIs; etapas y campos obligatorios"),
-     ("Gobernanza de datos + taxonomía v1","RoPA-lite, base legal por finalidad, diccionario de skills")],
-    "etapas estandarizadas; SOP + rúbrica firmados; golden set armado; baseline medido. La IA no arranca sin esto.",
+    [("Mapa de proceso “deber ser”","los 8 pasos con quién hace qué, compromiso de tiempo de respuesta por etapa y dueño nombrado"),
+     ("Manual de filtrado + guía de puntuación + set de decisiones de referencia","tu ojo clínico hecho criterios y pesos — el entregable estrella"),
+     ("Hoja de criterios de la vacante","1 página por vacante: imprescindibles/deseables, pesos, éxito a 90 días"),
+     ("Árbol de métricas + estandarización de tu sistema de candidatos (Team Tailor)","1 métrica guía + ~10 indicadores; etapas y campos obligatorios"),
+     ("Gobernanza de datos + clasificación v1","registro de datos que pide la ley (versión ligera), base legal por finalidad, diccionario de competencias")],
+    "etapas estandarizadas; manual y guía de puntuación firmados; set de decisiones de referencia armado; línea base medida. La IA no arranca sin esto.",
     TEAL, 15, kicker="Anexo · Horizonte — Fase 1")
 
 phase_slide("2","IA asistida (modular)","6–8 semanas · 25–35 jornadas · ~US$12.000",
     "acelerar lo que ya probó su criterio. Solo módulos que pasen la “Puerta Listo para IA”.",
-    [("Screener/Ranker asistido (~US$7.000)","des-identifica PII → puntúa vs scorecard con justificación → pre-ordena. El humano valida; la IA nunca rechaza sola"),
-     ("Generador de CV con branding (~US$4.000)","extracción a esquema fijo + plantilla determinista"),
-     ("Medición vs línea base + auditoría de sesgo","trazabilidad de prompts, criterios y scores")],
-    "concordancia IA-vs-ojo clínico ≥ umbral en búsquedas reales; sin sesgo relevante; mejora medible de time-to-terna.",
+    [("Asistente que ordena candidatos (~US$7.000)","quita los datos personales → puntúa contra la hoja de criterios con justificación → pre-ordena. El humano valida; la IA nunca rechaza sola"),
+     ("Generador de CV con tu marca (~US$4.000)","lectura automática a un formato fijo + plantilla siempre igual"),
+     ("Medición vs línea base + auditoría de sesgo","trazabilidad de las instrucciones a la IA, criterios y puntajes")],
+    "concordancia IA-vs-ojo clínico ≥ umbral en búsquedas reales; sin sesgo relevante; mejora medible del tiempo hasta la terna.",
     DEEP, 16, kicker="Anexo · Horizonte — Fase 2")
 
-phase_slide("3","Activo de datos y escala","horizonte · land-and-expand · desde US$15.000 o retainer US$3.500/mes",
+phase_slide("3","Activo de datos y escala","horizonte · entrar y crecer · desde US$15.000 o cuota fija US$3.500/mes",
     "convertir la base en activo líquido y abrir nuevas líneas. Condicionada a las fases previas.",
-    [("Enriquecimiento de la base","parsing, golden record, score de vigencia → búsqueda por skill e internal-fill"),
+    [("Enriquecimiento de la base","lectura automática, ficha maestra única, puntaje de vigencia → búsqueda por competencia y cobertura con la base interna"),
      ("Mercado interno / historial de candidato","+ portal de auto-actualización"),
-     ("Decisión augmentar-vs-migrar Team Tailor","con datos y caso de negocio"),
-     ("Benchmark de compensaciones","solo con validación legal, k-anonimato y consentimiento — o alianza con proveedor licenciado")],
+     ("Decisión de ampliar o migrar Team Tailor","con datos y caso de negocio"),
+     ("Comparativo salarial de mercado","solo con validación legal, anonimización irreversible y consentimiento — o alianza con proveedor licenciado")],
     "cada nueva línea se autofinancia con el valor demostrado en las fases previas.",
     GOLD, 17, kicker="Anexo · Horizonte — Fase 3")
 
@@ -518,8 +518,8 @@ s = slide(); y = title_bar(s, "06 · Para arrancar", "Qué necesitamos de ti y p
 tf = tb(s, ML, y, Inches(6.0), Inches(0.4))
 para(tf, "Qué necesitamos de Conexión Talento", size=14, color=TEAL, bold=True, first=True)
 tf = tb(s, ML, Emu(int(y)+int(Inches(0.5))), Inches(6.0), Inches(3.8))
-for t in ["Un CV real anonimizado (por correo) — para el teaser del viernes.",
-          "Acceso de lectura a Team Tailor — el lunes (lead time).",
+for t in ["Un CV real anonimizado (por correo) — para el adelanto del viernes.",
+          "Acceso de lectura a Team Tailor — el lunes (toma unos días gestionarlo).",
           "Contacto de tu abogado/a — el lunes.",
           "Fee por colocación + volumen de mandatos/mes.",
           "Confirmación del consentimiento de la base."]:
@@ -528,7 +528,7 @@ rx = Inches(7.1)
 tf = tb(s, rx, y, Inches(5.5), Inches(0.4))
 para(tf, "Próximos pasos", size=14, color=TEAL, bold=True, first=True)
 for i,t in enumerate(["Firmar la orden de la Fase 0 (1 página): US$2.500, 50% de anticipo — tu decisión de hoy.",
-                      "Esta semana: CV anonimizado (o sintético) → teaser branded + registro anti-duplicado en vivo, con DPA.",
+                      "Esta semana: CV anonimizado (o de prueba) → adelanto con tu marca + registro anti-duplicado en vivo, con acuerdo de protección de datos.",
                       "Lunes: acceso a Team Tailor + abogado/a. Demo + semáforo en 2–3 semanas."]):
     yy = Emu(int(y)+int(Inches(0.55)) + i*int(Inches(1.0)))
     rect(s, rx, yy, Inches(0.55), Inches(0.55), fill=TEAL)

@@ -4,6 +4,26 @@
 
 ---
 
+## En lenguaje ejecutivo (lo que importa para el negocio)
+
+- **En El Salvador hay que cumplir ya, no es opcional.** Existe una ley de protección de datos vigente desde noviembre de 2024. Conexión Talento, con ~4000 candidatos en su base, es sujeto obligado. El regulador (Agencia de Ciberseguridad del Estado, ACE) puede sancionar. Riesgo si no cumplimos: multas de ~US$408 hasta ~US$16,320 por infracción y, más grave, daño reputacional en un negocio que vive de la confianza.
+
+- **El producto de benchmark de salarios SÍ se puede vender — con una condición.** Solo si se construye con datos verdaderamente anonimizados (anonimización irreversible: no se puede volver a identificar a la persona) y agregados. Reportar "rango salarial mediano para Gerente de Finanzas en San Salvador, sector retail" es legal y comercializable. Vender datos identificables de candidatos, no.
+
+- **Pedir permiso para reclutar no autoriza vender datos.** El consentimiento del candidato debe pedirse por separado para cada uso: (a) participar en procesos, (b) quedar en la base para futuras vacantes, (c) uso de datos anonimizados para análisis de mercado. Hay que rediseñar las casillas de consentimiento en el sistema donde guardan los candidatos (Team Tailor) y prohibir casillas pre-marcadas.
+
+- **La IA que ordena candidatos es apoyo, nunca decisor final.** Siempre con una persona validando. No rechazar a nadie de forma 100% automática. Documentar criterios y auditar sesgos (género, edad, origen). La ley salvadoreña no lo exige hoy, pero protege contra demandas por discriminación y prepara el terreno para clientes en Europa.
+
+- **Si hay candidatos o clientes en la UE, sube el listón de golpe.** Aplica la ley europea (GDPR, multas de hasta €20M o 4% de facturación global) y el reglamento europeo de IA, que clasifica la IA de reclutamiento como "alto riesgo" con obligaciones fuertes desde el 2 de agosto de 2026. Antes de prometer nada a un cliente, preguntar: ¿hay personas en la UE en este universo de datos?
+
+- **Guatemala todavía no tiene ley, pero conviene actuar como si la tuviera.** Hay iniciativas en trámite y es probable que se apruebe. Adoptar ya el estándar salvadoreño/europeo evita rehacer todo después y es argumento comercial de seriedad ante clientes.
+
+- **Primeras 6 acciones concretas:** (1) consentimiento separado por finalidad en Team Tailor; (2) política de cuánto tiempo se guardan los datos; (3) registro de qué datos se usan, para qué y con qué permiso, y un responsable de datos designado; (4) protocolo de aviso de filtraciones en 72 horas; (5) proceso auditado de anonimización antes de lanzar cualquier producto de datos; (6) mantener decisión humana en el cribado.
+
+- **Una advertencia honesta:** este documento es investigación, no opinión legal vinculante. Antes de lanzar el benchmark, conviene un dictamen de abogado salvadoreño que valide el método de anonimización. Algunos números de artículos provienen de transcripciones secundarias y deben cotejarse con el texto oficial.
+
+---
+
 ## Resumen ejecutivo
 
 - **El Salvador YA tiene ley general vigente.** El Decreto Legislativo N.º 144, *Ley de Protección de Datos Personales*, fue aprobado el 12 de noviembre de 2024, publicado en el Diario Oficial el 15 de noviembre de 2024 y entró en vigencia ocho días después (≈23/24 de noviembre de 2024, Art. 64). El regulador es la **Agencia de Ciberseguridad del Estado (ACE)**, con potestad sancionadora. Hubo un período de adecuación de ~6 meses (hasta mayo de 2025). **Conexión Talento, al operar en El Salvador y tratar ~4000 candidatos, es sujeto obligado y debe cumplir ya.**
@@ -12,13 +32,13 @@
 
 - **Consentimiento reforzado para reclutamiento.** En El Salvador el consentimiento debe ser libre, específico, informado, expreso e individualizado (Arts. 26-27); para **datos sensibles** (salud, biométricos, orientación sexual, origen étnico, creencias) se exige consentimiento **expreso y por escrito** (Art. 37). El consentimiento para reclutar **no cubre automáticamente** otros usos como construir un benchmark comercial: rige la **limitación de finalidad** (Art. 5).
 
-- **El cribado/ranking con IA es admisible pero con cautelas.** La LPDP salvadoreña **no regula explícitamente** las decisiones automatizadas ni el "derecho a explicación" (vacío normativo relevante). Recomendación: mantener **humano en el ciclo**, no rechazar candidatos de forma 100% automática, documentar criterios y auditar sesgos. Si hay nexo con la UE, esto pasa de buena práctica a obligación legal estricta.
+- **El cribado/ranking con IA es admisible pero con cautelas.** La LPDP salvadoreña **no regula explícitamente** las decisiones automatizadas ni el "derecho a explicación" (vacío normativo relevante). Recomendación: mantener **humano en el ciclo** (siempre con una persona validando), no rechazar candidatos de forma 100% automática, documentar criterios y auditar sesgos. Si hay nexo con la UE, esto pasa de buena práctica a obligación legal estricta.
 
 - **CRÍTICO — Monetizar un benchmark de compensaciones SÍ es viable, pero solo con datos verdaderamente anonimizados/agregados.** La LPDP **excluye de su ámbito** los datos disociados/anonimizados (anonimización = procedimiento **irreversible**, Art. 4(h); exclusión en Art. 3). Un benchmark construido sobre datos **anonimizados e irreversiblemente agregados** (sin posibilidad de reidentificación) cae fuera de la ley y **sí puede comercializarse**. Vender datos **identificables** de candidatos, o datos pseudonimizados reidentificables, **sin consentimiento específico para esa finalidad, NO es legal.**
 
 - **Si hay candidatos/clientes en la UE, cambia todo.** Aplica el **GDPR** (alcance extraterritorial, Art. 3: hasta €20M o 4% de facturación global) y el **EU AI Act**, que clasifica la IA de reclutamiento como **alto riesgo** (Anexo III.4); obligaciones core desde el **2 de agosto de 2026** (gestión de riesgos, gobernanza de datos, pruebas de sesgo, supervisión humana, transparencia; sanciones hasta €15M/3%). El reconocimiento de emociones en el ámbito laboral está **prohibido** desde febrero de 2025.
 
-- **Acciones inmediatas:** (1) cláusulas de consentimiento por finalidad en el ATS (Team Tailor); (2) política de retención; (3) registro de tratamientos y designación de responsable de datos; (4) protocolo de brechas a 72h; (5) pipeline de anonimización auditada antes de cualquier producto de datos; (6) mantener decisión humana en el cribado.
+- **Acciones inmediatas:** (1) cláusulas de consentimiento por finalidad en el sistema donde guardan los candidatos (Team Tailor); (2) política de retención; (3) registro de datos que exige la ley —qué datos usan, para qué y con qué permiso— y designación de responsable de datos; (4) protocolo de brechas a 72h; (5) proceso de anonimización auditada (pipeline) antes de cualquier producto de datos; (6) mantener decisión humana en el cribado.
 
 ---
 
@@ -46,7 +66,7 @@
 
 **Decisiones automatizadas.** La ley **no contiene** un régimen específico de decisiones automatizadas/perfilamiento ni un "derecho a explicación" equivalente al Art. 22 del GDPR. Existe protección indirecta vía principios (calidad, finalidad) y jurisprudencia constitucional sobre no discriminación, pero es un **vacío relevante**.
 
-**Anonimización (Art. 4(h) + exclusión Art. 3).** La disociación/anonimización es un **procedimiento irreversible** tras el cual el dato deja de asociarse a su titular. Los datos anonimizados/disociados están **excluidos del ámbito de aplicación de la ley** (junto con datos crediticios, periodísticos y de seguridad nacional). *Este es el fundamento legal clave para el producto de benchmark.*
+**Anonimización (Art. 4(h) + exclusión Art. 3).** La disociación/anonimización es un **procedimiento irreversible** (no se puede volver a identificar a la persona) tras el cual el dato deja de asociarse a su titular. Los datos anonimizados/disociados están **excluidos del ámbito de aplicación de la ley** (junto con datos crediticios, periodísticos y de seguridad nacional). *Este es el fundamento legal clave para el producto de benchmark.*
 
 > Nota: El Salvador tuvo un intento previo de ley (2021) con una "Autoridad Nacional Digital"; la norma **vigente y aplicable hoy es el Decreto 144 de 2024** con la ACE como regulador.
 
@@ -75,10 +95,10 @@ No existe ley general de protección de datos en vigor. Iniciativas relevantes: 
 **Por qué (El Salvador):** la LPDP excluye de su ámbito los datos anonimizados/disociados (Art. 3 + Art. 4(h)). Un producto que reporte, por ejemplo, "rango salarial mediano para Gerente de Finanzas en San Salvador, sector retail" — sin que ninguna cifra permita reidentificar a una persona — **no trata "datos personales"** y, por tanto, no requiere consentimiento individual ni cae bajo las restricciones de la ley.
 
 **Condiciones de admisibilidad:**
-1. **Anonimización irreversible y verificada** (la ley exige irreversibilidad). No basta con borrar el nombre: hay que evitar la reidentificación por combinación de atributos.
-2. **Agregación con umbrales mínimos** (p. ej. no publicar celdas con menos de *k* registros — k-anonimato; típicamente k≥5/10) para impedir inferir el salario de un individuo concreto.
+1. **Anonimización irreversible y verificada** (la ley exige irreversibilidad; no se puede volver a identificar a la persona). No basta con borrar el nombre: hay que evitar la reidentificación por combinación de atributos.
+2. **Agregación con umbrales mínimos** (p. ej. no publicar celdas con menos de *k* registros — k-anonimato, anonimización irreversible por agregación; típicamente k≥5/10) para impedir inferir el salario de un individuo concreto.
 3. **Supresión de cuasi-identificadores** o su generalización (rangos de edad, no fecha exacta; sector, no empleador específico cuando el universo es pequeño).
-4. **Gobernanza documentada**: política de anonimización, pruebas de reidentificación, y separación entre el dato fuente (identificable, en el ATS) y el dataset analítico.
+4. **Gobernanza documentada**: política de anonimización, pruebas de reidentificación, y separación entre el dato fuente (identificable, en el sistema donde guardan los candidatos / Team Tailor) y el dataset analítico.
 
 **Lo que NO es admisible:**
 - Vender o ceder **datos identificables o pseudonimizados reidentificables** de candidatos sin **consentimiento específico para la finalidad de comercialización** (la finalidad de "reclutar" no habilita "vender datos" — limitación de finalidad, Art. 5).
@@ -98,13 +118,13 @@ No existe ley general de protección de datos en vigor. Iniciativas relevantes: 
 
 3. **Definir y aplicar una política de retención.** La ley exige temporalidad. Fijar plazos (p. ej. X años desde el último contacto), con renovación de consentimiento o supresión automatizada. Útil además para depurar y estructurar la base de datos del proyecto.
 
-4. **El producto de benchmark es comercializable — pero conviértelo en un pipeline de anonimización auditado.** Construir el dataset analítico **separado** del ATS, con anonimización irreversible, umbrales k-anónimos y pruebas de reidentificación documentadas. Esto es a la vez el habilitador legal y un diferenciador de calidad del entregable.
+4. **El producto de benchmark es comercializable — pero conviértelo en un proceso de anonimización auditado (pipeline).** Construir el dataset analítico **separado** del sistema donde guardan los candidatos (Team Tailor), con anonimización irreversible, umbrales k-anónimos (agregación que impide reidentificar) y pruebas de reidentificación documentadas. Esto es a la vez el habilitador legal y un diferenciador de calidad del entregable.
 
-5. **Cribado con IA = apoyo, no decisor.** Mantener revisión humana documentada, criterios explicables y auditoría periódica de sesgo (género, edad, origen). Aunque la ley salvadoreña no lo exige expresamente, protege frente a discriminación y prepara el terreno para la UE.
+5. **Cribado con IA = apoyo, no decisor.** Mantener revisión humana documentada (siempre con una persona validando), criterios explicables y auditoría periódica de sesgo (género, edad, origen). Aunque la ley salvadoreña no lo exige expresamente, protege frente a discriminación y prepara el terreno para la UE.
 
 6. **Guatemala: anticiparse.** Sin ley vigente, pero aplicar el mismo estándar evita retrabajo cuando se apruebe (probable) y es argumento comercial de seriedad ante clientes.
 
-7. **Mapear exposición a la UE antes de prometer nada.** Si algún cliente o candidato está en la UE, suben las obligaciones (GDPR + AI Act alto riesgo desde ago-2026). Conviene una pregunta de scoping temprana: ¿hay personas en la UE en el universo de datos? Si sí, diseñar para GDPR/AI Act desde el inicio.
+7. **Mapear exposición a la UE antes de prometer nada.** Si algún cliente o candidato está en la UE, suben las obligaciones (GDPR + AI Act alto riesgo desde ago-2026). Conviene una pregunta de alcance temprana: ¿hay personas en la UE en el universo de datos? Si sí, diseñar para GDPR/AI Act desde el inicio.
 
 8. **Designar un responsable/encargado de datos** (la práctica lo recomienda y la UE lo exigiría en varios escenarios) y documentar todo: el cumplimiento se prueba con registros.
 

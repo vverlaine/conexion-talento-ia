@@ -1,12 +1,12 @@
 # Resumen ejecutivo
 
-Conexión Talento es una consultora boutique de headhunting cuyo motor —Reclutamiento y Selección— genera el **63% de los ingresos**. Tiene activos reales y poco comunes: el criterio de Virginia (20 años, "ojo clínico"), un ATS (Team Tailor) y una base de **~4.000 candidatos**. Lo que falta no son herramientas: es la **columna vertebral** que vuelve ese talento escalable —un estándar común, documentación y métricas—.
+Conexión Talento es una consultora boutique de headhunting cuyo motor —Reclutamiento y Selección— genera el **63% de los ingresos**. Tiene activos reales y poco comunes: el criterio de Virginia (20 años, "ojo clínico"), un sistema de candidatos (Team Tailor) y una base de **~4.000 candidatos**. Lo que falta no son herramientas: es la **columna vertebral** que vuelve ese talento escalable —un estándar común, documentación y métricas—.
 
 El síntoma más visible (un equipo saturado pidiendo "una persona más") no es un problema de manos; es de **proceso**. Cuatro reclutadores trabajan de cuatro formas distintas, no hay métricas para demostrar el valor, y la base de candidatos —el verdadero "oro"— no es buscable.
 
 > **Nuestra tesis:** el diferenciador de Conexión Talento no es *solo* la IA — es la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. **Sí a la IA y a la velocidad que pediste**; y para que rindan de verdad, primero el orden. La IA no es el final del camino: es la consecuencia de hacerlo bien.
 
-Proponemos un programa **por fases, flexible y con puertas de decisión (go/no-go)**: cada fase entrega un resultado medible que habilita —o detiene— la siguiente. Empezamos pequeño y de bajo riesgo, demostramos valor con datos, y solo escalamos lo que probó funcionar.
+Proponemos un programa **por fases, flexible y con puertas de decisión (de seguir o parar)**: cada fase entrega un resultado medible que habilita —o detiene— la siguiente. Empezamos pequeño y de bajo riesgo, demostramos valor con datos, y solo escalamos lo que probó funcionar.
 
 **Tu decisión de hoy es una sola: la Fase 0** — una victoria visible en 3 semanas por **US$2.500** (que se acredita 100% a la siguiente fase). Lo demás se cotiza después, con tus datos reales en mano. No te pedimos comprometerte con todo a ciegas.
 
@@ -21,11 +21,11 @@ Proponemos un programa **por fases, flexible y con puertas de decisión (go/no-g
 :::
 ::: kpi
 [5 d → 48-72h]{.n}
-[meta de time-to-terna, medible]{.l}
+[meta de tiempo hasta entregar la terna, medible]{.l}
 :::
 ::: kpi
 [4 fases]{.n}
-[flexibles, con puertas go/no-go]{.l}
+[flexibles, con puertas de seguir o parar]{.l}
 :::
 :::::
 
@@ -38,9 +38,9 @@ En nuestra conversación quedó clara una ambición: que Conexión Talento sea u
 | Dimensión | Estado actual | Implicación |
 |---|---|---|
 | **Proceso** | 4 reclutadores, 4 métodos; sin documentar | El criterio no escala ni se transfiere; calidad inconsistente |
-| **Datos** | ~4.000 candidatos sin etiquetar ni protocolo de vigencia | No buscable por skill; probable 30–50% caduco ⚠️ |
+| **Datos** | ~4.000 candidatos sin etiquetar ni protocolo de vigencia | No buscable por habilidad; probable 30–50% caduco ⚠️ |
 | **Tecnología** | Team Tailor con funciones de IA sin explotar | Se paga capacidad que no se usa |
-| **Métricas** | Inexistentes ("no métricas") | Sin línea base no hay ROI demostrable ni precio premium |
+| **Métricas** | Inexistentes ("no métricas") | Sin un punto de partida medido no hay ROI demostrable ni precio premium |
 | **Experiencia del candidato** | Sin seguimiento; críticas en LinkedIn | La marca dice "cercanía" y el candidato siente lo contrario |
 
 ## Los dolores que más cuestan
@@ -54,12 +54,12 @@ En nuestra conversación quedó clara una ambición: que Conexión Talento sea u
 
 Antes de meter IA hay que **transformar, estandarizar, digitalizar y documentar** los procesos. Automatizar sobre el desorden solo produce malos resultados más rápido. Por eso secuenciamos:
 
-**Estandarizar el criterio → medir líneas base → estructurar los datos → recién entonces, IA asistida.**
+**Estandarizar el criterio → medir puntos de partida → estructurar los datos → recién entonces, IA asistida.**
 
 ## Lo que esta propuesta dice "SÍ" (honra tu ambición)
 
-- **SÍ a la velocidad:** time-to-terna de ~5 días a 48–72h, medible. *(El "mismo día" es meta de horizonte, servida desde tu base ya enriquecida.)*
-- **SÍ a la cercanía:** la convertimos de eslogan en **proceso verificable** (SLA de comunicación al candidato).
+- **SÍ a la velocidad:** tiempo hasta entregar la terna de ~5 días a 48–72h, medible. *(El "mismo día" es meta de horizonte, servida desde tu base ya enriquecida.)*
+- **SÍ a la cercanía:** la convertimos de eslogan en **proceso verificable** (compromiso de tiempo de respuesta al candidato).
 - **SÍ a la IA, con criterio:** pilotos donde el ROI es claro y el riesgo bajo, con tu ojo clínico como el criterio que *entrena* la IA.
 - **SÍ a monetizar la base** — por un camino legal y bien construido, no rápido y expuesto.
 
@@ -70,8 +70,8 @@ Coincidimos en el *qué*. Aquí va el *cómo*, contigo como socia — honramos l
 - **"Quiero una persona más"** → Sí, y primero una herramienta que multiplique las manos del equipo que ya tienes; si aun así hace falta gente, la sumas sabiendo exactamente para qué.
 - **"Seis agentes de IA"** → Sí, y arrancamos por el que más te quita el sueño y más valor te da. Uno bien hecho abre la puerta a los demás.
 - **"La base es oro, vale ~60%"** → Sí, y la puliremos para que valga lo que sabes: hoy es oro en bruto, sin clasificar y con una parte ya envejecida.
-- **"Vendamos el benchmark salarial"** → Sí, y por la puerta de adelante: datos anonimizados con dictamen legal (El Salvador ya regula — Decreto 144/2024), o de la mano de un proveedor licenciado.
-- **"Salir del ATS / mismo día"** → Sí, y primero exprimimos lo que ya pagas y lo medimos. Migrar después, con números. El "mismo día" es nuestro norte.
+- **"Vendamos el comparativo salarial"** → Sí, y por la puerta de adelante: datos anonimizados con dictamen legal (El Salvador ya regula — Decreto 144/2024), o de la mano de un proveedor licenciado.
+- **"Salir del sistema de candidatos / mismo día"** → Sí, y primero exprimimos lo que ya pagas y lo medimos. Migrar después, con números. El "mismo día" es nuestro norte.
 
 > **Y para el agobio de hoy (el equipo a tope):** la asistente temporal puede seguir teniendo sentido —pero para **descargar la operación** y devolver horas al equipo mientras el sistema ataca la causa raíz, no como un 5º criterio suelto—. En las primeras 3 semanas verás **dos cosas a la vez**: alivio operativo inmediato y el arranque del arreglo de fondo.
 
@@ -89,13 +89,13 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 | Fase | Nombre | Duración | Esfuerzo | Inversión (US$) | Resultado / Puerta |
 |---|---|---|---|---|---|
-| **0 ◀ hoy** | Quick Wins + prueba de valor con tus datos | 2–3 sem | 8–12 jornadas | **2.500** ⃰ | **Empezamos aquí:** 2 quick wins visibles + semáforo de viabilidad |
-| **1** | Estandarizar, Documentar y Medir | 4–6 sem | 20–30 jornadas | **9.500** | La "columna vertebral": SOPs, rúbrica, líneas base |
-| **2** | IA asistida (modular) | 6–8 sem | 25–35 jornadas | **12.000** | Screener/Ranker + Generador de CV, con humano-en-el-bucle |
-| **3** | Activo de datos y escala | horizonte | a dimensionar | **desde 15.000** o retainer **3.500/mes** | Base buscable, mercado interno, benchmark (si la ley lo permite) |
+| **0 ◀ hoy** | Victorias rápidas + prueba de valor con tus datos | 2–3 sem | 8–12 jornadas | **2.500** ⃰ | **Empezamos aquí:** 2 victorias rápidas visibles + semáforo de viabilidad |
+| **1** | Estandarizar, Documentar y Medir | 4–6 sem | 20–30 jornadas | **9.500** | La "columna vertebral": procedimientos, rúbrica, puntos de partida medidos |
+| **2** | IA asistida (modular) | 6–8 sem | 25–35 jornadas | **12.000** | Asistente que ordena candidatos según tus criterios + Generador de CV, siempre con una persona validando |
+| **3** | Activo de datos y escala | horizonte | a dimensionar | **desde 15.000** o cuota mensual **3.500/mes** | Base buscable, mercado interno, comparativo salarial (si la ley lo permite) |
 
 ::: small
-⃰ La Fase 0 acredita el 100% a la Fase 1 si decides avanzar (reductor de riesgo, no descuento). Cifras indicativas en USD, a calibrar con tarifa local y tu *fee* por colocación.
+⃰ La Fase 0 acredita el 100% a la Fase 1 si decides avanzar (reductor de riesgo, no descuento). Cifras indicativas en USD, a calibrar con tarifa local y tu *honorario* por colocación.
 :::
 
 ## Detalle por fase
@@ -107,16 +107,16 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Entregables:**
 
-- **Auditoría exprés de Team Tailor sobre una vacante viva (semana 1):** activamos la IA y automatizaciones que **ya pagas y no usas**, sobre una búsqueda real → **horas de vuelta para tu equipo esta misma semana, con nuestra mano** (no la de la temporal). Doble función: es tu primer quick win tangible **y** fija el cronómetro base del "mitad de tiempo" (ver Puerta 0).
-- **Spike de factibilidad técnica y legal:** verificar la API/export de Team Tailor contra la cuenta real; muestreo de vigencia de la base; confirmación del marco legal salvadoreño y del consentimiento.
+- **Auditoría exprés de Team Tailor sobre una vacante viva (semana 1):** activamos la IA y automatizaciones que **ya pagas y no usas**, sobre una búsqueda real → **horas de vuelta para tu equipo esta misma semana, con nuestra mano** (no la de la temporal). Doble función: es tu primera victoria rápida tangible **y** fija el cronómetro base del "mitad de tiempo" (ver Puerta 0).
+- **Prueba rápida de factibilidad técnica y legal:** verificar la conexión técnica y la extracción de información de Team Tailor contra la cuenta real; muestreo de vigencia de la base; confirmación del marco legal salvadoreño y del consentimiento.
 - **Registro anti-duplicado** candidato × cliente × fecha (cierra el riesgo reputacional ya materializado).
-- **Plantilla/SOP de CV con branding v1**: formalizar tu *prompt* como activo versionado de la firma.
-- **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con DPA / no-entrenamiento (p. ej. Claude for Work o API con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
-- **Tablero de línea base retrospectiva** minado del historial del ATS — *si el ATS lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
+- **Plantilla/procedimiento de CV con tu marca v1**: formalizar tu *instrucción a la IA* como un activo de la firma con control de versiones.
+- **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con acuerdo de protección de datos —que no usan ni entrenan con tus datos— (p. ej. Claude for Work o una conexión técnica con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
+- **Tablero de punto de partida retrospectivo** extraído del historial de tu sistema de candidatos — *si tu sistema de candidatos lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
-**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de API confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 KPIs con línea base. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si el export lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende del export—** armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
+**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de la conexión técnica confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 indicadores con punto de partida medido. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si la extracción de información lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende de la extracción de información—** armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
 
-*Cómo medimos (b), sin trampas:* el **baseline** es el tiempo de una terna reciente comparable (~5 días declarados); la prueba se cronometra **a reloj de pared sobre la misma vacante y el mismo pool**, y la corremos sobre una vacante que **la temporal no toque** —para que el test mida proceso, no manos extra—. Tú validas que la calidad de la terna es aceptable. Sin este protocolo, una discrepancia se vuelve pelea de pago; con él, la garantía es verificable.
+*Cómo medimos (b), sin trampas:* el **punto de partida** es el tiempo de una terna reciente comparable (~5 días declarados); la prueba se cronometra **a reloj de pared sobre la misma vacante y el mismo grupo de candidatos**, y la corremos sobre una vacante que **la temporal no toque** —para que el test mida proceso, no manos extra—. Tú validas que la calidad de la terna es aceptable. Sin este protocolo, una discrepancia se vuelve pelea de pago; con él, la garantía es verificable.
 :::
 
 ::: phase
@@ -126,16 +126,16 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Entregables:**
 
-- **Cómo trabajamos cada búsqueda, por escrito** *(mapa de proceso "deber ser" + RACI):* quién hace qué en los 8 pasos, con tiempos y un único responsable por etapa.
-- **Tu criterio, vuelto una regla que la herramienta puede aprender** *(SOP de cribado + rúbrica + golden set):* un set de decisiones tuyas de referencia para que la IA aprenda a elegir como tú. *Entregable estrella: estandariza el dolor más caro, de-riesga la futura IA y **blinda tu legado** —tu criterio deja de vivir solo en tu cabeza—.*
-- **Una hoja por vacante que cualquiera llena igual** *(scorecard de intake):* qué es imprescindible, qué suma, los pesos y cómo se ve el éxito a 90 días.
+- **Cómo trabajamos cada búsqueda, por escrito** *(mapa de proceso "deber ser"):* quién hace qué en los 8 pasos, con tiempos y un único responsable por etapa.
+- **Tu criterio, vuelto una regla que la herramienta puede aprender** *(procedimiento de cribado + rúbrica):* un set de decisiones tuyas de referencia para que la IA aprenda a elegir como tú. *Entregable estrella: estandariza el dolor más caro, de-riesga la futura IA y **blinda tu legado** —tu criterio deja de vivir solo en tu cabeza—.*
+- **Una hoja por vacante que cualquiera llena igual** *(hoja de criterios de la vacante):* qué es imprescindible, qué suma, los pesos y cómo se ve el éxito a 90 días.
 - **Tu Team Tailor ordenado:** etapas estándar y campos obligatorios al abrir cada mandato.
 - **Un tablero con tu métrica guía y ~10 indicadores** *(árbol de métricas):* cada uno con dueño, definición y de dónde sale el dato.
-- **Kit de cercanía al candidato:** acuerdos de tiempo de respuesta (SLA) + plantillas de comunicación.
-- **El registro de datos que te pide la ley** *(gobernanza / RoPA-lite):* qué datos usas, para qué finalidad, con qué permiso y por cuánto tiempo — **incluyendo una capa de consentimiento prospectivo de uso secundario** en el intake desde ya, para no esterilizar el activo de datos de la Fase 3 (cuesta una frase hoy; es irretroactable mañana).
-- **Un vocabulario común de skills y sectores** *(diccionario + taxonomía v1, base ESCO + lo local):* se construye una vez y **se despliega en SV y GT**.
+- **Kit de cercanía al candidato:** acuerdos de tiempo de respuesta + plantillas de comunicación.
+- **El registro de datos que te pide la ley** *(gobernanza de datos):* qué datos usas, para qué finalidad, con qué permiso y por cuánto tiempo — **incluyendo una capa de consentimiento anticipado para usos futuros** al abrir cada vacante desde ya, para no esterilizar el activo de datos de la Fase 3 (cuesta una frase hoy; es irretroactable mañana).
+- **Un vocabulario común de habilidades y sectores** *(diccionario + clasificación v1, basada en estándares internacionales + lo local):* se construye una vez y **se despliega en SV y GT**.
 
-**Puerta 1 → Fase 2:** etapas estandarizadas; SOP + rúbrica firmados por el equipo; golden set armado; time-to-terna baseline medido. *La IA no arranca sin esto.*
+**Puerta 1 → Fase 2:** etapas estandarizadas; procedimiento + rúbrica firmados por el equipo; set de decisiones de referencia armado; tiempo hasta entregar la terna con punto de partida medido. *La IA no arranca sin esto.*
 :::
 
 ::: phase
@@ -145,33 +145,33 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Entregables (modulares — pagas solo los que apruebas):**
 
-- **Screener/Ranker asistido** (~US$7.000): des-identifica PII → puntúa contra el scorecard con justificación citada al CV → pre-ordena. **El humano valida; la IA nunca rechaza sola.** Guardarraíles como código (top10=llamada · 10–20=abierto · 30+=rechazo cordial revisado por humano).
-- **Generador de CV con branding productizado** (~US$4.000): extracción a esquema fijo + plantilla determinista.
-- **Medición contra la línea base** + auditoría de sesgo.
-- *Opcional por evidencia:* Entrevistador de pre-screening (ASR comprado, con consentimiento de grabación).
+- **Asistente que ordena candidatos según tus criterios** (~US$7.000): oculta los datos personales → puntúa contra la hoja de criterios con justificación citada al CV → pre-ordena. **El humano valida; la IA nunca rechaza sola.** Barreras de seguridad fijas (top10=llamada · 10–20=abierto · 30+=rechazo cordial revisado por humano).
+- **Generador de CV con tu marca, ya como producto** (~US$4.000): extracción a un formato fijo + plantilla de resultado siempre igual.
+- **Medición contra el punto de partida** + auditoría de sesgo.
+- *Opcional por evidencia:* Entrevistador de filtro previo (reconocimiento de voz comprado, con consentimiento de grabación).
 
-**Puerta 2 → Fase 3:** concordancia IA-vs-ojo clínico evaluada **caso por caso en 1–2 búsquedas reales** (reportando el *n* — no un umbral estadístico que el volumen boutique no permite); auditoría de sesgo sin disparidad relevante; mejora medible de time-to-terna.
+**Puerta 2 → Fase 3:** concordancia IA-vs-ojo clínico evaluada **caso por caso en 1–2 búsquedas reales** (reportando el *número de casos* — no un umbral estadístico que el volumen boutique no permite); auditoría de sesgo sin disparidad relevante; mejora medible del tiempo hasta entregar la terna.
 :::
 
 ::: phase
-[FASE 3]{.ph-tag} [horizonte · land-and-expand · desde US$15.000 o retainer US$3.500/mes]{.ph-meta}
+[FASE 3]{.ph-tag} [horizonte · empezar pequeño y crecer · desde US$15.000 o cuota mensual US$3.500/mes]{.ph-meta}
 
 **Objetivo:** convertir la base en activo líquido y abrir nuevas líneas. Condicionada a las fases previas.
 
 **Entregables:**
 
-- **Estructuración y enriquecimiento de la base** (parsing, golden record, score de vigencia) → búsqueda por skill e *internal-fill rate*.
+- **Estructuración y enriquecimiento de la base** (lectura automática de datos, ficha única por candidato, puntaje de vigencia) → búsqueda por habilidad y *porcentaje de vacantes cubiertas con tu propia base*.
 - **Mercado interno / historial de candidato** + portal de auto-actualización.
-- **Decisión informada augmentar-vs-migrar Team Tailor** (con datos y caso de negocio).
-- **Benchmark de compensaciones** — *solo* con validación legal local, k-anonimato y consentimiento granular. Alternativa: alianza con proveedor licenciado de datos salariales.
-- **Cross-sell de capacitaciones** a la base, con consentimiento separado.
+- **Decisión informada de potenciar o cambiar Team Tailor** (con datos y caso de negocio).
+- **Comparativo de compensaciones** — *solo* con validación legal local, anonimización irreversible y consentimiento específico. Alternativa: alianza con proveedor licenciado de datos salariales.
+- **Venta cruzada de capacitaciones** a la base, con consentimiento separado.
 :::
 
 # 4. Roadmap
 
 ```
 SEMANA      1   2   3   4   5   6   7   8   9   10  11  12  13  14+
-FASE 0    ====---                                              Factibilidad + Quick Wins
+FASE 0    ====---                                              Factibilidad + Victorias rápidas
 FASE 1        --================-                             Estandarizar . Documentar . Medir
 FASE 2                    ----====================-           IA asistida (modular)
 FASE 3                                    ------------->       Activo de datos y escala
@@ -184,7 +184,7 @@ FASE 3                                    ------------->       Activo de datos y
 
 # 5. Modelo de inversión
 
-**Principio:** *fixed-fee por fase*, que acota tu riesgo y el nuestro y permite reordenar. **Sin retainer ni cobro por éxito al inicio** —no hay aún línea base para medir "éxito" de forma justa—.
+**Principio:** *precio cerrado por fase*, que acota tu riesgo y el nuestro y permite reordenar. **Sin cuota mensual ni cobro por éxito al inicio** —no hay aún un punto de partida para medir "éxito" de forma justa—.
 
 > **Reencuadre del valor.** Una asistente temporal añade capacidad lineal por 3 meses y luego desaparece dejando el mismo desorden. Nosotros instalamos **estándar + documentación + métricas + activos que se quedan y se componen**. No vendemos manos; instalamos el sistema operativo de la firma.
 
@@ -192,12 +192,12 @@ FASE 3                                    ------------->       Activo de datos y
 
 | Empezamos aquí | |
 |---|---|
-| **Fase 0 — Quick wins + prueba de valor con tus datos** · 2–3 semanas | **US$2.500** |
+| **Fase 0 — Victorias rápidas + prueba de valor con tus datos** · 2–3 semanas | **US$2.500** |
 | 100% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
 
 Es lo **único** que decides hoy. No hay compromiso con el resto del programa.
 
-> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/SOP de CV con tu *branding*, registro anti-duplicado y la línea base que se haya podido medir— **son tuyos pase lo que pase**. **Y el criterio para seguir es objetivo, no a ojo:** solo avanzas (y pagas) la Fase 1 si al cerrar la Fase 0 ves **al menos una de las dos pruebas de la Puerta 0** —un candidato que habrías pasado por alto, o armar una terna en la mitad del tiempo—. Si no, no sigues. Sin letra chica.
+> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/procedimiento de CV con tu *marca*, registro anti-duplicado y el punto de partida que se haya podido medir— **son tuyos pase lo que pase**. **Y el criterio para seguir es objetivo, no a ojo:** solo avanzas (y pagas) la Fase 1 si al cerrar la Fase 0 ves **al menos una de las dos pruebas de la Puerta 0** —un candidato que habrías pasado por alto, o armar una terna en la mitad del tiempo—. Si no, no sigues. Sin letra chica.
 
 > **Para que las cuentas te cuadren.** Si tomas la asistente temporal (~US$2.000 por 3 meses) **y** la Fase 0 (US$2.500), son ~**US$4.500** — y tienen sentido juntos: la temporal **descarga la operación** del equipo hoy; la Fase 0 **ataca la causa raíz**. La vara real no es eso, es lo que cuesta el **5º reclutador** que pediste: ~**US$15.000/año** cargado. Ahí está el puente hacia la Fase 1.
 
@@ -209,45 +209,45 @@ Para que veas el cuadro entero. **Cada fase se cotiza y se firma por separado**,
 |---|---|---|
 | Sistema | Fase 0 + Fase 1 | ~12.000 |
 | Sistema + piloto IA | Fases 0 + 1 + 2 | ~24.000 |
-| Programa completo | Fases 0 + 1 + 2 + 3 | desde ~39.000 o transición a retainer |
+| Programa completo | Fases 0 + 1 + 2 + 3 | desde ~39.000 o transición a cuota mensual |
 
 ## Los tres modelos de cobro (tú eliges)
 
 | Modelo | Cómo funciona | Cuándo encaja |
 |---|---|---|
-| **A · Fixed-fee por fase** ✅ *recomendado* | Precio cerrado por entregables de cada fase; pagas lo que apruebas en cada puerta | **Fases 0–2.** Acota riesgo, ideal para construir confianza |
-| **B · Retainer mensual** | Cuota fija (~US$2.500–5.000/mes) por acompañamiento y operación | **Fase 3 / operación**, ya con el sistema instalado |
-| **C · Híbrido base + éxito** | Fee base reducido + *kicker* atado a una métrica (p. ej. reducción de time-to-terna) | **Solo Fase 3**, cuando exista línea base limpia |
+| **A · Precio cerrado por fase** ✅ *recomendado* | Precio cerrado por entregables de cada fase; pagas lo que apruebas en cada puerta | **Fases 0–2.** Acota riesgo, ideal para construir confianza |
+| **B · Cuota mensual** | Cuota fija (~US$2.500–5.000/mes) por acompañamiento y operación | **Fase 3 / operación**, ya con el sistema instalado |
+| **C · Híbrido base + éxito** | Honorario base reducido + *bono* atado a una métrica (p. ej. reducción del tiempo hasta entregar la terna) | **Solo Fase 3**, cuando exista un punto de partida limpio |
 
-**Recomendación:** Fixed-fee (A) para arrancar; en Fase 3, evaluar retainer (B) e introducir un componente de éxito (C) sobre una métrica ya medible. Cobrar por "éxito" sin línea base sería venderte humo con otra etiqueta.
+**Recomendación:** Precio cerrado (A) para arrancar; en Fase 3, evaluar cuota mensual (B) e introducir un componente de éxito (C) sobre una métrica ya medible. Cobrar por "éxito" sin un punto de partida medido sería venderte humo con otra etiqueta.
 
 ## Lo que vale en tus dólares (ROI)
 
 Pasar tu terna de ~5 días a 48–72h no es solo comodidad: es **ganar mandatos que hoy se enfrían** o se lleva otro.
 
-**Fórmula:** (colocaciones extra que cierras por presentar primero) × (tu *fee* por colocación) = **retorno**. *Una sola colocación adicional ya cubre la Fase 0.*
+**Fórmula:** (colocaciones extra que cierras por presentar primero) × (tu *honorario* por colocación) = **retorno**. *Una sola colocación adicional ya cubre la Fase 0.*
 
-**Ejemplo — lo llenamos con tus números:** salario anual US$18.000 × *fee* 15% = **US$2.700 por colocación**. Si esto te ayuda a cerrar **1 colocación que hoy perderías**, ya recuperaste los US$2.500 de la Fase 0. *(Números de marcador, no promesa.)*
+**Ejemplo — lo llenamos con tus números:** salario anual US$18.000 × *honorario* 15% = **US$2.700 por colocación**. Si esto te ayuda a cerrar **1 colocación que hoy perderías**, ya recuperaste los US$2.500 de la Fase 0. *(Números de marcador, no promesa.)*
 
-- **Lo honesto:** el ejemplo usa un *fee* **conservador supuesto** —prudente, no inflado—. El caso ya se sostiene con esos números; si nos pasas tu *fee* real cuando puedas, lo afinamos. **No es tarea para hoy.**
+- **Lo honesto:** el ejemplo usa un *honorario* **conservador supuesto** —prudente, no inflado—. El caso ya se sostiene con esos números; si nos pasas tu *honorario* real cuando puedas, lo afinamos. **No es tarea para hoy.**
 - **Caveat:** la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. Buscamos **ponerte primera en la fila** —no prometemos colocaciones—.
-- **La pregunta que decide todo (la primera del martes):** ¿hoy **rechazas, enfrías o pierdes mandatos** por falta de velocidad, o a veces tienes **capacidad ociosa**? Este retorno aplica **solo si pierdes mandatos por velocidad**. Si el cuello es de oferta, el valor está en otra parte —calidad y cobertura de tu base— y te lo decimos honesto, no forzamos el número.
+- **La pregunta que decide todo (la primera de nuestra primera sesión):** ¿hoy **rechazas, enfrías o pierdes mandatos** por falta de velocidad, o a veces tienes **capacidad ociosa**? Este retorno aplica **solo si pierdes mandatos por velocidad**. Si el cuello es de oferta, el valor está en otra parte —calidad y cobertura de tu base— y te lo decimos honesto, no forzamos el número. **Y si fuera así, se reordena el programa:** la prioridad pasa a abrir nuevas líneas de ingreso (activar tu base, mercado interno) antes que a la velocidad.
 
 # 6. Cómo mediremos el éxito
 
-Hoy no hay métricas; crear las líneas base es parte del valor de la Fase 1. Cuadro de mando inicial:
+Hoy no hay métricas; crear los puntos de partida es parte del valor de la Fase 1. Cuadro de mando inicial:
 
-| KPI | Qué mide | Línea base | Meta |
+| Indicador | Qué mide | Punto de partida | Meta |
 |---|---|---|---|
-| **Time-to-terna** | Días de apertura a terna entregada | ~5 días (decl.) | 48–72h |
+| **Tiempo hasta entregar la terna** | Días de apertura a terna entregada | ~5 días (decl.) | 48–72h |
 | **Tasa de aceptación de terna** | % de ternas que el cliente aprueba | a medir | ↑ sostenido |
 | **Rotación temprana (90 días)** | % de colocados que salen <90 días | a medir | ↓ |
-| **Calidad de candidato** | Concordancia con scorecard | a medir | ≥ umbral |
-| **Cobertura desde base interna** | % de mandatos cubiertos sin sourcing externo | ~0% hoy | ↑ |
+| **Calidad de candidato** | Concordancia con la hoja de criterios | a medir | ≥ umbral |
+| **Cobertura desde base interna** | % de mandatos cubiertos sin búsqueda externa | ~0% hoy | ↑ |
 | **Salud de la base** | % de candidatos vigentes y etiquetados | desconocida | ↑ |
-| **Experiencia (CSAT)** | % de candidatos satisfechos (reportar *n*) | a medir | ≥ 80% |
+| **Experiencia (satisfacción)** | % de candidatos satisfechos (reportar el *número de casos*) | a medir | ≥ 80% |
 
-> A volumen boutique (20–60 colocaciones/año) reportaremos siempre el *n*: usamos CSAT y conteos, no índices que exigen muestras grandes.
+> A volumen boutique (20–60 colocaciones/año) reportaremos siempre el *número de casos*: usamos satisfacción y conteos, no índices que exigen muestras grandes.
 
 # 7. La "Puerta Listo para IA" (compromiso anti-desorden)
 
@@ -257,43 +257,43 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 2. Criterios de decisión explícitos (rúbrica).
 3. Estructura de datos estándar.
 4. Excepciones y escalamiento humano definidos.
-5. Métrica de calidad y línea base.
-6. Golden set para evaluación.
-7. Guardarraíles de lo que la IA **NO** debe hacer.
+5. Métrica de calidad y punto de partida medido.
+6. Set de decisiones de referencia para evaluación.
+7. Barreras de lo que la IA **NO** debe hacer.
 
-> *Regla simple: si un humano nuevo no puede ejecutar el SOP, la IA tampoco.*
+> *Regla simple: si un humano nuevo no puede ejecutar el procedimiento, la IA tampoco.*
 
 # 8. Riesgos y cumplimiento
 
 | Riesgo | Mitigación |
 |---|---|
 | **Protección de datos (El Salvador, Decreto 144/2024 vigente)** | Consentimiento por finalidad, registro de tratamientos, retención y responsable de datos desde la Fase 1. Cumplimiento por diseño = argumento de venta |
-| **Benchmark salarial = bandera roja** | Congelado hasta validación de abogado salvadoreño + anonimización irreversible (k-anonimato). Alternativa: proveedor licenciado |
-| **Sesgo en cribado automático** | Humano-en-el-bucle obligatorio; la IA nunca rechaza sola; auditoría de sesgo y trazabilidad |
-| **API de Team Tailor no verificada** | Spike de factibilidad en semana 1; plan B de captura acotada |
-| **Datos en Guatemala (transferencia transfronteriza SV–GT)** | R&S opera en ambos países. Guatemala aún sin ley general de datos; la transferencia se trata con DPA y minimización. **Ventaja:** el estándar se construye una vez y se despliega en SV y GT |
+| **Comparativo salarial = bandera roja** | Congelado hasta validación de abogado salvadoreño + anonimización irreversible. Alternativa: proveedor licenciado |
+| **Sesgo en cribado automático** | Una persona validando siempre (obligatorio); la IA nunca rechaza sola; auditoría de sesgo y trazabilidad |
+| **Conexión técnica con Team Tailor no verificada** | Prueba rápida de factibilidad en semana 1; plan B de captura acotada |
+| **Datos en Guatemala (transferencia transfronteriza SV–GT)** | R&S opera en ambos países. Guatemala aún sin ley general de datos; la transferencia se trata con acuerdo de protección de datos y minimización. **Ventaja:** el estándar se construye una vez y se despliega en SV y GT |
 | **Adopción del equipo** | Co-diseño con los reclutadores; el rol extra se reposiciona como embajador de marca, no operativo |
 
 # 9. Qué necesitamos de Conexión Talento
 
 | Necesitamos | Para qué | Cuándo |
 |---|---|---|
-| **Un CV real anonimizado** (por correo) *— opcional* | **Teaser del viernes** con tu *branding*, en entorno con DPA. *Si no llega, usamos uno sintético realista (sin datos reales).* | **Esta semana** |
-| Accesos a Team Tailor (lectura/export) | Verificar la API y minar la línea base — ya dentro de la Fase 0 | **Lunes** (tiene lead time propio) |
-| Contacto de tu abogado/a + una vacante abierta | Validar el marco de datos y nutrir la **demo viva** (tantos CVs como permita el export) en entorno con DPA | Arranque de Fase 0 |
-| **¿Pierdes mandatos por velocidad, o tienes capacidad ociosa?** | Validar la **base misma del ROI** | **Primera pregunta del martes** |
-| *Fee* por colocación + volumen de mandatos/mes | Afinar el ROI (el ejemplo ya usa un supuesto conservador) | Cuando puedas — no bloquea |
-| Horas protegidas de Virginia (golden set) | Codificar el "ojo clínico" | Fase 1 |
+| **Un CV real anonimizado** (por correo) *— opcional* | **Adelanto del viernes** con tu *marca*, en entorno con acuerdo de protección de datos. *Si no llega, usamos uno ficticio realista (sin datos reales).* | **Esta semana** |
+| Accesos a Team Tailor (lectura/extracción de información) | Verificar la conexión técnica y extraer el punto de partida — ya dentro de la Fase 0 | **Lunes** (tiene su propio tiempo de espera) |
+| Contacto de tu abogado/a + una vacante abierta | Validar el marco de datos y nutrir la **demostración en vivo** (tantos CVs como permita la extracción de información) en entorno con acuerdo de protección de datos | Arranque de Fase 0 |
+| **¿Pierdes mandatos por velocidad, o tienes capacidad ociosa?** | Validar la **base misma del ROI** | **Primera sesión de trabajo** |
+| *Honorario* por colocación + volumen de mandatos/mes | Afinar el ROI (el ejemplo ya usa un supuesto conservador) | Cuando puedas — no bloquea |
+| Horas protegidas de Virginia (set de decisiones de referencia) | Codificar el "ojo clínico" | Fase 1 |
 | Confirmación de consentimiento de la base | Habilitar usos lícitos | Semana 1 |
 | Un dueño interno del estándar | Que la capacidad se quede | Fase 1 |
 
 # 10. Próximos pasos
 
 1. **Aprobar la Fase 0** (US$2.500) — tu decisión de hoy. Sin compromiso con el resto del programa.
-2. **Esta semana:** si puedes, mándanos **un CV real anonimizado** por correo (si no llega, usamos uno **sintético realista**, sin datos reales) → te llevamos **dos cosas que tocas el viernes**: el **teaser con tu *branding*** y el **registro anti-duplicado en vivo** (datos de ejemplo), ambos en entorno con DPA y sin tocar el ATS. En paralelo, el **lunes** encargamos el acceso de lectura a Team Tailor y el contacto de tu abogado/a (lead time propio).
-3. **Demo viva + semáforo en 2–3 semanas** —tantos CVs como permita el export, ya dentro de la Fase 0 y en entorno con DPA— de ahí cotizamos, con tus datos reales, lo que decidas que siga.
+2. **Esta semana:** si puedes, mándanos **un CV real anonimizado** por correo (si no llega, usamos uno **ficticio realista**, sin datos reales) → te llevamos **dos cosas que tocas el viernes**: el **adelanto con tu *marca*** y el **registro anti-duplicado en vivo** (datos de ejemplo), ambos en entorno con acuerdo de protección de datos y sin tocar el sistema de candidatos. En paralelo, el **lunes** encargamos el acceso de lectura a Team Tailor y el contacto de tu abogado/a (su propio tiempo de espera).
+3. **Demostración en vivo + semáforo en 2–3 semanas** —tantos CVs como permita la extracción de información, ya dentro de la Fase 0 y en entorno con acuerdo de protección de datos— de ahí cotizamos, con tus datos reales, lo que decidas que siga.
 
-> El *fee* por colocación **no es tarea para hoy**: el ROI ya se sostiene con un supuesto conservador. Si nos lo pasas cuando puedas, lo afinamos con tu número.
+> El *honorario* por colocación **no es tarea para hoy**: el ROI ya se sostiene con un supuesto conservador. Si nos lo pasas cuando puedas, lo afinamos con tu número.
 
 > **Sobre la demo:** la IA **pre-ordena con tu rúbrica aún sin calibrar**. Donde su orden discrepe de tu tripa, ese desacuerdo **no es un fallo: es justo el insumo que la Fase 1 codifica** —tu ojo clínico afinando la herramienta—.
 
@@ -303,11 +303,11 @@ Esta página convierte el "sí" en un arranque. Es solo la **Fase 0**; el resto 
 
 | | |
 |---|---|
-| **Servicio** | Fase 0 — Quick Wins + prueba de valor con tus datos (entregables de §3) |
+| **Servicio** | Fase 0 — Victorias rápidas + prueba de valor con tus datos (entregables de §3) |
 | **Duración** | 2–3 semanas desde el anticipo |
 | **Inversión** | **US$2.500** (acredita 100% a la Fase 1 si avanzas) |
 | **Forma de pago** | 50% de anticipo para arrancar · 50% al entregar |
-| **Tus activos** | Plantilla/SOP de CV, registro anti-duplicado y línea base **son tuyos** pase lo que pase |
+| **Tus activos** | Plantilla/procedimiento de CV, registro anti-duplicado y punto de partida medido **son tuyos** pase lo que pase |
 | **Garantía objetiva** | Avanzas (y pagas) la Fase 1 solo si se cumple ≥1 prueba de la Puerta 0 (§3): un candidato que habrías pasado por alto, o una terna en la mitad del tiempo |
 | **Validez de esta oferta** | **10 días hábiles** desde la presentación |
 
@@ -318,5 +318,5 @@ Aceptado por **Conexión Talento**: ______________________  ·  Fecha: _________
 Por **‹TU CONSULTORA›**: ______________________  ·  Fecha: __________
 
 ::: small
-Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *fee* por colocación. Reemplazar ‹TU CONSULTORA› y ‹fecha› por los datos reales. Preparado con estándar de calidad McKinsey/BCG. © 2026.
+Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *honorario* por colocación. Reemplazar ‹TU CONSULTORA› y ‹fecha› por los datos reales. Preparado con estándar de calidad McKinsey/BCG. © 2026.
 :::
