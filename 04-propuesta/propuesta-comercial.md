@@ -325,6 +325,7 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 | 1 | Confirmar país + honorario/colocación + accesos Team Tailor | Virginia | Esta semana |
 | 2 | Preparar los 4 artefactos para la reunión con Lili | Nosotros | **Lunes** |
 | 2b | **Montar y probar el entorno con acuerdo de protección de datos** (Claude for Work / API sin entrenamiento con los datos) con un CV sintético — *bloqueante del anticipo legal del viernes* | **Nosotros** | **Lunes** |
+| 2c | **Pedir el CV real anonimizado por WhatsApp/correo** (acción FUERA del documento — si se queda dentro del PDF, en la práctica nunca llega y el adelanto se cae al CV sintético en silencio). *El sintético es el plan primario; el real, un upgrade si llega.* | Nosotros → Virginia | **Lunes** |
 | 3 | **Reunión Virginia ↔ Lili** (alinear rol y temporal) | Virginia + Lili | **Martes** |
 | 4 | Entregar **propuesta pulida + anticipo** (**CV real anonimizado** reformateado con la marca, en entorno con acuerdo de protección de datos + concepto de quitar duplicados) | Nosotros | **Viernes** |
 | 5 | Decisión de alcance (Opción A/B/C) y arranque de Fase 0 | Virginia | Semana siguiente |

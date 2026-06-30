@@ -116,7 +116,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de la conexión técnica confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 indicadores con punto de partida medido. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si la extracción de información lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende de la extracción de información—** armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
 
-*Cómo medimos (b), sin trampas:* el **punto de partida** es el tiempo de una terna reciente comparable (~5 días declarados); la prueba se cronometra **a reloj de pared sobre la misma vacante y el mismo grupo de candidatos**, y la corremos sobre una vacante que **la temporal no toque** —para que el test mida proceso, no manos extra—. Tú validas que la calidad de la terna es aceptable. Sin este protocolo, una discrepancia se vuelve pelea de pago; con él, la garantía es verificable.
+*Cómo medimos (b), sin trampas:* el **punto de partida lo medimos en la semana 1** —cuánto te toma **hoy** armar una terna con tu proceso actual, a reloj de pared, sobre una vacante viva— **no un "~5 días" declarado**. Luego comparamos contra ese número real, sobre la **misma vacante y el mismo grupo de candidatos**, en una vacante que **la temporal no toque** —para que el test mida proceso, no manos extra—. Tú validas que la calidad de la terna es aceptable. Así la garantía no es "seguro de cartón": el punto de partida es medido, no declarado, y la prueba es **verificable de verdad**.
 :::
 
 ::: phase
@@ -134,6 +134,8 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Kit de cercanía al candidato:** acuerdos de tiempo de respuesta + plantillas de comunicación.
 - **El registro de datos que te pide la ley** *(gobernanza de datos):* qué datos usas, para qué finalidad, con qué permiso y por cuánto tiempo — **incluyendo una capa de consentimiento anticipado para usos futuros** al abrir cada vacante desde ya, para no esterilizar el activo de datos de la Fase 3 (cuesta una frase hoy; es irretroactable mañana).
 - **Un vocabulario común de habilidades y sectores** *(diccionario + clasificación v1, basada en estándares internacionales + lo local):* se construye una vez y **se despliega en SV y GT**.
+
+*Lo que te pedimos a cambio, con franqueza:* esta fase necesita **~4–6 horas semanales tuyas y de tu reclutadora líder**, en sesiones cortas, para capturar tu criterio. Es tiempo que hoy no te sobra —por eso la temporal **descarga la operación primero**: para que ese tiempo exista sin frenar los mandatos—.
 
 **Puerta 1 → Fase 2:** etapas estandarizadas; procedimiento + rúbrica firmados por el equipo; set de decisiones de referencia armado; tiempo hasta entregar la terna con punto de partida medido. *La IA no arranca sin esto.*
 :::
@@ -194,8 +196,6 @@ FASE 3                                    ------------->       Activo de datos y
 |---|---|
 | **Fase 0 — Victorias rápidas + prueba de valor con tus datos** · 2–3 semanas | **US$2.500** |
 | 100% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
-
-Es lo **único** que decides hoy. No hay compromiso con el resto del programa.
 
 > **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/procedimiento de CV con tu *marca*, registro anti-duplicado y el punto de partida que se haya podido medir— **son tuyos pase lo que pase**. **Y el criterio para seguir es objetivo, no a ojo:** solo avanzas (y pagas) la Fase 1 si al cerrar la Fase 0 ves **al menos una de las dos pruebas de la Puerta 0** —un candidato que habrías pasado por alto, o armar una terna en la mitad del tiempo—. Si no, no sigues. Sin letra chica.
 
@@ -267,10 +267,10 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 
 | Riesgo | Mitigación |
 |---|---|
+| **🔴 Riesgo #1 — Extraer la información de Team Tailor (aún sin verificar)** | De esto dependen **juntas** tres cosas: la prueba (a) sobre tu base, el adelanto con un CV real y el tablero histórico. Si la conexión técnica no permite extraer la información, caen las tres a la vez. **Cómo lo cubrimos:** lo verificamos en la semana 1; la prueba (b) de la garantía **no** depende de esto; el adelanto usa un CV sintético si hace falta; el tablero se reconstruye con lo disponible. Es **un único punto de falla gestionado**, no tres sorpresas sueltas |
 | **Protección de datos (El Salvador, Decreto 144/2024 vigente)** | Consentimiento por finalidad, registro de tratamientos, retención y responsable de datos desde la Fase 1. Cumplimiento por diseño = argumento de venta |
 | **Comparativo salarial = bandera roja** | Congelado hasta validación de abogado salvadoreño + anonimización irreversible. Alternativa: proveedor licenciado |
 | **Sesgo en cribado automático** | Una persona validando siempre (obligatorio); la IA nunca rechaza sola; auditoría de sesgo y trazabilidad |
-| **Conexión técnica con Team Tailor no verificada** | Prueba rápida de factibilidad en semana 1; plan B de captura acotada |
 | **Datos en Guatemala (transferencia transfronteriza SV–GT)** | R&S opera en ambos países. Guatemala aún sin ley general de datos; la transferencia se trata con acuerdo de protección de datos y minimización. **Ventaja:** el estándar se construye una vez y se despliega en SV y GT |
 | **Adopción del equipo** | Co-diseño con los reclutadores; el rol extra se reposiciona como embajador de marca, no operativo |
 
@@ -308,7 +308,7 @@ Esta página convierte el "sí" en un arranque. Es solo la **Fase 0**; el resto 
 | **Inversión** | **US$2.500** (acredita 100% a la Fase 1 si avanzas) |
 | **Forma de pago** | 50% de anticipo para arrancar · 50% al entregar |
 | **Tus activos** | Plantilla/procedimiento de CV, registro anti-duplicado y punto de partida medido **son tuyos** pase lo que pase |
-| **Garantía objetiva** | Avanzas (y pagas) la Fase 1 solo si se cumple ≥1 prueba de la Puerta 0 (§3): un candidato que habrías pasado por alto, o una terna en la mitad del tiempo |
+| **Garantía objetiva** | Avanzas (y pagas) la Fase 1 solo si se cumple ≥1 prueba de la Puerta 0 (§3): un candidato que habrías pasado por alto, o una terna en la mitad del tiempo **(comparado con tu tiempo actual medido en la semana 1, no un dato declarado)** |
 | **Validez de esta oferta** | **10 días hábiles** desde la presentación |
 
 **Continuidad (no dependes de una sola persona):** todo se entrega **documentado y en tu poder**, tu equipo queda como dueño del estándar, y trabajamos con respaldo para que el proyecto siga aunque cambien las manos.

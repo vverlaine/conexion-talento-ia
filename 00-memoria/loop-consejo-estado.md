@@ -106,8 +106,18 @@ Todo el proyecto comunicado en lenguaje de negocio: 16 docs (workflow + verifica
 (~95 términos traducidos), preservando cifras/⚠️/fuentes. Commit `8359672`. El consejo ahora también
 verifica claridad y que la traducción no perdió nada.
 
-### Iteración 8 — 🔄 consejo en curso (sobre el repo ya ejecutivo)
-### Iteración 9 — ⏳ pendiente
+### Iteración 8 — consejo ✅ + aplicación ✅ (umbral alto cazó un defecto fuerte)
+- **Hallazgo unánime de los 5 revisores:** la **garantía estaba amañada** ("seguro de cartón") — la prueba (b) comparaba contra un baseline **declarado** ("~5 días") → siempre pasa. + contradicción interna (la línea 110 prometía medir, la 119 declaraba). **5 mejoras:**
+  1. *(alta)* **Garantía des-amañada:** baseline **medido en la semana 1**, no declarado (§3) + espejo en §11.
+  2. *(media)* **Confesar el costo en horas** de Virginia/Lili en F1 (~4–6h/sem) → por eso la temporal descarga primero. (§3 F1)
+  3. *(media)* **Team Tailor = Riesgo #1 consolidado:** las 3 dependencias (prueba a, adelanto CV real, tablero) nombradas como un solo punto de falla gestionado. (§8)
+  4. *(media)* **Desacoplar el pedido del CV real** del documento (acción interna lunes; el sintético es el plan primario). (interna §11.6)
+  5. *(baja → recorte)* **Bloat:** quitada la repetición "es lo único que decides hoy" (§5). Alinea con el pedido de claridad.
+- Patrón raíz que el consejo nombró: el doc diseñaba sus propios criterios para "siempre ganar" — grieta de credibilidad, ya cerrada.
+- Verificado: §8 riesgo #1, §3 garantía medida. PDF 19 pp. **Estado: HECHO.**
+
+### Iteración 9 — 🔄 consejo en curso
+### Iteración 10 — ⏳ pendiente
 ### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente
