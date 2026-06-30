@@ -4,6 +4,8 @@ Conexión Talento es una consultora boutique de headhunting cuyo motor —Reclut
 
 El síntoma más visible (un equipo saturado pidiendo "una persona más") no es un problema de manos; es de **proceso**. Cuatro reclutadores trabajan de cuatro formas distintas, no hay métricas para demostrar el valor, y la base de candidatos —el verdadero "oro"— no es buscable.
 
+**Y hay un reloj corriendo:** hoy se pegan CVs de candidatos en herramientas de IA de consumo mientras la Ley de Protección de Datos (Decreto 144/2024) **ya está vigente** — un pasivo legal que se acumula cada día que no se cierra. Por eso esto no es un "algún día": cerrar esa brecha es parte de la primera victoria.
+
 > **Nuestra tesis:** el diferenciador de Conexión Talento no es *solo* la IA — es la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. **Sí a la IA y a la velocidad que pediste**; y para que rindan de verdad, primero el orden. La IA no es el final del camino: es la consecuencia de hacerlo bien.
 
 Proponemos un programa **por fases, flexible y con puertas de decisión (de seguir o parar)**: cada fase entrega un resultado medible que habilita —o detiene— la siguiente. Empezamos pequeño y de bajo riesgo, demostramos valor con datos, y solo escalamos lo que probó funcionar.
@@ -157,8 +159,8 @@ Tú validas que la calidad de la terna es aceptable. Así la garantía es **veri
 
 - **Asistente que ordena candidatos según tus criterios** (~US$7.000): oculta los datos personales → puntúa contra la hoja de criterios con justificación citada al CV → pre-ordena. **El humano valida; la IA nunca rechaza sola.** Barreras de seguridad fijas (top10=llamada · 10–20=abierto · 30+=rechazo cordial revisado por humano).
 - **Generador de CV con tu marca, ya como producto** (~US$4.000): extracción a un formato fijo + plantilla de resultado siempre igual.
-- **Medición contra el punto de partida** + auditoría de sesgo.
-- *Opcional por evidencia:* Entrevistador de filtro previo (reconocimiento de voz comprado, con consentimiento de grabación).
+- **Medición contra el punto de partida** + auditoría de sesgo (~US$1.000). *Suma: $7.000 + $4.000 + $1.000 = los US$12.000 de la fase.*
+- *Opcional por evidencia (fuera del precio de fase):* Entrevistador de filtro previo (reconocimiento de voz comprado, con consentimiento de grabación).
 
 **Puerta 2 → Fase 3:** concordancia IA-vs-ojo clínico evaluada **caso por caso en 1–2 búsquedas reales** (reportando el *número de casos* — no un umbral estadístico que el volumen boutique no permite); auditoría de sesgo sin disparidad relevante; mejora medible del tiempo hasta entregar la terna.
 :::

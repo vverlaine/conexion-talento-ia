@@ -500,7 +500,7 @@ phase_slide("2","IA asistida (modular)","6–8 semanas · 25–35 jornadas · ~U
     "acelerar lo que ya probó su criterio. Solo módulos que pasen la “Puerta Listo para IA”.",
     [("Asistente que ordena candidatos (~US$7.000)","quita los datos personales → puntúa contra la hoja de criterios con justificación → pre-ordena. El humano valida; la IA nunca rechaza sola"),
      ("Generador de CV con tu marca (~US$4.000)","lectura automática a un formato fijo + plantilla siempre igual"),
-     ("Medición vs línea base + auditoría de sesgo","trazabilidad de las instrucciones a la IA, criterios y puntajes")],
+     ("Medición vs línea base + auditoría de sesgo (~US$1.000)","$7k + $4k + $1k = los US$12.000 de la fase; trazabilidad de instrucciones, criterios y puntajes")],
     "concordancia IA-vs-ojo clínico ≥ umbral en búsquedas reales; sin sesgo relevante; mejora medible del tiempo hasta la terna.",
     DEEP, 16, kicker="Anexo · Horizonte — Fase 2")
 

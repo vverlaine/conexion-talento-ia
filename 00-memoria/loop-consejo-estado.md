@@ -158,7 +158,12 @@ Foco: verificar con lupa la **consistencia numérica y de marca** tras la finali
 - **Aplicado:** L287→50%; **re-render + verificación binaria** (`slide7.xml` y todo el deck = 0 "100%"); internos L152/L301→50%, L302 marcado histórico; notas de bitácora corregidas.
 - Lección de proceso: una nota que dice "ya está hecho" sin verificar el **artefacto renderizado** deja pasar el bug. Ahora se verifica el binario.
 
-### Iteración 12 — 🔄 consejo en curso
+### Iteración 12 — consejo ✅ + aplicación ✅ — **otro bug aritmético real**
+- **Hueco silencioso de $1.000 en la Fase 2:** se vende a $12k bajo "pagas solo los módulos que apruebas", pero los módulos con precio sumaban $11k (Screener $7k + Generador $4k); el 3er entregable (medición/auditoría) no llevaba precio. Mismo ADN que las rondas 10–11. Verificado en el archivo.
+- **Aplicado:** medición etiquetada **~$1.000** → $7k+$4k+$1k=$12k, en PDF y deck (verificado). + *(media)* subido el **"por qué AHORA"** al resumen ejecutivo: la brecha de privacidad activa (CVs en IA de consumo vs. Decreto 144/2024 vigente) = pasivo legal diario → desarma la muerte por no-decisión.
+- El QA (rondas 11–12) ha cazado **2 bugs de honestidad** que 10 rondas no vieron → reabrir el loop para QA fue acertado.
+
+### Iteración 13 — 🔄 consejo en curso
 ### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente
