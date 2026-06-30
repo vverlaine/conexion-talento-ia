@@ -163,7 +163,12 @@ Foco: verificar con lupa la **consistencia numérica y de marca** tras la finali
 - **Aplicado:** medición etiquetada **~$1.000** → $7k+$4k+$1k=$12k, en PDF y deck (verificado). + *(media)* subido el **"por qué AHORA"** al resumen ejecutivo: la brecha de privacidad activa (CVs en IA de consumo vs. Decreto 144/2024 vigente) = pasivo legal diario → desarma la muerte por no-decisión.
 - El QA (rondas 11–12) ha cazado **2 bugs de honestidad** que 10 rondas no vieron → reabrir el loop para QA fue acertado.
 
-### Iteración 13 — 🔄 consejo en curso
+### Iteración 13 — consejo ✅ + aplicación ✅
+- **QA numérico/marca: CONFIRMADO LIMPIO** (netos exactos, crédito 50%, Fase 2=$12k, Vértice, cero "100%"/placeholders en docs cliente). Esa dimensión convergió.
+- **Hallazgo semántico nuevo:** la garantía (b) invocaba un **"flujo de cribado v0"** que yo nombré en la iter. 10 pero **nunca añadí a los entregables** de F0 (el cribado+rúbrica es estrella de F1). Defecto real en el activo más sensible.
+- **Aplicado:** *(alta)* "Flujo de cribado v0 (manual, criterios provisionales)" añadido a los entregables de F0 → la garantía (b) descansa en un activo real. *(media)* Cerrada la grieta del foso: tesis aclara que el diferenciador es el **sistema vivo** (no el manual copiable) + fila de riesgo en §8. *(baja, interna)* desfase del "martes" con Lili — **omitida** (interna + de-priorizada).
+
+### Iteración 14 — 🔄 consejo en curso
 ### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente

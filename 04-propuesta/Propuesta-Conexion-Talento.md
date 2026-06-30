@@ -6,7 +6,7 @@ El síntoma más visible (un equipo saturado pidiendo "una persona más") no es 
 
 **Y hay un reloj corriendo:** hoy se pegan CVs de candidatos en herramientas de IA de consumo mientras la Ley de Protección de Datos (Decreto 144/2024) **ya está vigente** — un pasivo legal que se acumula cada día que no se cierra. Por eso esto no es un "algún día": cerrar esa brecha es parte de la primera victoria.
 
-> **Nuestra tesis:** el diferenciador de Conexión Talento no es *solo* la IA — es la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. **Sí a la IA y a la velocidad que pediste**; y para que rindan de verdad, primero el orden. La IA no es el final del camino: es la consecuencia de hacerlo bien.
+> **Nuestra tesis:** el diferenciador de Conexión Talento no es *solo* la IA — es la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. Y ese diferenciador **no es un documento que se fotocopia**: es un **sistema vivo** —tu criterio recalibrando los datos— que el manual por sí solo no reproduce. **Sí a la IA y a la velocidad que pediste**; y para que rindan de verdad, primero el orden. La IA no es el final del camino: es la consecuencia de hacerlo bien.
 
 Proponemos un programa **por fases, flexible y con puertas de decisión (de seguir o parar)**: cada fase entrega un resultado medible que habilita —o detiene— la siguiente. Empezamos pequeño y de bajo riesgo, demostramos valor con datos, y solo escalamos lo que probó funcionar.
 
@@ -113,6 +113,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Prueba rápida de factibilidad técnica y legal:** verificar la conexión técnica y la extracción de información de Team Tailor contra la cuenta real; muestreo de vigencia de la base; confirmación del marco legal salvadoreño y del consentimiento.
 - **Registro anti-duplicado** candidato × cliente × fecha (cierra el riesgo reputacional ya materializado).
 - **Plantilla/procedimiento de CV con tu marca v1**: formalizar tu *instrucción a la IA* como un activo de la firma con control de versiones.
+- **Flujo de cribado v0 (manual):** un primer orden de filtrado con criterios **provisionales** acordados contigo —**no** la rúbrica codificada, que es la estrella de la Fase 1—. Es el activo que hace correr la prueba (b) de la garantía: pre-ordenar candidatos más rápido, con tu visto bueno en cada paso.
 - **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con acuerdo de protección de datos —que no usan ni entrenan con tus datos— (p. ej. Claude for Work o una conexión técnica con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
 - **Tablero de punto de partida retrospectivo** extraído del historial de tu sistema de candidatos — *si tu sistema de candidatos lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
@@ -287,6 +288,7 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 | **Sesgo en cribado automático** | Una persona validando siempre (obligatorio); la IA nunca rechaza sola; auditoría de sesgo y trazabilidad |
 | **Datos en Guatemala (transferencia transfronteriza SV–GT)** | R&S opera en ambos países. Guatemala aún sin ley general de datos; la transferencia se trata con acuerdo de protección de datos y minimización. **Ventaja:** el estándar se construye una vez y se despliega en SV y GT |
 | **Adopción del equipo** | Co-diseño con los reclutadores; el rol extra se reposiciona como embajador de marca, no operativo |
+| **El criterio codificado se copia o se va con quien lo escribió** | El activo no es el manual estático (copiable) sino el **juicio humano continuo** que lo recalibra con datos nuevos: el cribado v0 es manual y provisional; la madurez exige recalibración viva. Más acuerdos de confidencialidad con el equipo |
 
 # 9. Qué necesitamos de Conexión Talento
 
