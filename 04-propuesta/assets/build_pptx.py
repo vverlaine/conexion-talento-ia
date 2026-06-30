@@ -284,7 +284,7 @@ rx = Inches(5.15)
 tf = tb(s, rx, y, Inches(7.4), Inches(3.7))
 for i,t in enumerate(["Una prueba pagada, con resultado visible en 2–3 semanas.",
           "Cerca de tu presupuesto, no un salto al vacío.",
-          "El 100% se acredita a la siguiente fase si avanzas — baja tu riesgo, no es descuento.",
+          "El 50% se acredita a la siguiente fase si avanzas — baja tu riesgo, no es descuento.",
           "Estandarizar, IA y escala los cotizamos DESPUÉS, con tus datos reales en mano.",
           "No te pedimos comprometerte con todo a ciegas: primero ves, luego decides."]):
     para(tf, t, size=15, color=INK, bullet=True, space_after=12, first=(i==0), leading=1.2)

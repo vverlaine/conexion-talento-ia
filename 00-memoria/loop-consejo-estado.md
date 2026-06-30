@@ -144,7 +144,7 @@ verifica claridad y que la traducción no perdió nada.
 
 - **Marca/precio resueltos** (ver abajo). El usuario REABRIÓ el loop para una 4ª tanda de QA final.
 - **Marca:** la firma se llama **Vértice** · Data, IA & Transformación Digital. Aplicada en PDF (portada/pie/cierre/orden de servicio), deck y `FIRM` de ambos generadores.
-- **Precio:** **crédito parcial 50%** (F1 se queda en US$9.500). Todas las menciones "100% acreditable" → "50%"; netos del horizonte recalculados (Sistema ~$10.750, Sistema+IA ~$22.750, Completo desde ~$37.750). Registrado en `propuesta-comercial.md` §11.4.
+- **Precio:** **crédito parcial 50%** (F1 se queda en US$9.500); netos del horizonte recalculados (Sistema ~$10.750, Sistema+IA ~$22.750, Completo desde ~$37.750). Registrado en `propuesta-comercial.md` §11.4. *(El QA de la ronda 11 cazó un bullet del deck —slide 7— donde sobrevivía un "100%": corregido y **verificado en el binario** `slide7.xml` = 0 ocurrencias.)*
 
 **Entregables finales:** PDF 20 pp. + deck 19 slides, en lenguaje ejecutivo, con marca Vértice, garantía blindada, tabla de inversión correcta. Listos para el viernes.
 
@@ -153,7 +153,12 @@ verifica claridad y que la traducción no perdió nada.
 ## Cuarta tanda (11–15) — QA final (el usuario reabrió el loop)
 Foco: verificar con lupa la **consistencia numérica y de marca** tras la finalización (que ningún "100%"/neto viejo/placeholder sobreviva; que los netos cuadren con crédito 50%), además del umbral alto.
 
-### Iteración 11 — 🔄 consejo en curso (QA de finalización)
+### Iteración 11 — consejo ✅ + aplicación ✅ — **el QA valió la pena**
+- **Hallazgo real (verificado en el binario, no por mtime):** la **slide 7 del deck** —donde Virginia decide— tenía **"50%" y "100%" a la vez** (la tarjeta izq. en 50%, el bullet der. en 100%). Yo había corregido L279 pero **me salté L287**. + remanentes internos (L152, L301). + mis notas afirmaban en falso "el deck ya refleja 50%".
+- **Aplicado:** L287→50%; **re-render + verificación binaria** (`slide7.xml` y todo el deck = 0 "100%"); internos L152/L301→50%, L302 marcado histórico; notas de bitácora corregidas.
+- Lección de proceso: una nota que dice "ya está hecho" sin verificar el **artefacto renderizado** deja pasar el bug. Ahora se verifica el binario.
+
+### Iteración 12 — 🔄 consejo en curso
 ### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente
