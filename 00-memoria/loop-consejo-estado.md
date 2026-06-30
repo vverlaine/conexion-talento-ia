@@ -140,13 +140,20 @@ verifica claridad y que la traducción no perdió nada.
 
 **Convergencia final:** el consejo declara el documento **imprimible**; su 3er consenso, repetido en cada ronda 7–10, es *"dejen de pulir; el riesgo dominante ya no es el texto sino no cerrar el viernes"*. Las últimas mejoras empiezan a oscilar (instrumentar más vs recortar más) → **señal clara de parar.**
 
-## ✅ LOOP CERRADO POR EL USUARIO — decisiones tomadas
+## Decisiones tomadas (tras 10 rondas)
 
-- **Loop:** cerrado tras 10 rondas (el usuario eligió "cerrar"). **No relanzar.** Si una heartbeat se dispara, leer esto y detenerse.
+- **Marca/precio resueltos** (ver abajo). El usuario REABRIÓ el loop para una 4ª tanda de QA final.
 - **Marca:** la firma se llama **Vértice** · Data, IA & Transformación Digital. Aplicada en PDF (portada/pie/cierre/orden de servicio), deck y `FIRM` de ambos generadores.
 - **Precio:** **crédito parcial 50%** (F1 se queda en US$9.500). Todas las menciones "100% acreditable" → "50%"; netos del horizonte recalculados (Sistema ~$10.750, Sistema+IA ~$22.750, Completo desde ~$37.750). Registrado en `propuesta-comercial.md` §11.4.
 
 **Entregables finales:** PDF 20 pp. + deck 19 slides, en lenguaje ejecutivo, con marca Vértice, garantía blindada, tabla de inversión correcta. Listos para el viernes.
+
+---
+
+## Cuarta tanda (11–15) — QA final (el usuario reabrió el loop)
+Foco: verificar con lupa la **consistencia numérica y de marca** tras la finalización (que ningún "100%"/neto viejo/placeholder sobreviva; que los netos cuadren con crédito 50%), además del umbral alto.
+
+### Iteración 11 — 🔄 consejo en curso (QA de finalización)
 ### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente
