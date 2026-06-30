@@ -14,7 +14,7 @@ CSS    = HERE / "estilo-pdf.css"
 OUT    = ROOT / "Propuesta-Conexion-Talento.pdf"
 FULL   = HERE / "_full.html"
 
-FIRM = "‹TU CONSULTORA›"   # ← reemplazar por el nombre real de la firma
+FIRM = "Vértice"   # nombre de la firma
 
 COVER = f"""<div class="cover">
   <div class="band"></div>

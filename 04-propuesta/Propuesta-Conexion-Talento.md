@@ -8,7 +8,7 @@ El síntoma más visible (un equipo saturado pidiendo "una persona más") no es 
 
 Proponemos un programa **por fases, flexible y con puertas de decisión (de seguir o parar)**: cada fase entrega un resultado medible que habilita —o detiene— la siguiente. Empezamos pequeño y de bajo riesgo, demostramos valor con datos, y solo escalamos lo que probó funcionar.
 
-**Tu decisión de hoy es una sola: la Fase 0** — una victoria visible en 3 semanas por **US$2.500** (que se acredita 100% a la siguiente fase). Lo demás se cotiza después, con tus datos reales en mano. No te pedimos comprometerte con todo a ciegas.
+**Tu decisión de hoy es una sola: la Fase 0** — una victoria visible en 3 semanas por **US$2.500** (que acredita el **50%** a la siguiente fase). Lo demás se cotiza después, con tus datos reales en mano. No te pedimos comprometerte con todo a ciegas.
 
 ::::: kpis
 ::: kpi
@@ -95,7 +95,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 | **3** | Activo de datos y escala | horizonte | a dimensionar | **desde 15.000** o cuota mensual **3.500/mes** | Base buscable, mercado interno, comparativo salarial (si la ley lo permite) |
 
 ::: small
-⃰ La Fase 0 acredita el 100% a la Fase 1 si decides avanzar (reductor de riesgo, no descuento). Cifras indicativas en USD, a calibrar con tarifa local y tu *honorario* por colocación.
+⃰ La Fase 0 acredita el **50%** (US$1.250) a la Fase 1 si decides avanzar (reductor de riesgo, no descuento). Cifras indicativas en USD, a calibrar con tarifa local y tu *honorario* por colocación.
 :::
 
 ## Detalle por fase
@@ -203,7 +203,7 @@ FASE 3                                    ------------->       Activo de datos y
 | Empezamos aquí | |
 |---|---|
 | **Fase 0 — Victorias rápidas + prueba de valor con tus datos** · 2–3 semanas | **US$2.500** |
-| 100% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
+| 50% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
 
 > **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/procedimiento de CV con tu *marca*, registro anti-duplicado y el punto de partida que se haya podido medir— **son tuyos pase lo que pase**. **Y el criterio para seguir es objetivo, no a ojo:** solo avanzas (y pagas) la Fase 1 si al cerrar la Fase 0 ves **al menos una de las dos pruebas de la Puerta 0** —un candidato que habrías pasado por alto, o armar una terna en la mitad del tiempo—. Si no, no sigues. Sin letra chica.
 
@@ -215,12 +215,12 @@ Para que veas el cuadro entero. **Cada fase se cotiza y se firma por separado**,
 
 | Paquete (referencia) | Qué incluye | Inversión neta (US$) ⃰ |
 |---|---|---|
-| Sistema | Fase 0 + Fase 1 | ~9.500 |
-| Sistema + piloto IA | Fases 0 + 1 + 2 | ~21.500 |
-| Programa completo | Fases 0 + 1 + 2 + 3 | desde ~36.500 o transición a cuota mensual |
+| Sistema | Fase 0 + Fase 1 | ~10.750 |
+| Sistema + piloto IA | Fases 0 + 1 + 2 | ~22.750 |
+| Programa completo | Fases 0 + 1 + 2 + 3 | desde ~37.750 o transición a cuota mensual |
 
 ::: small
-⃰ Ya con el **crédito del 100% de la Fase 0** descontado: como los US$2.500 se acreditan a la Fase 1, el "Sistema" (F0+F1) te queda en **~US$9.500**, no en la suma bruta. Mismo criterio en los demás paquetes.
+⃰ Ya con el **crédito del 50% de la Fase 0** descontado: como la mitad de los US$2.500 (US$1.250) se acredita a la Fase 1, el "Sistema" (F0+F1) te queda en **~US$10.750**, no en la suma bruta. Mismo criterio en los demás paquetes.
 :::
 
 ## Los tres modelos de cobro (tú eliges)
@@ -317,7 +317,7 @@ Esta página convierte el "sí" en un arranque. Es solo la **Fase 0**; el resto 
 |---|---|
 | **Servicio** | Fase 0 — Victorias rápidas + prueba de valor con tus datos (entregables de §3) |
 | **Duración** | 2–3 semanas desde el anticipo |
-| **Inversión** | **US$2.500** (acredita 100% a la Fase 1 si avanzas) |
+| **Inversión** | **US$2.500** (acredita el 50% —US$1.250— a la Fase 1 si avanzas) |
 | **Forma de pago** | 50% de anticipo para arrancar · 50% al entregar |
 | **Tus activos** | Plantilla/procedimiento de CV, registro anti-duplicado y punto de partida medido **son tuyos** pase lo que pase |
 | **Garantía objetiva** | Avanzas (y pagas) la Fase 1 solo si se cumple ≥1 prueba de la Puerta 0 (§3): un candidato que habrías pasado por alto, o una terna en la mitad del tiempo **(comparado con tu tiempo actual medido en la semana 1, no un dato declarado)** |
@@ -327,8 +327,8 @@ Esta página convierte el "sí" en un arranque. Es solo la **Fase 0**; el resto 
 
 Aceptado por **Conexión Talento**: ______________________  ·  Fecha: __________
 
-Por **‹TU CONSULTORA›**: ______________________  ·  Fecha: __________
+Por **Vértice** · Data, IA & Transformación Digital: ______________________  ·  Fecha: __________
 
 ::: small
-Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *honorario* por colocación. Reemplazar ‹TU CONSULTORA› y ‹fecha› por los datos reales. Preparado con estándar de calidad McKinsey/BCG. © 2026.
+Documento de trabajo, versión para revisión con Virginia. Las cifras de inversión son indicativas en USD y se cierran al calibrar la tarifa local y el *honorario* por colocación. Preparado por **Vértice** con estándar de calidad McKinsey/BCG. © 2026.
 :::

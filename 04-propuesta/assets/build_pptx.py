@@ -27,7 +27,7 @@ LINE  = RGBColor(0xD9,0xE2,0xEC)
 SOFT  = RGBColor(0xF5,0xF7,0xFA)
 WHITE = RGBColor(0xFF,0xFF,0xFF)
 FONT  = "Arial"
-FIRM  = "‹TU CONSULTORA›"   # ← reemplazar por el nombre real de la firma
+FIRM  = "Vértice"   # nombre de la firma
 
 prs = Presentation()
 prs.slide_width  = Inches(13.333)
@@ -276,7 +276,7 @@ para(tf, "FASE 0 · ARRANQUE", size=12, color=TEALL, bold=True, first=True)
 tf = tb(s, Emu(int(ML)+int(Inches(0.3))), Emu(int(y)+int(Inches(0.9))), Inches(3.5), Inches(1.2))
 para(tf, "US$2.500", size=44, color=WHITE, bold=True, first=True, leading=1.0)
 tf = tb(s, Emu(int(ML)+int(Inches(0.3))), Emu(int(y)+int(Inches(2.0))), Inches(3.5), Inches(2.3))
-for t in ["2–3 semanas","Victorias rápidas + prueba de valor con tus datos","100% acreditable a la siguiente fase","Cerca de tu presupuesto"]:
+for t in ["2–3 semanas","Victorias rápidas + prueba de valor con tus datos","50% acreditable a la siguiente fase","Cerca de tu presupuesto"]:
     para(tf, t, size=13.5, color=RGBColor(0xC2,0xD4,0xE2), bullet=True, space_after=9,
          first=(t.startswith("2–3")), leading=1.15)
 # bullets a la derecha
@@ -370,7 +370,7 @@ rect(s, ML, y, CW, Inches(1.4), fill=RGBColor(0xEE,0xF5,0xF6), line=TEAL, line_w
 rect(s, ML, y, Inches(0.14), Inches(1.4), fill=TEAL)
 tf = tb(s, Inches(1.05), Emu(int(y)+int(Inches(0.18))), Inches(7.8), Inches(1.1), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, [("Empezamos aquí — Fase 0", True, NAVY, 17)], first=True, space_after=3)
-para(tf, "Victorias rápidas + prueba de valor con tus datos · 2–3 semanas · 100% acreditable a la Fase 1",
+para(tf, "Victorias rápidas + prueba de valor con tus datos · 2–3 semanas · 50% acreditable a la Fase 1",
      size=12.5, color=MUTED, space_after=3)
 para(tf, "Tu seguro: te quedas los activos; avanzas a la Fase 1 solo si la Puerta 0 pasa su vara objetiva. Sin letra chica.",
      size=12, color=TEAL, bold=True)
@@ -385,9 +385,9 @@ para(tf, [("La cuenta real:  ", True, GOLD, 12),
 tf = tb(s, ML, Inches(3.56), CW, Inches(0.35))
 para(tf, "El horizonte completo (referencia — no es lo que decides hoy; cada fase se cotiza y firma por separado):",
      size=12.5, color=MUTED, first=True)
-hz = [("Sistema","Fases 0 + 1","~US$9.500"),
-      ("Sistema + piloto IA","Fases 0 + 1 + 2","~US$21.500"),
-      ("Programa completo","Fases 0–3","desde ~US$36.500")]
+hz = [("Sistema","Fases 0 + 1","~US$10.750"),
+      ("Sistema + piloto IA","Fases 0 + 1 + 2","~US$22.750"),
+      ("Programa completo","Fases 0–3","desde ~US$37.750")]
 cw = Inches(3.83)
 for i,(t,sub,price) in enumerate(hz):
     x = Emu(int(ML) + i*int(Inches(4.05)))
@@ -436,7 +436,7 @@ add_table(s, data, ML, yy, CW,
           col_w=[Inches(0.85),Inches(2.95),Inches(1.2),Inches(1.3),Inches(1.85),Inches(3.78)],
           body_size=11, header_size=11, row_h=Inches(0.78))
 tf = tb(s, ML, Inches(6.55), CW, Inches(0.4))
-para(tf, "* La Fase 0 acredita el 100% a la Fase 1. Cifras indicativas en USD, a calibrar con tu tarifa local y tu fee por colocación.",
+para(tf, "* La Fase 0 acredita el 50% (US$1.250) a la Fase 1. Cifras indicativas en USD, a calibrar con tu tarifa local y tu honorario por colocación.",
      size=9.5, color=MUTED, first=True)
 
 # ============================================================== SLIDE 14 — ROADMAP
