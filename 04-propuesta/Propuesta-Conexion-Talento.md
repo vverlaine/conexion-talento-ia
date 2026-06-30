@@ -114,7 +114,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 - **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con acuerdo de protección de datos —que no usan ni entrenan con tus datos— (p. ej. Claude for Work o una conexión técnica con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
 - **Tablero de punto de partida retrospectivo** extraído del historial de tu sistema de candidatos — *si tu sistema de candidatos lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
 
-**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de la conexión técnica confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 indicadores con punto de partida medido. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si la extracción de información lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende de la extracción de información—** armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
+**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de la conexión técnica confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 indicadores con punto de partida medido. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si la extracción de información lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende de la extracción de información—** armar una terna de prueba te toma **la mitad del tiempo**, gracias a los **activos de la Fase 0** (plantilla de CV, flujo de cribado v0 y registro anti-duplicado), no a la rúbrica de la Fase 1. *Si no ves ninguna, no sigues.*
 
 *Cómo medimos (b), sin amaños — protocolo de la Puerta 0 (va como anexo de 1 página, firmado):*
 
@@ -123,6 +123,8 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 3. **Vacante nombrada + plan B:** acordamos contigo la vacante concreta; si no abre una limpia en la semana 1, reconstruimos el test sobre una búsqueda reciente comparable.
 
 Tú validas que la calidad de la terna es aceptable. Así la garantía es **verificable de verdad**, no "seguro de cartón".
+
+*Con honestidad sobre el alcance:* esto corre en 1–2 vacantes en 3 semanas, y la vacante de control debe ser de **dificultad equivalente** (el tiempo de cubrir varía más por lo difícil del rol que por el proceso). Es una **señal direccional, validada por tu criterio de calidad** —no una prueba estadística; a tu volumen, ninguna lo sería (ver §6)—.
 :::
 
 ::: phase
@@ -211,11 +213,15 @@ FASE 3                                    ------------->       Activo de datos y
 
 Para que veas el cuadro entero. **Cada fase se cotiza y se firma por separado**, con datos reales en mano:
 
-| Paquete (referencia) | Qué incluye | Inversión (US$) |
+| Paquete (referencia) | Qué incluye | Inversión neta (US$) ⃰ |
 |---|---|---|
-| Sistema | Fase 0 + Fase 1 | ~12.000 |
-| Sistema + piloto IA | Fases 0 + 1 + 2 | ~24.000 |
-| Programa completo | Fases 0 + 1 + 2 + 3 | desde ~39.000 o transición a cuota mensual |
+| Sistema | Fase 0 + Fase 1 | ~9.500 |
+| Sistema + piloto IA | Fases 0 + 1 + 2 | ~21.500 |
+| Programa completo | Fases 0 + 1 + 2 + 3 | desde ~36.500 o transición a cuota mensual |
+
+::: small
+⃰ Ya con el **crédito del 100% de la Fase 0** descontado: como los US$2.500 se acreditan a la Fase 1, el "Sistema" (F0+F1) te queda en **~US$9.500**, no en la suma bruta. Mismo criterio en los demás paquetes.
+:::
 
 ## Los tres modelos de cobro (tú eliges)
 

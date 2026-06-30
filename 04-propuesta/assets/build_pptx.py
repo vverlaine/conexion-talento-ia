@@ -385,9 +385,9 @@ para(tf, [("La cuenta real:  ", True, GOLD, 12),
 tf = tb(s, ML, Inches(3.56), CW, Inches(0.35))
 para(tf, "El horizonte completo (referencia — no es lo que decides hoy; cada fase se cotiza y firma por separado):",
      size=12.5, color=MUTED, first=True)
-hz = [("Sistema","Fases 0 + 1","~US$12.000"),
-      ("Sistema + piloto IA","Fases 0 + 1 + 2","~US$24.000"),
-      ("Programa completo","Fases 0–3","desde ~US$39.000")]
+hz = [("Sistema","Fases 0 + 1","~US$9.500"),
+      ("Sistema + piloto IA","Fases 0 + 1 + 2","~US$21.500"),
+      ("Programa completo","Fases 0–3","desde ~US$36.500")]
 cw = Inches(3.83)
 for i,(t,sub,price) in enumerate(hz):
     x = Emu(int(ML) + i*int(Inches(4.05)))

@@ -124,7 +124,24 @@ verifica claridad y que la traducción no perdió nada.
   4. *(baja)* Baseline declarado que sobrevivía en la tabla de métricas §6 → "a medir en sem. 1".
 - Meta-mensaje del consejo (3er consenso unánime): **"dejen de pulir; el riesgo es no cerrar el viernes."** PDF 20 pp.
 
-### Iteración 10 — 🔄 consejo en curso (cierre de la tanda)
+### Iteración 10 — consejo ✅ + aplicación ✅ — **CIERRE DE LA TANDA (10/10)**
+- **Bug de honestidad real** (coronado unánime, verificable en 10s): la tabla "El horizonte completo" mostraba la **suma bruta** ($12k/$24k/$39k), **borrando el crédito del 100%** prometido 4 veces. **5 mejoras (1 alta, 2 medias, 2 bajas):**
+  1. *(alta)* **Tabla neteada:** Sistema $12k→**~$9.500**, $24k→**~$21.500**, $39k→**~$36.500**, con nota del crédito. (§5 + deck + nota interna ligada a la decisión de precio L302)
+  2. *(media)* **Nombrar la palanca de F0** que da el "mitad de tiempo": los activos de F0 (plantilla, cribado v0, anti-dup), no la rúbrica de F1 → resuelve la contradicción "(b) no depende de extracción". (§3)
+  3. *(media)* **Acotar el n=1:** 1–2 vacantes = señal direccional validada por criterio, no prueba estadística; vacante de control de dificultad equivalente. (§3)
+  4. *(baja)* **Descartada** — añadir lectura de mandatos enfriados a F0 contradice la reconciliación de sobre-suscripción de la iter. 9.
+  5. *(baja)* Recorte del protocolo: mantenido tight, no inflado (sin crear anexo aparte).
+
+---
+
+## ✅ SEGUNDA/TERCERA TANDA COMPLETA — 10/10 iteraciones totales
+
+**Valor real de las rondas 6–10 (umbral alto):** lejos de ser relleno, cazaron defectos de **cierre y credibilidad** que las 5 primeras no vieron: la **garantía amañada** (3 confounders, blindada en un protocolo serio) y el **bug aritmético del crédito del 100%**. Ambos eran del tipo "un CFO lo ve en 10 segundos" — sangraban el mayor activo de Víctor, la honestidad.
+
+**Convergencia final:** el consejo declara el documento **imprimible**; su 3er consenso, repetido en cada ronda 7–10, es *"dejen de pulir; el riesgo dominante ya no es el texto sino no cerrar el viernes"*. Las últimas mejoras empiezan a oscilar (instrumentar más vs recortar más) → **señal clara de parar.**
+
+**Decisión abierta de Víctor (no es del consultor):** mantener crédito 100% + subir F1 (~$12–14k) **vs** crédito parcial 50%. Afecta los netos del horizonte. Ver `propuesta-comercial.md` §11.4.
+**Pendiente único de marca:** el nombre de la firma (Cifra / Vértice / Praxis u otro).
 ### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente
