@@ -95,8 +95,20 @@ haySignificativas=false** — concluir "ya está listo" es un resultado válido.
 - Choque no resuelto (registrado, no aplicado): el Pensador quiere recortar a un 2º doc el horizonte; el Forastero-como-Virginia "ya firmo". Tratado como criterio, no defecto.
 - Verificado: §3 Fase 0 (auditoría + protocolo). **Estado: HECHO.**
 
-### Iteración 7 — 🔄 consejo en curso
-### Iteración 8 — ⏳ pendiente
+### Iteración 7 — consejo ✅ + aplicación ✅ — **CONVERGENCIA**
+- Veredicto: **"el proyecto está listo para imprimirse"**; el mayor riesgo ya no es el documento sino seguir puliendo en vez de cerrar. Alertó *groupthink*. Solo 3 retoques (2 medias, 1 baja), todos aplicados:
+  - "el martes" colgado → "nuestra primera sesión" (PDF + deck); capacidad ociosa **reordena** el programa (no solo apaga el ROI); **Plan B comercial** si la Puerta 0 sale roja (interna §11.6).
+
+---
+
+## Intermedio — Reescritura a lenguaje ejecutivo (pedido del usuario)
+Todo el proyecto comunicado en lenguaje de negocio: 16 docs (workflow + verificación), doc cliente y deck
+(~95 términos traducidos), preservando cifras/⚠️/fuentes. Commit `8359672`. El consejo ahora también
+verifica claridad y que la traducción no perdió nada.
+
+### Iteración 8 — 🔄 consejo en curso (sobre el repo ya ejecutivo)
+### Iteración 9 — ⏳ pendiente
+### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente
 ### Iteración 10 — ⏳ pendiente
