@@ -6,7 +6,7 @@ El síntoma más visible (un equipo saturado pidiendo "una persona más") no es 
 
 **Y hay un reloj corriendo:** hoy se pegan CVs de candidatos en herramientas de IA de consumo mientras la Ley de Protección de Datos (Decreto 144/2024) **ya está vigente** — un pasivo legal que se acumula cada día que no se cierra. Por eso esto no es un "algún día": cerrar esa brecha es parte de la primera victoria.
 
-> **Nuestra tesis:** el diferenciador de Conexión Talento no es *solo* la IA — es la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. Y ese diferenciador **no es un documento que se fotocopia**: es un **sistema vivo** —tu criterio recalibrando los datos— que el manual por sí solo no reproduce. **Sí a la IA y a la velocidad que pediste**; y para que rindan de verdad, primero el orden. La IA no es el final del camino: es la consecuencia de hacerlo bien.
+> **Nuestra tesis:** el diferenciador de Conexión Talento no es *solo* la IA — es la **disciplina de proceso** que ningún competidor copia sin el criterio humano detrás. Y ese diferenciador no se fotocopia: es un **sistema vivo**, tu criterio recalibrando los datos, que un manual por sí solo no reproduce. **Sí a la IA y a la velocidad que pediste**; pero para que rindan, primero el orden. La IA no es el final del camino: es la consecuencia de hacerlo bien.
 
 Proponemos un programa **por fases, flexible y con puertas de decisión (de seguir o parar)**: cada fase entrega un resultado medible que habilita —o detiene— la siguiente. Empezamos pequeño y de bajo riesgo, demostramos valor con datos, y solo escalamos lo que probó funcionar.
 
@@ -22,8 +22,8 @@ Proponemos un programa **por fases, flexible y con puertas de decisión (de segu
 [candidatos hoy no buscables ("oro sin refinar")]{.l}
 :::
 ::: kpi
-[5 d → 48-72h]{.n}
-[meta de tiempo hasta entregar la terna, medible]{.l}
+[~5 d → 48-72h]{.n}
+[tiempo a la terna (5 d es declarado, lo medimos en sem. 1) → meta]{.l}
 :::
 ::: kpi
 [4 fases]{.n}
@@ -85,7 +85,7 @@ Coincidimos en el *qué*. Aquí va el *cómo*, contigo como socia — honramos l
 
 Diseñamos el programa como **fases con puertas de decisión**. Tú decides el ritmo y el orden; si una fase "te quita el oxígeno", se reordena. **Nada se automatiza sin pasar la "Puerta Listo para IA"** (§7).
 
-> **Hoy solo decides la Fase 0.** Las demás están aquí como **mapa, no como compromiso** — cada una se cotiza y se firma por separado, con datos reales en mano.
+> Las fases 1–3 son el **mapa del horizonte**: se muestran completas aquí, pero cada una se cotiza y se firma por separado.
 
 ## Vista general
 
@@ -109,25 +109,25 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Entregables:**
 
-- **Auditoría exprés de Team Tailor sobre una vacante viva (semana 1):** activamos la IA y automatizaciones que **ya pagas y no usas**, sobre una búsqueda real → **horas de vuelta para tu equipo esta misma semana, con nuestra mano** (no la de la temporal). Doble función: es tu primera victoria rápida tangible **y** fija el cronómetro base del "mitad de tiempo" (ver Puerta 0).
+- **Auditoría exprés de Team Tailor sobre una vacante viva (semana 1):** activamos la IA y automatizaciones que **ya pagas y no usas**, sobre una búsqueda real → **horas de vuelta para tu equipo esta misma semana, con nuestra mano** (no la de la temporal). Doble función: es tu primera victoria rápida tangible **y** fija el cronómetro base del "mitad de tiempo" (ver Puerta 0). *Si el acceso a Team Tailor se demora, esta auditoría corre en la semana 2 — sin mover la fecha de tu adelanto del viernes.*
 - **Prueba rápida de factibilidad técnica y legal:** verificar la conexión técnica y la extracción de información de Team Tailor contra la cuenta real; muestreo de vigencia de la base; confirmación del marco legal salvadoreño y del consentimiento.
 - **Registro anti-duplicado** candidato × cliente × fecha (cierra el riesgo reputacional ya materializado).
 - **Plantilla/procedimiento de CV con tu marca v1**: formalizar tu *instrucción a la IA* como un activo de la firma con control de versiones.
 - **Flujo de cribado v0 (manual):** un primer orden de filtrado con criterios **provisionales** acordados contigo —**no** la rúbrica codificada, que es la estrella de la Fase 1—. Es el activo que hace correr la prueba (b) de la garantía: pre-ordenar candidatos más rápido, con tu visto bueno en cada paso.
 - **Cierre de brecha de privacidad activa**: migrar el uso de IA a un entorno con acuerdo de protección de datos —que no usan ni entrenan con tus datos— (p. ej. Claude for Work o una conexión técnica con acuerdo de datos). *Es una licencia recurrente tuya (~US$30–60/usuario al mes); la dimensionamos contigo en la Fase 0 para que no haya sorpresas.*
-- **Tablero de punto de partida retrospectivo** extraído del historial de tu sistema de candidatos — *si tu sistema de candidatos lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro* (sin sobreprometer contra la propia incertidumbre).
+- **Tablero de punto de partida retrospectivo** extraído del historial de tu sistema de candidatos — *si tu sistema de candidatos lo permite; si no, lo reconstruimos con lo disponible y te lo decimos claro.*
 
-**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de la conexión técnica confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 indicadores con punto de partida medido. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si la extracción de información lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende de la extracción de información—** armar una terna de prueba te toma **la mitad del tiempo**, gracias a los **activos de la Fase 0** (plantilla de CV, flujo de cribado v0 y registro anti-duplicado), no a la rúbrica de la Fase 1. *Si no ves ninguna, no sigues.*
+**Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de la conexión técnica confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 indicadores con punto de partida medido. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si la extracción de información lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—la prueba principal, que no depende de esa extracción—** armar una terna de prueba te toma **la mitad del tiempo**, gracias a los **activos de la Fase 0** (plantilla de CV, flujo de cribado v0 y registro anti-duplicado), no a la rúbrica de la Fase 1. *Si no ves ninguna, no sigues.*
 
-*Cómo medimos (b), sin amaños — protocolo de la Puerta 0 (va como anexo de 1 página, firmado):*
+*Cómo medimos (b) — protocolo de la Puerta 0 (va como anexo de 1 página, firmado):*
 
-1. **Punto de partida medido, no declarado:** en la semana 1 cronometramos cuánto te toma **hoy** armar una terna con tu proceso actual, sobre una vacante viva.
-2. **Sin efecto-repetición:** el pase con el proceso nuevo lo corre **alguien que no armó la terna base** (o se mide sobre un grupo de candidatos **distinto pero comparable**) — para que la mejora sea del sistema, no de que ya conocías a esos candidatos.
-3. **Vacante nombrada + plan B:** acordamos contigo la vacante concreta; si no abre una limpia en la semana 1, reconstruimos el test sobre una búsqueda reciente comparable.
+1. **Punto de partida medido, no declarado:** en la semana 1 cronometramos cuánto te toma **hoy** armar una terna, con tu proceso actual y una vacante viva.
+2. **Sin efecto-repetición:** el pase con el proceso nuevo lo corre **alguien que no armó la terna base** (o sobre candidatos distintos pero comparables), para que la mejora venga del sistema y no de que ya conocías a esos candidatos.
+3. **Vacante nombrada + plan B:** elegimos juntos la vacante; si no abre una limpia en la semana 1, usamos una búsqueda reciente equivalente.
 
-Tú validas que la calidad de la terna es aceptable. Así la garantía es **verificable de verdad**, no "seguro de cartón".
+Tú validas que la calidad de la terna es aceptable. Así la garantía se puede **comprobar de verdad**.
 
-*Con honestidad sobre el alcance:* esto corre en 1–2 vacantes en 3 semanas, y la vacante de control debe ser de **dificultad equivalente** (el tiempo de cubrir varía más por lo difícil del rol que por el proceso). Es una **señal direccional, validada por tu criterio de calidad** —no una prueba estadística; a tu volumen, ninguna lo sería (ver §6)—.
+*Sobre el alcance:* corre en 1–2 vacantes en 3 semanas, y la vacante de control debe ser de **dificultad equivalente** (cubrir un rol tarda más por lo difícil que por el proceso). Es una **señal direccional validada por tu criterio**, no una prueba estadística —a tu volumen, ninguna lo sería (ver §6)—.
 :::
 
 ::: phase
@@ -193,7 +193,7 @@ FASE 3                                    ------------->       Activo de datos y
 
 - Las fases se solapan **poco y de forma controlada**; sumamos **apoyo puntual** (legal, datos) donde una etapa lo exige, para no comprometer la calidad ni que todo dependa de una sola persona.
 - Cada **puerta** es una decisión explícita de continuar, reordenar o detener — sin compromisos ciegos.
-- **Hoy decides la Fase 0** (semanas 1–3). Lo demás se cotiza al pasar cada puerta, con tus datos reales en mano.
+- La Fase 0 cubre las semanas 1–3; lo demás se cotiza al pasar cada puerta.
 
 # 5. Modelo de inversión
 
@@ -208,13 +208,13 @@ FASE 3                                    ------------->       Activo de datos y
 | **Fase 0 — Victorias rápidas + prueba de valor con tus datos** · 2–3 semanas | **US$2.500** |
 | 50% acreditable a la Fase 1 si avanzas (baja tu riesgo, no es descuento) | cerca de tu presupuesto |
 
-> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/procedimiento de CV con tu *marca*, registro anti-duplicado y el punto de partida que se haya podido medir— **son tuyos pase lo que pase**. **Y el criterio para seguir es objetivo, no a ojo:** solo avanzas (y pagas) la Fase 1 si al cerrar la Fase 0 ves **al menos una de las dos pruebas de la Puerta 0** —un candidato que habrías pasado por alto, o armar una terna en la mitad del tiempo—. Si no, no sigues. Sin letra chica.
+> **Tu seguro como compradora:** los activos tangibles de la Fase 0 —plantilla/procedimiento de CV con tu *marca*, registro anti-duplicado y el punto de partida que se haya podido medir— **son tuyos pase lo que pase**. **Y el criterio para seguir es objetivo, no a ojo:** solo avanzas (y pagas) la Fase 1 si al cerrar la Fase 0 ves **al menos una de las dos pruebas de la Puerta 0** —un candidato que habrías pasado por alto, o armar una terna en la mitad del tiempo—. Si no, no sigues.
 
 > **Para que las cuentas te cuadren.** Si tomas la asistente temporal (~US$2.000 por 3 meses) **y** la Fase 0 (US$2.500), son ~**US$4.500** — y tienen sentido juntos: la temporal **descarga la operación** del equipo hoy; la Fase 0 **ataca la causa raíz**. La vara real no es eso, es lo que cuesta el **5º reclutador** que pediste: ~**US$15.000/año** cargado. Ahí está el puente hacia la Fase 1.
 
 ## El horizonte completo (referencia — no es lo que decides hoy)
 
-Para que veas el cuadro entero. **Cada fase se cotiza y se firma por separado**, con datos reales en mano:
+Para que veas el cuadro entero. **Cada fase se cotiza y se firma por separado**, con datos reales en mano.
 
 | Paquete (referencia) | Qué incluye | Inversión neta (US$) ⃰ |
 |---|---|---|
@@ -244,9 +244,9 @@ Pasar tu terna de ~5 días a 48–72h no es solo comodidad: es **ganar mandatos 
 
 **Ejemplo — lo llenamos con tus números:** salario anual US$18.000 × *honorario* 15% = **US$2.700 por colocación**. Si esto te ayuda a cerrar **1 colocación que hoy perderías**, ya recuperaste los US$2.500 de la Fase 0. *(Números de marcador, no promesa.)*
 
-- **Lo honesto:** el ejemplo usa un *honorario* **conservador supuesto** —prudente, no inflado—. El caso ya se sostiene con esos números; si nos pasas tu *honorario* real cuando puedas, lo afinamos. **No es tarea para hoy.**
-- **Caveat:** la velocidad te pone primera en la fila; el cierre sigue dependiendo de tu ojo y del cliente. Buscamos **ponerte primera en la fila** —no prometemos colocaciones—.
-- **La pregunta que decide todo (la primera de nuestra primera sesión):** ¿hoy **rechazas, enfrías o pierdes mandatos** por falta de velocidad, o a veces tienes **capacidad ociosa**? Este retorno aplica **solo si pierdes mandatos por velocidad**. Si el cuello es de oferta, el valor está en otra parte —calidad y cobertura de tu base— y te lo decimos honesto, no forzamos el número. **Y si fuera así, se reordena el programa:** la prioridad pasa a abrir nuevas líneas de ingreso (activar tu base, mercado interno) antes que a la velocidad.
+- **Lo honesto:** el ejemplo usa un *honorario* **conservador supuesto**. El caso ya se sostiene con esos números; si nos pasas tu *honorario* real, lo afinamos. **No es tarea para hoy.**
+- **Caveat:** la velocidad te pone primera en la fila; cerrar sigue dependiendo de tu ojo y del cliente. No prometemos colocaciones.
+- **La pregunta que decide todo (la primera de nuestra primera sesión):** ¿hoy **rechazas, enfrías o pierdes mandatos** por falta de velocidad, o a veces tienes **capacidad ociosa**? Este retorno aplica **solo si pierdes mandatos por velocidad**. Si el cuello es de oferta, el valor está en otra parte —calidad y cobertura de tu base— y te lo decimos claro. **Y si fuera así, se reordena el programa:** la prioridad pasa a abrir nuevas líneas de ingreso (activar tu base, mercado interno) antes que a la velocidad.
 
 # 6. Cómo mediremos el éxito
 
@@ -305,7 +305,7 @@ Ningún proceso se automatiza sin aprobar este checklist. Es la garantía de que
 
 # 10. Próximos pasos
 
-1. **Aprobar la Fase 0** (US$2.500) — tu decisión de hoy. Sin compromiso con el resto del programa.
+1. **Aprobar la Fase 0** (US$2.500) — tu decisión de hoy.
 2. **Esta semana:** si puedes, mándanos **un CV real anonimizado** por correo (si no llega, usamos uno **ficticio realista**, sin datos reales) → te llevamos **dos cosas que tocas el viernes**: el **adelanto con tu *marca*** y el **registro anti-duplicado en vivo** (datos de ejemplo), ambos en entorno con acuerdo de protección de datos y sin tocar el sistema de candidatos. En paralelo, el **lunes** encargamos el acceso de lectura a Team Tailor y el contacto de tu abogado/a (su propio tiempo de espera).
 3. **Demostración en vivo + semáforo en 2–3 semanas** —tantos CVs como permita la extracción de información, ya dentro de la Fase 0 y en entorno con acuerdo de protección de datos— de ahí cotizamos, con tus datos reales, lo que decidas que siga.
 

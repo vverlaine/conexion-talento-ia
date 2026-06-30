@@ -318,7 +318,7 @@ for h,t in items:
 # ============================================================== SLIDE 9 — MÉTRICAS
 s = slide(); y = title_bar(s, "04 · Cómo medimos el éxito", "De “cero métricas” a un cuadro de mando", 9)
 data = [["Indicador","Qué mide","Línea base","Meta"],
-        ["Tiempo hasta la terna","Días de apertura a terna entregada","~5 días","48–72h"],
+        ["Tiempo hasta la terna","Días de apertura a terna entregada","~5 días (a medir)","48–72h"],
         ["Aceptación de terna","% de ternas que el cliente aprueba","a medir","↑ sostenido"],
         ["Rotación a 90 días","% de colocados que salen <90 días","a medir","↓"],
         ["Cobertura base interna","% de mandatos cubiertos sin búsqueda externa","~0% hoy","↑"],
@@ -351,16 +351,15 @@ tf = tb(s, Inches(1.0), ey, Inches(11.4), Inches(1.0), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, [("Ejemplo — lo llenamos con tus números:  ", True, NAVY, 13.5),
           ("salario anual US$18,000 × fee 15% = US$2,700 por colocación. Si esto te ayuda a cerrar 1 "
            "colocación que hoy perderías, ya recuperaste los US$2,500 de la Fase 0.  ", False, INK, 13.5),
-          ("(Números de marcador, no promesa.)", False, MUTED, 12.5)], first=True, leading=1.2)
+          ("(Cifras de ejemplo.)", False, MUTED, 12.5)], first=True, leading=1.2)
 # honesto + caveat
 tf = tb(s, ML, Inches(5.0), CW, Inches(1.5))
-para(tf, [("Lo honesto: ", True, NAVY, 13.5),
-          ("el ejemplo usa un fee conservador supuesto —prudente, no inflado—. El caso ya se sostiene; "
-           "si me pasas tu fee real cuando puedas, lo afino. No es tarea para hoy.", False, INK, 13.5)],
+para(tf, [("Con tu fee real: ", True, NAVY, 13.5),
+          ("el ejemplo usa un fee conservador. Pásame el tuyo cuando puedas y lo afino — no es tarea para hoy.", False, INK, 13.5)],
      bullet=True, space_after=8, first=True, leading=1.2)
-para(tf, [("Caveat: ", True, NAVY, 13.5),
-          ("aplica solo si hoy pierdes mandatos por velocidad —no si tienes capacidad ociosa—; esa es la "
-           "primera pregunta de nuestra primera sesión. La velocidad te pone primera en la fila; no prometemos colocaciones.", False, INK, 13.5)],
+para(tf, [("La condición: ", True, NAVY, 13.5),
+          ("la velocidad te pone primera en la fila, no garantiza la colocación. Esto rinde si hoy pierdes "
+           "mandatos por lentitud, no si tienes gente ociosa — es la primera pregunta de nuestra sesión inicial.", False, INK, 13.5)],
      bullet=True, space_after=8, leading=1.2)
 
 # ============================================================== SLIDE 11 — INVERSIÓN
@@ -372,7 +371,7 @@ tf = tb(s, Inches(1.05), Emu(int(y)+int(Inches(0.18))), Inches(7.8), Inches(1.1)
 para(tf, [("Empezamos aquí — Fase 0", True, NAVY, 17)], first=True, space_after=3)
 para(tf, "Victorias rápidas + prueba de valor con tus datos · 2–3 semanas · 50% acreditable a la Fase 1",
      size=12.5, color=MUTED, space_after=3)
-para(tf, "Tu seguro: te quedas los activos; avanzas a la Fase 1 solo si la Puerta 0 pasa su vara objetiva. Sin letra chica.",
+para(tf, "Tu seguro: te quedas los activos y avanzas a la Fase 1 solo si la Puerta 0 pasa su vara objetiva.",
      size=12, color=TEAL, bold=True)
 tf = tb(s, Inches(9.2), y, Inches(3.3), Inches(1.4), anchor=MSO_ANCHOR.MIDDLE)
 para(tf, "US$2.500", size=34, color=TEAL, bold=True, align=PP_ALIGN.RIGHT, first=True)
@@ -383,7 +382,7 @@ para(tf, [("La cuenta real:  ", True, GOLD, 12),
      first=True, leading=1.1)
 # horizonte (de-enfatizado)
 tf = tb(s, ML, Inches(3.56), CW, Inches(0.35))
-para(tf, "El horizonte completo (referencia — no es lo que decides hoy; cada fase se cotiza y firma por separado):",
+para(tf, "El horizonte completo (solo de referencia):",
      size=12.5, color=MUTED, first=True)
 hz = [("Sistema","Fases 0 + 1","~US$10.750"),
       ("Sistema + piloto IA","Fases 0 + 1 + 2","~US$22.750"),
@@ -419,7 +418,7 @@ add_table(s, data, ML, y, CW, col_w=[Inches(4.6),Inches(7.33)],
           body_size=10.5, header_size=12, row_h=Inches(0.66))
 
 # ============================================================== SLIDE 13 — HORIZONTE (FASES OVERVIEW)
-s = slide(); y = title_bar(s, "06 · El camino completo", "Las cuatro fases — el mapa, no el pedido de hoy", 13)
+s = slide(); y = title_bar(s, "06 · El camino completo", "Las cuatro fases — el mapa completo", 13)
 # banner de referencia
 rect(s, ML, y, CW, Inches(0.55), fill=RGBColor(0xEE,0xF5,0xF6), line=GOLD, line_w=Pt(1))
 tf = tb(s, Inches(1.0), y, Inches(11.4), Inches(0.55), anchor=MSO_ANCHOR.MIDDLE)
@@ -457,7 +456,7 @@ for i,(name, a, b, col) in enumerate(bars):
     bx = Emu(int(chart_x) + a*int(wk)); bw = Emu((b-a)*int(wk))
     rect(s, bx, ry, bw, Inches(0.5), fill=col, shape=MSO_SHAPE.ROUNDED_RECTANGLE)
 tf = tb(s, ML, Inches(5.7), CW, Inches(1.1))
-for t,fr in [("Hoy decides la Fase 0 (semanas 1–3). Lo demás se cotiza al pasar cada puerta.", True),
+for t,fr in [("La Fase 0 corre en las semanas 1–3; cada fase siguiente se cotiza al pasar su puerta.", True),
              ("Las fases se solapan poco y con apoyo puntual donde se requiere — no depende de una sola persona.", False),
              ("Cada puerta es una decisión explícita de continuar, reordenar o detener.", False)]:
     para(tf, t, size=13, color=INK, bullet=True, space_after=6, first=fr, leading=1.15)

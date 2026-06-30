@@ -55,6 +55,19 @@ Registro vivo de sesiones, decisiones y pendientes. La entrada más reciente va 
 
 ---
 
+## Sesión 01e — 2026-06-30 — Cierre: marca, precio y pase de claridad ejecutiva
+
+**Qué se hizo (tras 14 rondas de consejo en total):**
+- **Loop cerrado** por decisión del usuario. **No más consejo.**
+- **Marca:** la firma es **Vértice** · Data, IA & Transformación Digital (en PDF, deck y orden de servicio).
+- **Precio:** **crédito parcial 50%** de la Fase 0; netos del horizonte recalculados (Sistema ~$10.750, +IA ~$22.750, completo desde ~$37.750).
+- **QA de las rondas 11–14** (antes de cerrar) cazó y corrigió 4 defectos reales de honestidad que 10 rondas no vieron: un "100%" vivo en el deck, el hueco de $1.000 en la Fase 2, el "flujo de cribado v0" sin entregable, y el KPI que afirmaba el baseline como hecho.
+- **Pase final de claridad ejecutiva** (pedido del usuario): el doc cliente y el deck se simplificaron y se **des-inflaron** —se quitó la sobre-defensa acumulada ("seguro de cartón", "sin amaños", caveats apilados)— preservando **todas** las cifras, la lógica de la garantía, lo legal y la orden de servicio (verificado contra git, cifra por cifra).
+
+**Entregables finales:** `Propuesta-Conexion-Talento.pdf` (21 pp.) + `Presentacion-Conexion-Talento.pptx` (19 slides), marca Vértice, lenguaje ejecutivo. Listos para Virginia.
+
+---
+
 ## Sesión 01d — 2026-06-29 — Loop del Consejo LLM (5 iteraciones) + reajustes
 
 **Qué se hizo:** se corrió el Consejo LLM **5 veces** sobre el proyecto; cada ronda emitió un veredicto
