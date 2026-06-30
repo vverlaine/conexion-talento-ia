@@ -116,8 +116,15 @@ verifica claridad y que la traducción no perdió nada.
 - Patrón raíz que el consejo nombró: el doc diseñaba sus propios criterios para "siempre ganar" — grieta de credibilidad, ya cerrada.
 - Verificado: §8 riesgo #1, §3 garantía medida. PDF 19 pp. **Estado: HECHO.**
 
-### Iteración 9 — 🔄 consejo en curso
-### Iteración 10 — ⏳ pendiente
+### Iteración 9 — consejo ✅ + aplicación ✅
+- Siguió afilando la garantía: 2 confounders más allá del baseline — **efecto-repetición** (la 2ª terna corre más rápido porque ya conoces a esos candidatos) y **vacante limpia disponible**. + Fase 0 sobre-suscrita. **4 mejoras:**
+  1. *(alta)* **Protocolo de garantía único** (anexo de 1 pág firmable): baseline medido + sin efecto-repetición (lo corre quien no armó la base / grupo distinto) + vacante nombrada con plan B. (§3, §11)
+  2. *(alta)* **Fase 0 reconciliada:** 8–12 → **10–14 jornadas** (alcance real ~8 frentes); registrado interno que es **tarifa de adquisición, no margen**. (§3, deck, interna §11.4)
+  3. *(media)* **Capturar el activo real:** fila para asegurar testimonio + permiso de marca al cumplirse la Puerta 0. (interna §11.6)
+  4. *(baja)* Baseline declarado que sobrevivía en la tabla de métricas §6 → "a medir en sem. 1".
+- Meta-mensaje del consejo (3er consenso unánime): **"dejen de pulir; el riesgo es no cerrar el viernes."** PDF 20 pp.
+
+### Iteración 10 — 🔄 consejo en curso (cierre de la tanda)
 ### Iteración 10 — ⏳ pendiente
 ### Iteración 8 — ⏳ pendiente
 ### Iteración 9 — ⏳ pendiente

@@ -428,7 +428,7 @@ para(tf, [("Referencia: ", True, NAVY, 12.5),
      first=True, leading=1.1)
 yy = Emu(int(y)+int(Inches(0.72)))
 data = [["Fase","Nombre","Duración","Esfuerzo","Inversión","Resultado / Puerta"],
-        ["0 ◀","Victorias rápidas + prueba de valor","2–3 sem","8–12 jorn.","US$2.500*","Empezamos aquí: 2 victorias rápidas + semáforo"],
+        ["0 ◀","Victorias rápidas + prueba de valor","2–3 sem","10–14 jorn.","US$2.500*","Empezamos aquí: 2 victorias rápidas + semáforo"],
         ["1","Estandarizar, Documentar, Medir","4–6 sem","20–30 jorn.","~US$9.500","La “columna vertebral”: manuales de proceso, guía de puntuación, métricas"],
         ["2","IA asistida (modular)","6–8 sem","25–35 jorn.","~US$12.000","Asistente que ordena candidatos + Generador de CV (con una persona validando)"],
         ["3","Activo de datos y escala","horizonte","a dimensionar","desde 15.000 /\ncuota fija 3.500/mes","Base buscable, mercado interno, comparativo salarial"]]

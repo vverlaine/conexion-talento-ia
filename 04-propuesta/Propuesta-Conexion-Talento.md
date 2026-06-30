@@ -89,7 +89,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 | Fase | Nombre | Duración | Esfuerzo | Inversión (US$) | Resultado / Puerta |
 |---|---|---|---|---|---|
-| **0 ◀ hoy** | Victorias rápidas + prueba de valor con tus datos | 2–3 sem | 8–12 jornadas | **2.500** ⃰ | **Empezamos aquí:** 2 victorias rápidas visibles + semáforo de viabilidad |
+| **0 ◀ hoy** | Victorias rápidas + prueba de valor con tus datos | 2–3 sem | 10–14 jornadas | **2.500** ⃰ | **Empezamos aquí:** 2 victorias rápidas visibles + semáforo de viabilidad |
 | **1** | Estandarizar, Documentar y Medir | 4–6 sem | 20–30 jornadas | **9.500** | La "columna vertebral": procedimientos, rúbrica, puntos de partida medidos |
 | **2** | IA asistida (modular) | 6–8 sem | 25–35 jornadas | **12.000** | Asistente que ordena candidatos según tus criterios + Generador de CV, siempre con una persona validando |
 | **3** | Activo de datos y escala | horizonte | a dimensionar | **desde 15.000** o cuota mensual **3.500/mes** | Base buscable, mercado interno, comparativo salarial (si la ley lo permite) |
@@ -101,7 +101,7 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 ## Detalle por fase
 
 ::: phase
-[FASE 0]{.ph-tag} [2–3 semanas · 8–12 jornadas · US$2.500 (acredita a F1)]{.ph-meta}
+[FASE 0]{.ph-tag} [2–3 semanas · 10–14 jornadas · US$2.500 (acredita a F1)]{.ph-meta}
 
 **Objetivo:** apagar los supuestos frágiles y entregar valor visible de inmediato.
 
@@ -116,7 +116,13 @@ Diseñamos el programa como **fases con puertas de decisión**. Tú decides el r
 
 **Puerta 0 → Fase 1.** *Condiciones técnicas:* factibilidad de la conexión técnica confirmada **o** plan B definido; vigencia medida; plantilla de CV adoptada por los 4 reclutadores; ≥3 indicadores con punto de partida medido. **Tu vara de negocio para decir sí a la Fase 1:** ves al menos UNA prueba concreta — (a) *si la extracción de información lo permite,* un candidato de tu base que **habrías pasado por alto**, encontrado por la búsqueda; **o** (b) **—criterio principal, no depende de la extracción de información—** armar una terna de prueba te toma **la mitad del tiempo**. *Si no ves ninguna, no sigues.*
 
-*Cómo medimos (b), sin trampas:* el **punto de partida lo medimos en la semana 1** —cuánto te toma **hoy** armar una terna con tu proceso actual, a reloj de pared, sobre una vacante viva— **no un "~5 días" declarado**. Luego comparamos contra ese número real, sobre la **misma vacante y el mismo grupo de candidatos**, en una vacante que **la temporal no toque** —para que el test mida proceso, no manos extra—. Tú validas que la calidad de la terna es aceptable. Así la garantía no es "seguro de cartón": el punto de partida es medido, no declarado, y la prueba es **verificable de verdad**.
+*Cómo medimos (b), sin amaños — protocolo de la Puerta 0 (va como anexo de 1 página, firmado):*
+
+1. **Punto de partida medido, no declarado:** en la semana 1 cronometramos cuánto te toma **hoy** armar una terna con tu proceso actual, sobre una vacante viva.
+2. **Sin efecto-repetición:** el pase con el proceso nuevo lo corre **alguien que no armó la terna base** (o se mide sobre un grupo de candidatos **distinto pero comparable**) — para que la mejora sea del sistema, no de que ya conocías a esos candidatos.
+3. **Vacante nombrada + plan B:** acordamos contigo la vacante concreta; si no abre una limpia en la semana 1, reconstruimos el test sobre una búsqueda reciente comparable.
+
+Tú validas que la calidad de la terna es aceptable. Así la garantía es **verificable de verdad**, no "seguro de cartón".
 :::
 
 ::: phase
@@ -239,7 +245,7 @@ Hoy no hay métricas; crear los puntos de partida es parte del valor de la Fase 
 
 | Indicador | Qué mide | Punto de partida | Meta |
 |---|---|---|---|
-| **Tiempo hasta entregar la terna** | Días de apertura a terna entregada | ~5 días (decl.) | 48–72h |
+| **Tiempo hasta entregar la terna** | Días de apertura a terna entregada | declarado; a medir en sem. 1 | 48–72h |
 | **Tasa de aceptación de terna** | % de ternas que el cliente aprueba | a medir | ↑ sostenido |
 | **Rotación temprana (90 días)** | % de colocados que salen <90 días | a medir | ↓ |
 | **Calidad de candidato** | Concordancia con la hoja de criterios | a medir | ≥ umbral |

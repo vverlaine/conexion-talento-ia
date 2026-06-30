@@ -300,6 +300,7 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 - Dimensionar la dedicación real y **subcontratar lo legal y la transcripción de voz** en vez de absorberlo.
 - **Reversión de riesgo des-apilada (Consejo #05):** se quitó el "seguro gratis". Se **eliminó la devolución del anticipo**; el de-riesgo queda en (1) 100% acreditable, (2) los activos son tuyos, (3) **umbral objetivo de Puerta 0**. La garantía ya no cuelga del juicio subjetivo "valor claro".
 - **⚠️ Autocanibalización de la Fase 1 (decisión comercial de Víctor antes del viernes):** $9.500 − $2.500 (crédito 100% de F0) = ~$7.000 por hasta 30 jornadas ≈ **~$233/jornada** — tarifa de junior para un estándar "McKinsey". El crédito que reduce el riesgo de Virginia te canibaliza. **Opciones:** (a) subir F1 al rango **~$12–14k**; o (b) acreditar F0 **parcial (50%)** en vez de 100%. *Recomendación: como es el primer cliente y la referencia vale más que el margen, mantén el gesto generoso del 100% pero **sube F1** — no regales ambos.* No se cambió el "100% acreditable" del doc cliente sin tu visto bueno.
+- **F0 = costo de adquisición, confirmado (Consejo #09):** subimos F0 a **10–14 jornadas** porque el alcance real son ~8 frentes (dos con dependencia de terceros). A US$2.500 eso es **tarifa de adquisición, no margen** — decisión comercial consciente: el primer cliente compra **referencia + IP**, no utilidad. Vigilar el flujo de caja (Víctor solo) y no inflar F0 más allá de lo que cierre la venta.
 
 ### 11.5 Construir vs. comprar (declaración de conflicto de interés)
 - Primero **exprimir las funciones de IA que Team Tailor ya cobra** y herramientas baratas existentes.
@@ -329,6 +330,7 @@ Para no desangrarnos —ni hacerte gastar— en algo que no funciona, cada puert
 | 3 | **Reunión Virginia ↔ Lili** (alinear rol y temporal) | Virginia + Lili | **Martes** |
 | 4 | Entregar **propuesta pulida + anticipo** (**CV real anonimizado** reformateado con la marca, en entorno con acuerdo de protección de datos + concepto de quitar duplicados) | Nosotros | **Viernes** |
 | 5 | Decisión de alcance (Opción A/B/C) y arranque de Fase 0 | Virginia | Semana siguiente |
+| 6 | **Asegurar el activo real: testimonio nombrado + permiso de logo/marca** al cumplirse la vara de la Puerta 0 *(solo si la garantía dispara limpia — depende del protocolo de medición)* | Nosotros | **Al cierre de F0** |
 
 ---
 
